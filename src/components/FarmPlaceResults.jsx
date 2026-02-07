@@ -8,24 +8,27 @@ import {
   Box,
 } from '@mui/material'
 import { getMatchingPools } from '../utils/essenceLogic'
+import { useLanguage } from '../i18n/LanguageContext'
 
 export default function FarmPlaceResults({ weapon, pools }) {
+  const { t } = useLanguage()
+
   if (!weapon) {
     return (
       <Typography color="text.secondary">
-        Select a weapon to see where you can farm its essence.
+        {t('selectWeaponHint')}
       </Typography>
     )
   }
 
   const matchingPools = getMatchingPools(weapon, pools)
+  const statsStr = weapon.stats.join(', ')
 
   if (matchingPools.length === 0) {
     return (
       <Paper sx={{ p: 2 }}>
         <Typography color="error">
-          No farm place drops all required stats ({weapon.stats.join(', ')}) for{' '}
-          {weapon.name}. You cannot farm the ideal essence for this weapon.
+          {t('noFarmPlace', { name: weapon.name, stats: statsStr })}
         </Typography>
       </Paper>
     )
@@ -34,7 +37,7 @@ export default function FarmPlaceResults({ weapon, pools }) {
   return (
     <Box>
       <Typography variant="subtitle1" sx={{ mb: 1 }}>
-        Farm these places for {weapon.name} (needs: {weapon.stats.join(', ')}):
+        {t('farmThesePlaces', { name: weapon.name, stats: statsStr })}
       </Typography>
       <List component={Paper}>
         {matchingPools.map((pool) => (

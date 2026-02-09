@@ -125,7 +125,7 @@
     "name": { "zh": "骁勇", "en": "Valiant" },
     "type": { "zh": "长柄武器", "en": "Polearm" },
     "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["巧计"] }
+    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["巧技"] }
   },
   {
     "id": 17,
@@ -296,7 +296,7 @@
     "name": { "zh": "钢铁余音", "en": "Steel Echo" },
     "type": { "zh": "单手剑", "en": "One-handed Sword" },
     "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["巧计"] }
+    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["巧技"] }
   },
   {
     "id": 38,

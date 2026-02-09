@@ -9,9 +9,10 @@ import {
 } from '@mui/material'
 import { getMatchingPools } from '../utils/essenceLogic'
 import { useLanguage } from '../i18n/LanguageContext'
+import { getLocalizedName, flattenStats } from '../utils/dataHelpers'
 
 export default function FarmPlaceResults({ weapon, pools }) {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   if (!weapon) {
     return (
@@ -22,13 +23,15 @@ export default function FarmPlaceResults({ weapon, pools }) {
   }
 
   const matchingPools = getMatchingPools(weapon, pools)
-  const statsStr = weapon.stats.join(', ')
+  const weaponName = getLocalizedName(weapon.name, language)
+  const statsList = flattenStats(weapon.stats)
+  const statsStr = statsList.join(', ')
 
   if (matchingPools.length === 0) {
     return (
       <Paper sx={{ p: 2 }}>
         <Typography color="error">
-          {t('noFarmPlace', { name: weapon.name, stats: statsStr })}
+          {t('noFarmPlace', { name: weaponName, stats: statsStr })}
         </Typography>
       </Paper>
     )
@@ -37,23 +40,27 @@ export default function FarmPlaceResults({ weapon, pools }) {
   return (
     <Box>
       <Typography variant="subtitle1" sx={{ mb: 1 }}>
-        {t('farmThesePlaces', { name: weapon.name, stats: statsStr })}
+        {t('farmThesePlaces', { name: weaponName, stats: statsStr })}
       </Typography>
       <List component={Paper}>
-        {matchingPools.map((pool) => (
-          <ListItem key={pool.id} divider>
-            <ListItemText
-              primary={pool.name}
-              secondary={
-                <Box component="span" sx={{ display: 'flex', gap: 0.5, mt: 0.5 }}>
-                  {pool.stats.map((stat) => (
-                    <Chip key={stat} label={stat} size="small" variant="outlined" />
-                  ))}
-                </Box>
-              }
-            />
-          </ListItem>
-        ))}
+        {matchingPools.map((pool) => {
+          const poolName = getLocalizedName(pool.name, language)
+          const poolStatsList = flattenStats(pool.stats)
+          return (
+            <ListItem key={pool.id} divider>
+              <ListItemText
+                primary={poolName}
+                secondary={
+                  <Box component="span" sx={{ display: 'flex', gap: 0.5, mt: 0.5, flexWrap: 'wrap' }}>
+                    {poolStatsList.map((stat) => (
+                      <Chip key={stat} label={stat} size="small" variant="outlined" />
+                    ))}
+                  </Box>
+                }
+              />
+            </ListItem>
+          )
+        })}
       </List>
     </Box>
   )

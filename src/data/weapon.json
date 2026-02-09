@@ -1,9 +1,110 @@
 [
-  { "id": "w1", "name": "Weapon 1", "stats": ["A", "B", "C"] },
-  { "id": "w2", "name": "Weapon 2", "stats": ["D", "E", "F"] },
-  { "id": "w3", "name": "Weapon 3", "stats": ["A", "B", "F"] },
-  { "id": "w4", "name": "Weapon 4", "stats": ["D", "E", "G"] },
-  { "id": "w5", "name": "Weapon 5", "stats": ["A", "D", "F"] },
-  { "id": "w6", "name": "Weapon 6", "stats": ["B", "C", "G"] },
-  { "id": "w7", "name": "Weapon 7", "stats": ["A", "E", "F"] }
+  {
+    "id": 1,
+    "name": { "zh": "武器1", "en": "Weapon 1" },
+    "stats": {
+      "basic": ["敏捷"],
+      "additional": ["攻击"],
+      "skill": ["强攻"]
+    }
+  },
+  {
+    "id": 2,
+    "name": { "zh": "武器2", "en": "Weapon 2" },
+    "stats": {
+      "basic": ["力量"],
+      "additional": ["灼热"],
+      "skill": ["压制"]
+    }
+  },
+  {
+    "id": 3,
+    "name": { "zh": "武器3", "en": "Weapon 3" },
+    "stats": {
+      "basic": ["意志"],
+      "additional": ["电磁"],
+      "skill": ["追袭"]
+    }
+  },
+  {
+    "id": 4,
+    "name": { "zh": "武器4", "en": "Weapon 4" },
+    "stats": {
+      "basic": ["智识"],
+      "additional": ["寒冷"],
+      "skill": ["粉碎"]
+    }
+  },
+  {
+    "id": 5,
+    "name": { "zh": "武器5", "en": "Weapon 5" },
+    "stats": {
+      "basic": ["主能力"],
+      "additional": ["自然"],
+      "skill": ["巧计"]
+    }
+  },
+  {
+    "id": 6,
+    "name": { "zh": "武器6", "en": "Weapon 6" },
+    "stats": {
+      "basic": ["敏捷"],
+      "additional": ["源石技艺"],
+      "skill": ["迸发"]
+    }
+  },
+  {
+    "id": 7,
+    "name": { "zh": "武器7", "en": "Weapon 7" },
+    "stats": {
+      "basic": ["力量"],
+      "additional": ["终结技效率"],
+      "skill": ["流转"]
+    }
+  },
+  {
+    "id": 8,
+    "name": { "zh": "武器8", "en": "Weapon 8" },
+    "stats": {
+      "basic": ["意志"],
+      "additional": ["法术伤害"],
+      "skill": ["效益"]
+    }
+  },
+  {
+    "id": 9,
+    "name": { "zh": "武器9", "en": "Weapon 9" },
+    "stats": {
+      "basic": ["智识"],
+      "additional": ["攻击"],
+      "skill": ["昂扬"]
+    }
+  },
+  {
+    "id": 10,
+    "name": { "zh": "武器10", "en": "Weapon 10" },
+    "stats": {
+      "basic": ["主能力"],
+      "additional": ["灼热"],
+      "skill": ["附术"]
+    }
+  },
+  {
+    "id": 11,
+    "name": { "zh": "武器11", "en": "Weapon 11" },
+    "stats": {
+      "basic": ["敏捷"],
+      "additional": ["电磁"],
+      "skill": ["医疗"]
+    }
+  },
+  {
+    "id": 12,
+    "name": { "zh": "武器12", "en": "Weapon 12" },
+    "stats": {
+      "basic": ["力量"],
+      "additional": ["寒冷"],
+      "skill": ["切骨"]
+    }
+  }
 ]

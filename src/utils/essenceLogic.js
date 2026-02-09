@@ -1,10 +1,12 @@
+import { hasAllStats } from './dataHelpers'
+
 /**
  * Returns pools where ALL of the weapon's stats are in the pool.
  * These are the farm places where the weapon's best essence can drop.
  */
 export function getMatchingPools(weapon, pools) {
-  if (!weapon) return [];
+  if (!weapon || !weapon.stats) return [];
   return pools.filter((pool) =>
-    weapon.stats.every((stat) => pool.stats.includes(stat))
+    hasAllStats(weapon.stats, pool.stats)
   );
 }

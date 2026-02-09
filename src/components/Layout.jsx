@@ -1,11 +1,11 @@
-import { AppBar, Toolbar, Typography, Container, ToggleButtonGroup, ToggleButton } from '@mui/material'
+import { AppBar, Toolbar, Typography, Container, ToggleButtonGroup, ToggleButton, Box } from '@mui/material'
 import { useLanguage } from '../i18n/LanguageContext'
 
 export default function Layout({ children }) {
   const { language, setLanguage, t } = useLanguage()
 
   return (
-    <>
+    <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="h1" sx={{ flexGrow: 1 }}>
@@ -23,7 +23,20 @@ export default function Layout({ children }) {
           </ToggleButtonGroup>
         </Toolbar>
       </AppBar>
-      <Container sx={{ py: 3 }}>{children}</Container>
-    </>
+      <Box
+        component="main"
+        sx={{
+          flex: 1,
+          minHeight: 0,
+          overflowY: 'auto',
+          width: '100%',
+          py: 3,
+        }}
+      >
+        <Container maxWidth="md" sx={{ width: '100%' }}>
+          {children}
+        </Container>
+      </Box>
+    </Box>
   )
 }

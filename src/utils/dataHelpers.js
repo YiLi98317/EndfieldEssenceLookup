@@ -45,3 +45,53 @@ export function hasAllStats(weaponStats, poolStats) {
   
   return weaponStatsFlat.every((stat) => poolStatsFlat.includes(stat))
 }
+
+/**
+ * Get unique rarities from weapons list, sorted ascending
+ * @param {Object[]} weapons - List of weapons
+ * @returns {number[]} Unique rarity values
+ */
+export function getUniqueRarities(weapons) {
+  const set = new Set()
+  weapons.forEach((w) => {
+    if (w.rarity != null && w.rarity !== '') set.add(Number(w.rarity))
+  })
+  return [...set].sort((a, b) => a - b)
+}
+
+/**
+ * Get unique types from weapons list (type is { zh, en } object)
+ * @param {Object[]} weapons - List of weapons
+ * @returns {Object[]} Unique type objects (order preserved by first appearance)
+ */
+export function getUniqueTypes(weapons) {
+  const seen = new Set()
+  const result = []
+  weapons.forEach((w) => {
+    if (w.type && typeof w.type === 'object') {
+      const key = JSON.stringify(w.type)
+      if (!seen.has(key)) {
+        seen.add(key)
+        result.push(w.type)
+      }
+    }
+  })
+  return result
+}
+
+/**
+ * Check if weapon matches type filter (type filter is stringified type object or 'all')
+ */
+export function weaponMatchesType(weapon, typeFilter) {
+  if (typeFilter === 'all' || !typeFilter) return true
+  if (!weapon.type) return false
+  return JSON.stringify(weapon.type) === typeFilter
+}
+
+/**
+ * Check if weapon matches rarity filter
+ */
+export function weaponMatchesRarity(weapon, rarityFilter) {
+  if (rarityFilter === 'all' || rarityFilter === '' || rarityFilter == null) return true
+  return Number(weapon.rarity) === Number(rarityFilter)
+}

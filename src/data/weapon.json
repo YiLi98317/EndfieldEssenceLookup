@@ -1,0 +1,9 @@
+[
+  { "id": "w1", "name": "Weapon 1", "stats": ["A", "B", "C"] },
+  { "id": "w2", "name": "Weapon 2", "stats": ["D", "E", "F"] },
+  { "id": "w3", "name": "Weapon 3", "stats": ["A", "B", "F"] },
+  { "id": "w4", "name": "Weapon 4", "stats": ["D", "E", "G"] },
+  { "id": "w5", "name": "Weapon 5", "stats": ["A", "D", "F"] },
+  { "id": "w6", "name": "Weapon 6", "stats": ["B", "C", "G"] },
+  { "id": "w7", "name": "Weapon 7", "stats": ["A", "E", "F"] }
+]

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { weapons, pools } from './data/dummyData'
+import { weapons, pools } from './data'
 import Layout from './components/Layout'
 import WeaponSelector from './components/WeaponSelector'
 import FarmPlaceResults from './components/FarmPlaceResults'

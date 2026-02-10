@@ -2,6 +2,8 @@
 
 React app built with Vite, deployed to GitHub Pages.
 
+Use it [Here](https://yili98317.github.io/EndfieldEssenceLookup/)
+
 ## Local development
 
 ```bash

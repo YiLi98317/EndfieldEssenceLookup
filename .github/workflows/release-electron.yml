@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
       - name: Install dependencies
@@ -36,5 +36,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            release/**
+            release/*.dmg
+            release/*.exe
 

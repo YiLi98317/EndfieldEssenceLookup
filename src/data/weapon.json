@@ -512,5 +512,47 @@
     "type": { "zh": "单手剑", "en": "One-handed Sword" },
     "rarity": 3,
     "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+  },
+  {
+    "id": 63,
+    "name": { "zh": "孤舟", "en": "Lone Boat" },
+    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "rarity": 6,
+    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["压制"] }
+  },
+  {
+    "id": 64,
+    "name": { "zh": "冥中微光", "en": "Glimmer in the Dark" },
+    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "rarity": 6,
+    "stats": { "basic": ["意志"], "additional": ["电磁"], "skill": ["效益"] }
+  },
+  {
+    "id": 65,
+    "name": { "zh": "狼之绯", "en": "Crimson of the Wolf" },
+    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "rarity": 6,
+    "stats": { "basic": ["敏捷"], "additional": ["暴击率"], "skill": ["切骨"] }
+  },
+  {
+    "id": 66,
+    "name": { "zh": "落草", "en": "Fallen Grass" },
+    "type": { "zh": "手铳", "en": "Pistol" },
+    "rarity": 6,
+    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["迸发"] }
+  },
+  {
+    "id": 67,
+    "name": { "zh": "光荣记忆", "en": "Glorious Memory" },
+    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "rarity": 6,
+    "stats": { "basic": ["敏捷"], "additional": ["暴击率"], "skill": ["夜幕"] }
+  },
+  {
+    "id": 68,
+    "name": { "zh": "望乡", "en": "Homesickness" },
+    "type": { "zh": "手铳", "en": "Pistol" },
+    "rarity": 6,
+    "stats": { "basic": ["敏捷"], "additional": ["寒冷"], "skill": ["压制"] }
   }
 ]

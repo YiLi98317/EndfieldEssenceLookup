@@ -1,7 +1,7 @@
 {
   "name": "endfieldessencelookup-app",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "type": "module",
   "main": "electron/main.mjs",
   "engines": {
@@ -54,14 +54,12 @@
     "asar": true,
     "mac": {
       "target": [
-        "dmg",
-        "zip"
+        "dmg"
       ]
     },
     "win": {
       "target": [
-        "nsis",
-        "zip"
+        "nsis"
       ]
     }
   }

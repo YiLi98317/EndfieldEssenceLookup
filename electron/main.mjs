@@ -59,7 +59,25 @@ function resolveAppUrlToDistPath(requestUrl, distRoot) {
   const rawPath = url.hostname ? `/${url.hostname}${url.pathname}` : url.pathname
   const decodedPath = decodeURIComponent(rawPath)
 
-  const requestPath = decodedPath === '/' ? '/index.html' : decodedPath
+  // Vite builds for GitHub Pages with `base: '/EndfieldEssenceLookup/'`, so packaged
+  // assets may be requested under that prefix. Strip it for the desktop protocol.
+  const pagesBasePrefix = '/EndfieldEssenceLookup'
+  let requestPath = decodedPath === '/' ? '/index.html' : decodedPath
+
+  // When we load `app://index.html`, browser-resolved absolute paths like
+  // `/EndfieldEssenceLookup/assets/...` can appear as:
+  //   app://index.html/EndfieldEssenceLookup/assets/...
+  // which we normalize back to:
+  //   /EndfieldEssenceLookup/assets/...
+  if (requestPath.startsWith('/index.html/')) {
+    requestPath = requestPath.slice('/index.html'.length)
+  }
+
+  if (requestPath === pagesBasePrefix || requestPath === `${pagesBasePrefix}/`) {
+    requestPath = '/index.html'
+  } else if (requestPath.startsWith(`${pagesBasePrefix}/`)) {
+    requestPath = requestPath.slice(pagesBasePrefix.length)
+  }
 
   // SPA fallback: requests without extensions get index.html
   const finalPath = path.extname(requestPath) ? requestPath : '/index.html'
@@ -121,6 +139,9 @@ function createMainWindow() {
 
   if (app.isPackaged) {
     win.loadURL('app://index.html')
+    if (process.env.ELECTRON_DEBUG_PROD === '1') {
+      win.webContents.openDevTools({ mode: 'detach' })
+    }
   } else {
     const devUrl = process.env.ELECTRON_RENDERER_URL || 'http://localhost:5173'
     win.loadURL(devUrl)

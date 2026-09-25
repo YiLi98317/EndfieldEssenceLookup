@@ -39,11 +39,7 @@ Build outputs go to `release/`.
 npm run build
 ```
 
-Output is in `dist/`. To preview the production build locally:
-
-```bash
-npm run preview
-```
+Output is in `dist/`. This is also what GitHub Pages deploys.
 
 ## GitHub Pages
 
@@ -57,11 +53,11 @@ No need to choose a branch; the workflow builds and deploys automatically.
 
 ## Desktop releases (GitHub Releases)
 
-Push a tag like `v0.1.0` to trigger the release workflow:
+Ship a desktop build by merging a **release PR** into `main`. Do not bump `package.json` or push a git tag yourself.
 
-```bash
-git tag v0.1.0
-git push origin v0.1.0
-```
+1. Open a PR into `main` with the app changes.
+2. Add labels **`release`** and exactly one of **`patch`**, **`minor`**, or **`major`**.
+3. Add `release-notes/vX.Y.Z.md` for the **next** version (from current `package.json`: `patch` bumps 0.1.2 → 0.1.3, `minor` → 0.2.0, `major` → 1.0.0).
+4. Merge. GitHub Actions bumps the version, pushes tag `vX.Y.Z`, builds Windows/macOS installers, and attaches them to the GitHub Release using that notes file.
 
-The workflow builds Windows/macOS artifacts and uploads them to the GitHub Release for that tag.
+PRs without the `release` label only update GitHub Pages. They do not publish Electron installers.

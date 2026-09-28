@@ -27,6 +27,10 @@ export const translations = {
     versionCalendarTitleAlt: 'Endfield version calendar title',
     versionCalendarTimelineAlt: 'Endfield version calendar timeline',
     versionCalendarContentAlt: 'Endfield version calendar event details',
+    versionCalendarVersion: 'Version',
+    versionCalendarReleased: 'Released {date}',
+    versionCalendarLatest: 'Latest',
+    versionCalendarNotArchived: 'Calendar not archived',
   },
   zh: {
     weapon: '武器',
@@ -56,5 +60,9 @@ export const translations = {
     versionCalendarTitleAlt: '终末地版本日历标题',
     versionCalendarTimelineAlt: '终末地版本日历时间轴',
     versionCalendarContentAlt: '终末地版本日历活动详情',
+    versionCalendarVersion: '版本',
+    versionCalendarReleased: '{date} 上线',
+    versionCalendarLatest: '最新',
+    versionCalendarNotArchived: '暂无日历存档',
   },
 }

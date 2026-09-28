@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 release
+.temp
 
 # Editor directories and files
 .cursor

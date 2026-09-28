@@ -138,7 +138,8 @@ function createMainWindow() {
   win.once('ready-to-show', () => win.show())
 
   if (app.isPackaged) {
-    win.loadURL('app://index.html')
+    // Start under the Vite base so BrowserRouter's basename matches.
+    win.loadURL('app://index.html/EndfieldEssenceLookup/')
     if (process.env.ELECTRON_DEBUG_PROD === '1') {
       win.webContents.openDevTools({ mode: 'detach' })
     }

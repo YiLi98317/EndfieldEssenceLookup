@@ -55,8 +55,6 @@ export default function Layout({ children, maxWidth = 'md' }) {
         component="main"
         sx={{
           flex: 1,
-          minHeight: 0,
-          overflowY: 'auto',
           width: '100%',
           py: 3,
         }}

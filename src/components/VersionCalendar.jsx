@@ -17,40 +17,48 @@ export default function VersionCalendar({
   contentAlt,
 }) {
   const { t } = useLanguage()
+  const timelineScale = 1 / contentWidthRatio
 
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        width: '100%',
-        overflowX: 'hidden',
-      }}
-    >
-      {titleImage && (
-        <Box
-          component="img"
-          src={titleImage}
-          alt={titleAlt ?? t('versionCalendarTitleAlt')}
-          sx={imageSx}
-        />
-      )}
-      {timelineImage && (
-        <Box
-          component="img"
-          src={timelineImage}
-          alt={timelineAlt ?? t('versionCalendarTimelineAlt')}
-          loading="lazy"
-          sx={imageSx}
-        />
-      )}
+    <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
+      <Box
+        sx={{
+          position: 'sticky',
+          top: 0,
+          zIndex: 1,
+          backgroundColor: 'background.default',
+        }}
+      >
+        {titleImage && (
+          <Box
+            component="img"
+            src={titleImage}
+            alt={titleAlt ?? t('versionCalendarTitleAlt')}
+            sx={imageSx}
+          />
+        )}
+        {timelineImage && (
+          <Box sx={{ overflow: 'hidden' }}>
+            <Box
+              component="img"
+              src={timelineImage}
+              alt={timelineAlt ?? t('versionCalendarTimelineAlt')}
+              sx={{
+                ...imageSx,
+                width: `${timelineScale * 100}%`,
+                ml: `${(1 - timelineScale) * 100}%`,
+              }}
+            />
+          </Box>
+        )}
+      </Box>
       {contentImage && (
         <Box
           component="img"
           src={contentImage}
           alt={contentAlt ?? t('versionCalendarContentAlt')}
           loading="lazy"
-          sx={{ ...imageSx, width: `${contentWidthRatio * 100}%`, alignSelf: 'flex-end' }}
+          sx={imageSx}
         />
       )}
     </Box>

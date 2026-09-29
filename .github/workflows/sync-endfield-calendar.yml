@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  actions: write
+  pull-requests: write
 
 concurrency:
   group: sync-endfield-calendar
@@ -20,40 +20,39 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          node-version: "22"
-          cache: "npm"
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: requirements-calendar.txt
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-calendar.txt
 
       - name: Install Playwright Chromium
-        run: npx playwright install --with-deps --only-shell chromium
+        run: python -m playwright install --with-deps --only-shell chromium
 
       - name: Sync calendar
-        run: npm run sync:calendar
+        run: python scripts/sync_calendar.py
 
-      - name: Commit and push new calendar
-        id: commit
-        run: |
-          paths="public/images/version-calendar src/data/versionCalendars.json"
-          if [ -z "$(git status --porcelain -- $paths)" ]; then
-            echo "No calendar changes to commit"
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- $paths
-          git commit -m "chore(calendar): add newly detected Endfield calendar"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+      # Requires "Allow GitHub Actions to create and approve pull requests" in the repo's Actions settings.
+      # Merging the PR pushes to main, which triggers deploy.yml.
+      - name: Open or update calendar PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/sync-endfield-calendar
+          base: main
+          delete-branch: true
+          add-paths: |
+            public/images/version-calendar
+            src/data/versionCalendars.json
+          commit-message: "chore(calendar): add newly detected Endfield calendar"
+          title: "chore(calendar): add newly detected Endfield calendar"
+          body: |
+            Automated update from the `Sync Endfield calendar` workflow.
 
-      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start the deploy explicitly.
-      - name: Deploy site
-        if: steps.commit.outputs.changed == 'true' && github.ref_name == 'main'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run deploy.yml --ref main
+            The calendar watcher detected new or revised calendar images on https://endfield.hypergryph.com/#calendar.
+            Check the title, titleZh, and releaseDate in `src/data/versionCalendars.json` before merging.

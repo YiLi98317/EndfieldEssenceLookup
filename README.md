@@ -53,11 +53,12 @@ No need to choose a branch; the workflow builds and deploys automatically.
 
 ## Desktop releases (GitHub Releases)
 
-Ship a desktop build by merging a **release PR** into `main`. Do not bump `package.json` or push a git tag yourself.
+Ship a desktop build by merging a **release PR** into `main`. The version in `package.json` is the release version.
 
-1. Open a PR into `main` with the app changes.
-2. Add labels **`release`** and exactly one of **`patch`**, **`minor`**, or **`major`**.
-3. Add `release-notes/vX.Y.Z.md` for the **next** version (from current `package.json`: `patch` bumps 0.1.2 → 0.1.3, `minor` → 0.2.0, `major` → 1.0.0).
-4. Merge. GitHub Actions bumps the version, pushes tag `vX.Y.Z`, builds Windows/macOS installers, and attaches them to the GitHub Release using that notes file.
+1. Bump the version and write the release note. In Cursor, run the `bump-version` skill with `patch`, `minor`, or `major`. By hand, run `npm version <bump> --no-git-tag-version` and add `release-notes/vX.Y.Z.md` for the new version.
+2. Open a PR into `main` with those changes and add the **`release`** label.
+3. Merge. GitHub Actions pushes tag `vX.Y.Z`, builds Windows/macOS installers, and attaches them to the GitHub Release using that notes file. It fails if the notes file is missing or the tag already exists.
 
 PRs without the `release` label only update GitHub Pages. They do not publish Electron installers.
+
+To rebuild an existing release (for example after a failed build), run the **Release** workflow manually from the Actions tab with the tag, such as `v0.2.1`.

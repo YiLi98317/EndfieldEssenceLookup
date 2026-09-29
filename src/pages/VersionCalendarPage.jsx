@@ -17,8 +17,10 @@ export default function VersionCalendarPage() {
   const [selectedVersion, setSelectedVersion] = useState(latestVersionCalendar.version)
   const calendar = versionCalendars.find((entry) => entry.version === selectedVersion)
 
-  const versionLabel = (entry) =>
-    `${entry.version} — ${language === 'zh' ? entry.titleZh : entry.title}`
+  const versionLabel = (entry) => {
+    const title = language === 'zh' ? entry.titleZh : entry.title
+    return title ? `${entry.version} — ${title}` : entry.version
+  }
 
   const versionDetails = (entry) =>
     [

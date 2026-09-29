@@ -12,6 +12,7 @@
     "dev:desktop": "concurrently -k -n WEB,DESKTOP \"npm:dev\" \"wait-on http://localhost:5173 && electron .\"",
     "build": "vite build",
     "lint": "eslint .",
+    "sync:calendar": "node scripts/sync-calendar.mjs",
     "dist": "npm run build && electron-builder --publish never"
   },
   "dependencies": {
@@ -35,6 +36,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "playwright": "^1.63.0",
     "vite": "^7.2.4",
     "wait-on": "^8.0.5"
   },

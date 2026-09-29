@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 release
+.temp
+
+# Python
+.venv
+__pycache__
 
 # Editor directories and files
 .cursor

@@ -1,0 +1,54 @@
+[
+  {
+    "version": "1.5",
+    "title": "Dreamscape of Wind and Snow",
+    "titleZh": "雪凇幽梦",
+    "releaseDate": "2026-09-02",
+    "images": { "title": "title.png", "timeline": "timeline.png", "content": "content.jpg" },
+    "contentWidth": 1849,
+    "timelineWidth": 1920
+  },
+  {
+    "version": "1.4",
+    "title": "Homecoming",
+    "titleZh": "向渊行",
+    "releaseDate": "2026-07-16",
+    "images": { "title": "title.png", "timeline": "timeline.png", "content": "content.jpg" },
+    "contentWidth": 1849,
+    "timelineWidth": 1920
+  },
+  {
+    "version": "1.3",
+    "title": "Sketches of Lost Heirlooms",
+    "titleZh": "寻遗散记",
+    "releaseDate": "2026-06-05",
+    "images": { "title": "title.png", "timeline": "timeline.png", "content": "content.jpg" },
+    "contentWidth": 1830,
+    "timelineWidth": 1920
+  },
+  {
+    "version": "1.2",
+    "title": "At the Wake of Spring",
+    "titleZh": "春晓时",
+    "releaseDate": "2026-04-17",
+    "images": { "title": "title.png", "timeline": "timeline.png", "content": "content.jpg" },
+    "contentWidth": 1864,
+    "timelineWidth": 1920
+  },
+  {
+    "version": "1.1",
+    "title": "Old Deep Water Dies, by Rising Tide It is Denied",
+    "titleZh": "新潮起故渊离",
+    "releaseDate": "2026-03-12",
+    "images": { "title": "title.png", "timeline": "timeline.png", "content": "content.jpg" },
+    "contentWidth": 1834,
+    "timelineWidth": 1920
+  },
+  {
+    "version": "1.0",
+    "title": "Zeroth Directive",
+    "titleZh": "零号委托",
+    "releaseDate": "2026-01-22",
+    "images": null
+  }
+]

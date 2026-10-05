@@ -1,7 +1,7 @@
-import { useEffect, useMemo, useState } from 'react'
+import { memo, useEffect, useMemo, useRef, useState } from 'react'
 import {
-  Autocomplete,
   Box,
+  Button,
   Card,
   CardActionArea,
   Chip,
@@ -12,7 +12,9 @@ import {
   Select,
   TextField,
   Typography,
+  useMediaQuery,
 } from '@mui/material'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import { useLanguage } from '../i18n/LanguageContext'
 import {
   getLocalizedName,
@@ -24,7 +26,7 @@ import {
 
 const ALL = 'all'
 
-function WeaponIcon({ weapon, size = 64 }) {
+const WeaponIcon = memo(function WeaponIcon({ weapon, size = 64 }) {
   const [imageFailed, setImageFailed] = useState(false)
   const name = getLocalizedName(weapon.name, 'zh')
   const imageSrc = weapon.image
@@ -57,6 +59,8 @@ function WeaponIcon({ weapon, size = 64 }) {
       component="img"
       src={imageSrc}
       alt={name}
+      loading="lazy"
+      decoding="async"
       onError={() => setImageFailed(true)}
       sx={{
         width: size,
@@ -67,9 +71,9 @@ function WeaponIcon({ weapon, size = 64 }) {
       }}
     />
   )
-}
+})
 
-function WeaponDetails({ weapon, t, language }) {
+function WeaponDetails({ weapon, t, language, onDeselect }) {
   const statGroups = Array.isArray(weapon.stats)
     ? [{ label: null, stats: weapon.stats }]
     : [
@@ -79,11 +83,24 @@ function WeaponDetails({ weapon, t, language }) {
       ]
 
   return (
-    <Paper variant="outlined" sx={{ p: { xs: 2, sm: 2.5 }, mt: 2 }}>
+    <Paper
+      variant="outlined"
+      sx={{ p: { xs: 2, sm: 2.5 }, boxSizing: 'border-box' }}
+    >
+      <Button
+        variant="outlined"
+        size="small"
+        startIcon={<ArrowBackIcon />}
+        onClick={onDeselect}
+        aria-label={t('deselectWeapon')}
+        sx={{ mb: 2 }}
+      >
+        {t('deselectWeapon')}
+      </Button>
       <Box sx={{ display: 'flex', gap: 2, alignItems: 'center', mb: 2 }}>
         <WeaponIcon weapon={weapon} size={76} />
         <Box sx={{ minWidth: 0 }}>
-          <Typography variant="overline" color="text.secondary">
+          <Typography id="weapon-details-title" variant="overline" color="text.secondary">
             {t('weaponDetails')}
           </Typography>
           <Typography variant="h6" sx={{ overflowWrap: 'anywhere' }}>
@@ -104,9 +121,26 @@ function WeaponDetails({ weapon, t, language }) {
         </Box>
       </Box>
 
-      <Box sx={{ display: 'grid', gap: 1.25 }}>
+      {weapon.description && (
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          sx={{ whiteSpace: 'pre-line', mb: 2 }}
+        >
+          {weapon.description}
+        </Typography>
+      )}
+
+      <Box
+        sx={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
+          gap: { xs: 0.75, sm: 1.25 },
+          alignItems: 'start',
+        }}
+      >
         {!statGroups.some(({ stats }) => stats?.length) && (
-          <Typography color="text.secondary">
+          <Typography color="text.secondary" sx={{ gridColumn: '1 / -1' }}>
             {t('weaponStatsNotAvailable', { name: getLocalizedName(weapon.name, language) })}
           </Typography>
         )}
@@ -135,11 +169,56 @@ function WeaponDetails({ weapon, t, language }) {
   )
 }
 
-export default function WeaponSelector({ weapons, selectedWeapon, onSelect }) {
-  const { t, language } = useLanguage()
+const WeaponCard = memo(function WeaponCard({ weapon, isSelected, language, onSelect }) {
+  return (
+    <Card
+      variant="outlined"
+      sx={{
+        minWidth: 0,
+        height: '100%',
+        borderColor: isSelected ? 'primary.main' : 'divider',
+        backgroundColor: isSelected ? 'action.selected' : 'background.paper',
+      }}
+    >
+      <CardActionArea
+        onClick={() => onSelect(isSelected ? null : weapon)}
+        selected={isSelected}
+        aria-label={getLocalizedName(weapon.name, language)}
+        sx={{ height: '100%', p: 1 }}
+      >
+        <Box sx={{ display: 'grid', justifyItems: 'center', gap: 0.75 }}>
+          <WeaponIcon weapon={weapon} size={58} />
+          <Typography
+            variant="caption"
+            align="center"
+            sx={{ width: '100%', overflowWrap: 'anywhere', lineHeight: 1.2 }}
+          >
+            {getLocalizedName(weapon.name, language)}
+          </Typography>
+        </Box>
+      </CardActionArea>
+    </Card>
+  )
+})
+
+const WeaponBrowser = memo(function WeaponBrowser({
+  weapons,
+  selectedWeapon,
+  onSelect,
+  t,
+  language,
+}) {
   const [rarityFilter, setRarityFilter] = useState(ALL)
   const [typeFilter, setTypeFilter] = useState(ALL)
   const [searchQuery, setSearchQuery] = useState('')
+  const [scrollTop, setScrollTop] = useState(0)
+  const [viewportHeight, setViewportHeight] = useState(0)
+  const listRef = useRef(null)
+  const isSm = useMediaQuery('(min-width: 600px)')
+  const isLg = useMediaQuery('(min-width: 1200px)')
+  const columnCount = isLg ? 5 : isSm ? 4 : 3
+  const rowHeight = 112
+  const rowGap = 8
 
   const rarities = useMemo(() => getUniqueRarities(weapons), [weapons])
   const types = useMemo(() => getUniqueTypes(weapons), [weapons])
@@ -172,179 +251,186 @@ export default function WeaponSelector({ weapons, selectedWeapon, onSelect }) {
     })
   }, [filteredWeapons, searchQuery])
 
-  useEffect(() => {
-    if (
-      selectedWeapon &&
-      !filteredWeapons.some(
-        (weapon) => String(weapon.id) === String(selectedWeapon.id)
-      )
-    ) {
-      onSelect(null)
-    }
-  }, [filteredWeapons, selectedWeapon, onSelect])
+  const rowCount = Math.ceil(visibleWeapons.length / columnCount)
+  const firstVisibleRow = Math.max(0, Math.floor(scrollTop / rowHeight) - 2)
+  const visibleRowCount = Math.ceil((viewportHeight || 600) / rowHeight) + 4
+  const lastVisibleRow = Math.min(rowCount, firstVisibleRow + visibleRowCount)
+  const virtualWeapons = visibleWeapons.slice(
+    firstVisibleRow * columnCount,
+    lastVisibleRow * columnCount
+  )
 
-  const handleSelect = (weapon) => {
-    onSelect(weapon)
-    if (weapon) {
-      setSearchQuery(getLocalizedName(weapon.name, language))
-    }
+  const handleListScroll = (event) => {
+    setScrollTop(event.currentTarget.scrollTop)
   }
 
+  useEffect(() => {
+    const list = listRef.current
+    if (!list) return undefined
+
+    const updateViewportHeight = () => setViewportHeight(list.clientHeight)
+    updateViewportHeight()
+    const observer = new ResizeObserver(updateViewportHeight)
+    observer.observe(list)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    if (listRef.current) listRef.current.scrollTop = 0
+  }, [rarityFilter, typeFilter, searchQuery])
+
   return (
-    <Box component="section" aria-labelledby="weapon-browser-title">
-      <Typography id="weapon-browser-title" variant="h5" sx={{ mb: 0.5 }}>
-        {t('selectWeapon')}
-      </Typography>
-      <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-        {t('weaponSearchHint')}
-      </Typography>
-
+    <Box
+      component="section"
+      aria-labelledby="weapon-browser-title"
+      sx={{ height: '100%', minHeight: 0, display: 'flex', flexDirection: 'column' }}
+    >
       <Box
         sx={{
-          display: 'grid',
-          gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
-          gap: 1.5,
-          mb: 1.5,
+          display: 'flex',
+          flexDirection: 'column',
+          flex: '0 0 auto',
         }}
       >
-        <FormControl fullWidth size="small">
-          <InputLabel id="weapon-filter-rarity">{t('filterRarity')}</InputLabel>
-          <Select
-            labelId="weapon-filter-rarity"
-            id="weapon-filter-rarity-select"
-            value={rarityFilter}
-            label={t('filterRarity')}
-            onChange={(event) => setRarityFilter(event.target.value)}
-          >
-            <MenuItem value={ALL}>
-              <em>{t('allRarities')}</em>
-            </MenuItem>
-            {rarities.map((rarity) => (
-              <MenuItem key={rarity} value={rarity}>
-                {rarity} ★
-              </MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-
-        <FormControl fullWidth size="small">
-          <InputLabel id="weapon-filter-type">{t('filterType')}</InputLabel>
-          <Select
-            labelId="weapon-filter-type"
-            id="weapon-filter-type-select"
-            value={typeFilter}
-            label={t('filterType')}
-            onChange={(event) => setTypeFilter(event.target.value)}
-          >
-            <MenuItem value={ALL}>
-              <em>{t('allTypes')}</em>
-            </MenuItem>
-            {types.map((type) => {
-              const key = JSON.stringify(type)
-              return (
-                <MenuItem key={key} value={key}>
-                  {getLocalizedName(type, language)}
-                </MenuItem>
-              )
-            })}
-          </Select>
-        </FormControl>
-      </Box>
-
-      <Autocomplete
-        fullWidth
-        options={filteredWeapons}
-        value={selectedWeapon || null}
-        inputValue={searchQuery}
-        onInputChange={(_, value) => setSearchQuery(value)}
-        onChange={(_, value) => handleSelect(value)}
-        getOptionLabel={(weapon) => getLocalizedName(weapon?.name, language)}
-        isOptionEqualToValue={(option, value) => String(option.id) === String(value.id)}
-        noOptionsText={t('noWeaponsFound')}
-        renderOption={(props, weapon) => (
-          <Box component="li" {...props} key={weapon.id} sx={{ display: 'flex', gap: 1.25 }}>
-            <WeaponIcon weapon={weapon} size={40} />
-            <Box sx={{ minWidth: 0 }}>
-              <Typography variant="body2" noWrap>
-                {getLocalizedName(weapon.name, language)}
-              </Typography>
-              <Typography variant="caption" color="text.secondary">
-                {weapon.rarity} ★ · {getLocalizedName(weapon.type, language)}
-              </Typography>
-            </Box>
-          </Box>
-        )}
-        renderInput={(params) => (
-          <TextField
-            {...params}
-            label={t('searchWeapons')}
-            placeholder={t('searchWeaponsPlaceholder')}
-          />
-        )}
-      />
-
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 1, mt: 2, mb: 1 }}>
-        <Typography variant="subtitle2">{t('availableWeapons')}</Typography>
-        <Typography variant="caption" color="text.secondary">
-          {t('weaponCount', { count: visibleWeapons.length })}
+        <Typography id="weapon-browser-title" variant="h5" sx={{ mb: 1 }}>
+          {t('selectWeapon')}
         </Typography>
-      </Box>
-
-      <Box
-        sx={{
-          display: 'grid',
-          gridTemplateColumns: {
-            xs: 'repeat(3, minmax(0, 1fr))',
-            sm: 'repeat(4, minmax(0, 1fr))',
-            lg: 'repeat(5, minmax(0, 1fr))',
-          },
-          gap: 1,
-        }}
-      >
-        {visibleWeapons.map((weapon) => {
-          const isSelected = String(selectedWeapon?.id) === String(weapon.id)
-          return (
-            <Card
-              key={weapon.id}
-              variant="outlined"
-              sx={{
-                minWidth: 0,
-                borderColor: isSelected ? 'primary.main' : 'divider',
-                backgroundColor: isSelected ? 'action.selected' : 'background.paper',
-              }}
+        <Box
+          sx={{
+            display: 'grid',
+            gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
+            gap: 1.5,
+            mb: 1.5,
+          }}
+        >
+          <FormControl fullWidth size="small">
+            <InputLabel id="weapon-filter-rarity">{t('filterRarity')}</InputLabel>
+            <Select
+              labelId="weapon-filter-rarity"
+              id="weapon-filter-rarity-select"
+              value={rarityFilter}
+              label={t('filterRarity')}
+              onChange={(event) => setRarityFilter(event.target.value)}
             >
-              <CardActionArea
-                onClick={() => handleSelect(weapon)}
-                selected={isSelected}
-                aria-label={getLocalizedName(weapon.name, language)}
-                sx={{ height: '100%', p: 1 }}
-              >
-                <Box sx={{ display: 'grid', justifyItems: 'center', gap: 0.75 }}>
-                  <WeaponIcon weapon={weapon} size={58} />
-                  <Typography
-                    variant="caption"
-                    align="center"
-                    sx={{ width: '100%', overflowWrap: 'anywhere', lineHeight: 1.2 }}
-                  >
-                    {getLocalizedName(weapon.name, language)}
-                  </Typography>
-                </Box>
-              </CardActionArea>
-            </Card>
-          )
-        })}
+              <MenuItem value={ALL}>
+                <em>{t('allRarities')}</em>
+              </MenuItem>
+              {rarities.map((rarity) => (
+                <MenuItem key={rarity} value={rarity}>
+                  {rarity} ★
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+
+          <FormControl fullWidth size="small">
+            <InputLabel id="weapon-filter-type">{t('filterType')}</InputLabel>
+            <Select
+              labelId="weapon-filter-type"
+              id="weapon-filter-type-select"
+              value={typeFilter}
+              label={t('filterType')}
+              onChange={(event) => setTypeFilter(event.target.value)}
+            >
+              <MenuItem value={ALL}>
+                <em>{t('allTypes')}</em>
+              </MenuItem>
+              {types.map((type) => {
+                const key = JSON.stringify(type)
+                return (
+                  <MenuItem key={key} value={key}>
+                    {getLocalizedName(type, language)}
+                  </MenuItem>
+                )
+              })}
+            </Select>
+          </FormControl>
+        </Box>
+
+        <TextField
+          fullWidth
+          size="small"
+          label={t('searchWeapons')}
+          placeholder={t('searchWeaponsPlaceholder')}
+          value={searchQuery}
+          onChange={(event) => setSearchQuery(event.target.value)}
+        />
       </Box>
 
-      {visibleWeapons.length === 0 && (
-        <Paper variant="outlined" sx={{ p: 3, mt: 1, textAlign: 'center' }}>
-          <Typography color="text.secondary">{t('noWeaponsFound')}</Typography>
-        </Paper>
-      )}
+      {selectedWeapon ? (
+        <Box sx={{ flex: '1 1 auto', minHeight: 0, overflowY: 'auto', pr: { sm: 0.5 } }}>
+          <WeaponDetails
+            weapon={selectedWeapon}
+            t={t}
+            language={language}
+            onDeselect={() => onSelect(null)}
+          />
+        </Box>
+      ) : (
+        <Box
+          ref={listRef}
+          onScroll={handleListScroll}
+          sx={{
+            flex: '1 1 auto',
+            minHeight: 0,
+            overflowY: 'auto',
+            pr: { sm: 0.5 },
+          }}
+        >
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 1, mt: 1, mb: 1 }}>
+            <Typography variant="subtitle2">{t('availableWeapons')}</Typography>
+            <Typography variant="caption" color="text.secondary">
+              {t('weaponCount', { count: visibleWeapons.length })}
+            </Typography>
+          </Box>
 
-      {selectedWeapon && (
-        <WeaponDetails weapon={selectedWeapon} t={t} language={language} />
+          {visibleWeapons.length === 0 ? (
+            <Paper variant="outlined" sx={{ p: 3, textAlign: 'center' }}>
+              <Typography color="text.secondary">{t('noWeaponsFound')}</Typography>
+            </Paper>
+          ) : (
+            <Box sx={{ position: 'relative', height: rowCount * rowHeight }}>
+              <Box
+                sx={{
+                  position: 'absolute',
+                  top: firstVisibleRow * rowHeight,
+                  left: 0,
+                  right: 0,
+                  display: 'grid',
+                  gridTemplateColumns: `repeat(${columnCount}, minmax(0, 1fr))`,
+                  gridAutoRows: rowHeight - rowGap,
+                  gap: `${rowGap}px`,
+                }}
+              >
+                {virtualWeapons.map((weapon) => (
+                  <WeaponCard
+                    key={weapon.id}
+                    weapon={weapon}
+                    isSelected={false}
+                    language={language}
+                    onSelect={onSelect}
+                  />
+                ))}
+              </Box>
+            </Box>
+          )}
+        </Box>
       )}
     </Box>
+  )
+})
+
+export default function WeaponSelector({ weapons, selectedWeapon, onSelect }) {
+  const { t, language } = useLanguage()
+
+  return (
+    <WeaponBrowser
+      weapons={weapons}
+      selectedWeapon={selectedWeapon}
+      onSelect={onSelect}
+      t={t}
+      language={language}
+    />
   )
 }
 

@@ -25,13 +25,20 @@ const navItems = [
 
 const DRAWER_WIDTH = 260
 
-export default function Layout({ children, maxWidth = 'md' }) {
+export default function Layout({ children, maxWidth = 'md', fullHeight = false }) {
   const { language, setLanguage, t } = useLanguage()
   const { pathname } = useLocation()
   const [drawerOpen, setDrawerOpen] = useState(false)
 
   return (
-    <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <Box
+      sx={{
+        minHeight: '100vh',
+        ...(fullHeight ? { height: '100vh', overflow: 'hidden' } : {}),
+        display: 'flex',
+        flexDirection: 'column',
+      }}
+    >
       <AppBar position="static">
         <Toolbar sx={{ columnGap: 1 }}>
           <IconButton
@@ -96,9 +103,20 @@ export default function Layout({ children, maxWidth = 'md' }) {
           flex: 1,
           width: '100%',
           py: 3,
+          ...(fullHeight ? { minHeight: 0 } : {}),
+          ...(fullHeight
+            ? {
+                height: { xs: 'calc(100vh - 56px)', sm: 'calc(100vh - 64px)' },
+                boxSizing: 'border-box',
+                overflow: 'hidden',
+              }
+            : {}),
         }}
       >
-        <Container maxWidth={maxWidth} sx={{ width: '100%' }}>
+        <Container
+          maxWidth={maxWidth}
+          sx={{ width: '100%', ...(fullHeight ? { height: '100%' } : {}) }}
+        >
           {children}
         </Container>
       </Box>

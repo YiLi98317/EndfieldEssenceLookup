@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { memo, useMemo, useState } from "react";
 import {
   Typography,
   List,
@@ -15,7 +15,9 @@ import { getMatchingPools, getFarmableTogetherWeapons } from "../utils/essenceLo
 import { useLanguage } from "../i18n/LanguageContext";
 import { getLocalizedName, flattenStats } from "../utils/dataHelpers";
 
-function PoolStatsBlock({ stats, hasCategorized, isMatchingStat, t, flattenStats }) {
+const PoolStatsBlock = memo(function PoolStatsBlock({ stats, hasCategorized, matchingStats, t }) {
+  const isMatchingStat = (stat) => matchingStats.has(stat);
+
   if (hasCategorized) {
     return (
       <>
@@ -113,7 +115,129 @@ function PoolStatsBlock({ stats, hasCategorized, isMatchingStat, t, flattenStats
       ))}
     </Box>
   );
-}
+});
+
+const PoolAccordion = memo(function PoolAccordion({
+  pool,
+  weapon,
+  weapons,
+  language,
+  matchingStats,
+  t,
+}) {
+  const [expanded, setExpanded] = useState(false);
+  const stats = pool.stats;
+  const hasCategorized =
+    stats &&
+    typeof stats === "object" &&
+    (stats.basic?.length || stats.additional?.length || stats.skill?.length);
+  const poolName = getLocalizedName(pool.name, language);
+  const farmableWeapons = useMemo(
+    () => (expanded ? getFarmableTogetherWeapons(pool, weapons, weapon) : []),
+    [expanded, pool, weapons, weapon]
+  );
+
+  return (
+    <Accordion
+      expanded={expanded}
+      onChange={(_, nextExpanded) => setExpanded(nextExpanded)}
+      disableGutters
+      slotProps={{ transition: { unmountOnExit: true } }}
+      sx={{ "&:before": { display: "none" } }}
+    >
+      <AccordionSummary
+        expandIcon={
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+          </svg>
+        }
+      >
+        <Box sx={{ width: "100%", pr: 1 }}>
+          <Typography variant="subtitle1" fontWeight={600}>
+            {poolName}
+          </Typography>
+          <Box component="div" sx={{ mt: 0.5 }}>
+            <PoolStatsBlock
+              stats={stats}
+              hasCategorized={hasCategorized}
+              matchingStats={matchingStats}
+              t={t}
+            />
+          </Box>
+        </Box>
+      </AccordionSummary>
+      <AccordionDetails>
+        <Typography variant="subtitle2" color="text.secondary" sx={{ mb: 1 }}>
+          {t("farmableTogether")}
+        </Typography>
+        {farmableWeapons.length > 0 ? (
+          <List dense disablePadding>
+            {farmableWeapons.map((w) => {
+              const wName = getLocalizedName(w.name, language);
+              const wStatsList = flattenStats(w.stats);
+              const typeLabel = w.type
+                ? ` · ${getLocalizedName(w.type, language)}`
+                : "";
+              const rarityLabel = w.rarity != null ? ` · ${w.rarity}★` : "";
+              const selectStat =
+                (weapon.stats.additional?.[0] != null &&
+                w.stats.additional?.[0] === weapon.stats.additional?.[0]
+                  ? w.stats.additional[0]
+                  : null) ??
+                (weapon.stats.skill?.[0] != null &&
+                w.stats.skill?.[0] === weapon.stats.skill?.[0]
+                  ? w.stats.skill[0]
+                  : null);
+              return (
+                <ListItem key={w.id} disablePadding sx={{ py: 0.25 }}>
+                  <ListItemText
+                    primary={`${wName}${typeLabel}${rarityLabel}`}
+                    secondary={
+                      wStatsList.length > 0 ? (
+                        <Box
+                          component="span"
+                          sx={{
+                            display: "flex",
+                            gap: 0.5,
+                            flexWrap: "wrap",
+                            mt: 0.25,
+                          }}
+                        >
+                          {wStatsList.map((s) => (
+                            <Chip
+                              key={s}
+                              label={s}
+                              size="small"
+                              variant={s === selectStat ? "filled" : "outlined"}
+                              sx={
+                                s === selectStat
+                                  ? {
+                                      backgroundColor: "warning.light",
+                                      color: "warning.contrastText",
+                                      borderColor: "warning.main",
+                                    }
+                                  : undefined
+                              }
+                            />
+                          ))}
+                        </Box>
+                      ) : null
+                    }
+                    secondaryTypographyProps={{ component: "div" }}
+                  />
+                </ListItem>
+              );
+            })}
+          </List>
+        ) : (
+          <Typography variant="body2" color="text.secondary">
+            {t("noFarmableTogether")}
+          </Typography>
+        )}
+      </AccordionDetails>
+    </Accordion>
+  );
+});
 
 export default function FarmPlaceResults({ weapon, pools, weapons = [] }) {
   const { t, language } = useLanguage();
@@ -121,10 +245,17 @@ export default function FarmPlaceResults({ weapon, pools, weapons = [] }) {
     () => new Set(flattenStats(weapon?.stats)),
     [weapon]
   );
+  const matchingPools = useMemo(() => getMatchingPools(weapon, pools), [weapon, pools]);
+  const panelSx = {
+    p: { xs: 2, sm: 3 },
+    height: '100%',
+    minHeight: 0,
+    boxSizing: 'border-box',
+  };
 
   if (!weapon) {
     return (
-      <Paper variant="outlined" sx={{ p: { xs: 2, sm: 3 } }}>
+      <Paper variant="outlined" sx={panelSx}>
         <Typography id="farm-locations-title" variant="h5" sx={{ mb: 0.75 }}>
           {t("farmLocations")}
         </Typography>
@@ -139,7 +270,7 @@ export default function FarmPlaceResults({ weapon, pools, weapons = [] }) {
 
   if (statsList.length === 0) {
     return (
-      <Paper sx={{ p: 2 }}>
+      <Paper variant="outlined" sx={panelSx}>
         <Typography id="farm-locations-title" variant="h5" sx={{ mb: 0.75 }}>
           {t("farmLocations")}
         </Typography>
@@ -150,13 +281,9 @@ export default function FarmPlaceResults({ weapon, pools, weapons = [] }) {
     );
   }
 
-  const matchingPools = getMatchingPools(weapon, pools);
-
-  const isMatchingStat = (stat) => weaponStatsSet.has(stat);
-
   if (matchingPools.length === 0) {
     return (
-      <Paper sx={{ p: 2 }}>
+      <Paper variant="outlined" sx={panelSx}>
         <Typography id="farm-locations-title" variant="h5" sx={{ mb: 0.75 }}>
           {t("farmLocations")}
         </Typography>
@@ -168,120 +295,26 @@ export default function FarmPlaceResults({ weapon, pools, weapons = [] }) {
   }
 
   return (
-    <Box>
-      <Typography id="farm-locations-title" variant="h5" sx={{ mb: 0.75 }}>
+    <Paper
+      variant="outlined"
+      sx={{ ...panelSx, display: 'flex', flexDirection: 'column' }}
+    >
+      <Typography id="farm-locations-title" variant="h5" sx={{ flex: '0 0 auto', mb: 0.75 }}>
         {t("farmLocations")}
       </Typography>
-      <Typography variant="subtitle1" sx={{ mb: 1.5 }}>
-        {t("farmThesePlaces", { name: weaponName, stats: statsStr })}
-      </Typography>
-      <Paper>
-        {matchingPools.map((pool) => {
-          const poolName = getLocalizedName(pool.name, language);
-          const stats = pool.stats;
-          const hasCategorized =
-            stats &&
-            typeof stats === "object" &&
-            (stats.basic?.length || stats.additional?.length || stats.skill?.length);
-          const farmableWeapons = getFarmableTogetherWeapons(pool, weapons, weapon);
-
-          return (
-            <Accordion key={pool.id} disableGutters sx={{ "&:before": { display: "none" } }}>
-              <AccordionSummary
-                expandIcon={
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
-                  </svg>
-                }
-              >
-                <Box sx={{ width: "100%", pr: 1 }}>
-                  <Typography variant="subtitle1" fontWeight={600}>
-                    {poolName}
-                  </Typography>
-                  <Box component="div" sx={{ mt: 0.5 }}>
-                    <PoolStatsBlock
-                      stats={stats}
-                      hasCategorized={hasCategorized}
-                      isMatchingStat={isMatchingStat}
-                      t={t}
-                      flattenStats={flattenStats}
-                    />
-                  </Box>
-                </Box>
-              </AccordionSummary>
-              <AccordionDetails>
-                <Typography variant="subtitle2" color="text.secondary" sx={{ mb: 1 }}>
-                  {t("farmableTogether")}
-                </Typography>
-                {farmableWeapons.length > 0 ? (
-                  <List dense disablePadding>
-                    {farmableWeapons.map((w) => {
-                      const wName = getLocalizedName(w.name, language);
-                      const wStatsList = flattenStats(w.stats);
-                      const typeLabel = w.type
-                        ? ` · ${getLocalizedName(w.type, language)}`
-                        : "";
-                      const rarityLabel = w.rarity != null ? ` · ${w.rarity}★` : "";
-                      const selectStat =
-                        (weapon.stats.additional?.[0] != null &&
-                         w.stats.additional?.[0] === weapon.stats.additional?.[0]
-                          ? w.stats.additional[0]
-                          : null) ??
-                        (weapon.stats.skill?.[0] != null &&
-                         w.stats.skill?.[0] === weapon.stats.skill?.[0]
-                          ? w.stats.skill[0]
-                          : null);
-                      return (
-                        <ListItem key={w.id} disablePadding sx={{ py: 0.25 }}>
-                          <ListItemText
-                            primary={`${wName}${typeLabel}${rarityLabel}`}
-                            secondary={
-                              wStatsList.length > 0 ? (
-                                <Box
-                                  component="span"
-                                  sx={{
-                                    display: "flex",
-                                    gap: 0.5,
-                                    flexWrap: "wrap",
-                                    mt: 0.25,
-                                  }}
-                                >
-                                  {wStatsList.map((s) => (
-                                    <Chip
-                                      key={s}
-                                      label={s}
-                                      size="small"
-                                      variant={s === selectStat ? "filled" : "outlined"}
-                                      sx={
-                                        s === selectStat
-                                          ? {
-                                              backgroundColor: "warning.light",
-                                              color: "warning.contrastText",
-                                              borderColor: "warning.main",
-                                            }
-                                          : undefined
-                                      }
-                                    />
-                                  ))}
-                                </Box>
-                              ) : null
-                            }
-                            secondaryTypographyProps={{ component: "div" }}
-                          />
-                        </ListItem>
-                      );
-                    })}
-                  </List>
-                ) : (
-                  <Typography variant="body2" color="text.secondary">
-                    {t("noFarmableTogether")}
-                  </Typography>
-                )}
-              </AccordionDetails>
-            </Accordion>
-          );
-        })}
-      </Paper>
-    </Box>
+      <Box sx={{ flex: '1 1 auto', minHeight: 0, overflowY: 'auto' }}>
+        {matchingPools.map((pool) => (
+          <PoolAccordion
+            key={`${weapon.id}-${pool.id}`}
+            pool={pool}
+            weapon={weapon}
+            weapons={weapons}
+            language={language}
+            matchingStats={weaponStatsSet}
+            t={t}
+          />
+        ))}
+      </Box>
+    </Paper>
   );
 }

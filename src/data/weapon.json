@@ -1,558 +1,1680 @@
 [
   {
-    "id": 1,
-    "name": { "zh": "艺术暴君", "en": "Tyrant of Art" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
-    "stats": { "basic": ["智识"], "additional": ["暴击率"], "skill": ["切骨"] }
-  },
-  {
-    "id": 2,
-    "name": { "zh": "骑士精神", "en": "Chivalry" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["生命"], "skill": ["医疗"] }
-  },
-  {
-    "id": 3,
-    "name": { "zh": "黯色火炬", "en": "Dark Torch" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["智识"], "additional": ["灼热"], "skill": ["附术"] }
-  },
-  {
-    "id": 4,
-    "name": { "zh": "破碎君王", "en": "Shattered King" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["力量"], "additional": ["暴击率"], "skill": ["粉碎"] }
-  },
-  {
-    "id": 5,
-    "name": { "zh": "领航者", "en": "Navigator" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
-    "stats": { "basic": ["智识"], "additional": ["寒冷"], "skill": ["附术"] }
-  },
-  {
-    "id": 6,
-    "name": { "zh": "作品:蚀迹", "en": "Work: Erosion" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["自然"], "skill": ["压制"] }
-  },
-  {
-    "id": 7,
-    "name": { "zh": "扶摇", "en": "Soaring" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 6,
+    "id": "2120",
+    "name": {
+      "zh": "点心时刻"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/2120.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["暴击率"],
-      "skill": ["夜幕"]
+      "basic": [],
+      "additional": [],
+      "skill": []
     }
   },
   {
-    "id": 8,
-    "name": { "zh": "使命必达", "en": "Mission Accomplished" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "2119",
+    "name": {
+      "zh": "苦难的尽头"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
+    "image": "images/weapons/2119.png",
     "stats": {
-      "basic": ["意志"],
-      "additional": ["终结技效率"],
-      "skill": ["追袭"]
+      "basic": [],
+      "additional": [],
+      "skill": []
     }
   },
   {
-    "id": 9,
-    "name": { "zh": "大雷斑", "en": "Great Thunder" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "2118",
+    "name": {
+      "zh": "寒夜幽影"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
-    "stats": { "basic": ["力量"], "additional": ["生命"], "skill": ["医疗"] }
-  },
-  {
-    "id": 10,
-    "name": { "zh": "负山", "en": "Shouldering the Mountain" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["效益"] }
-  },
-  {
-    "id": 11,
-    "name": { "zh": "楔子", "en": "Wedge" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
+    "image": "images/weapons/2118.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["暴击率"],
-      "skill": ["附术"]
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "迸发"
+      ]
     }
   },
   {
-    "id": 12,
-    "name": { "zh": "热熔切割器", "en": "Melting Cutter" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1686",
+    "name": {
+      "zh": "黄金时代"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["流转"] }
-  },
-  {
-    "id": 13,
-    "name": { "zh": "沧溟星梦", "en": "Azure Star Dream" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
+    "image": "images/weapons/1686.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["治疗效率"],
-      "skill": ["附术"]
+      "basic": [],
+      "additional": [],
+      "skill": []
     }
   },
   {
-    "id": 14,
-    "name": { "zh": "宏愿", "en": "Grand Vow" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1685",
+    "name": {
+      "zh": "遥望"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
     "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["附术"] }
-  },
-  {
-    "id": 15,
-    "name": { "zh": "赫拉芬格", "en": "Hrafngr" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["力量"], "additional": ["攻击"], "skill": ["迸发"] }
-  },
-  {
-    "id": 16,
-    "name": { "zh": "骁勇", "en": "Valiant" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["巧技"] }
-  },
-  {
-    "id": 17,
-    "name": { "zh": "同类相食", "en": "Cannibalism" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
+    "image": "images/weapons/1685.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["法术伤害"],
-      "skill": ["附术"]
+      "basic": [],
+      "additional": [],
+      "skill": []
     }
   },
   {
-    "id": 18,
-    "name": { "zh": "显赫声名", "en": "Illustrious Name" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1663",
+    "name": {
+      "zh": "曜夜的首演"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 6,
-    "stats": { "basic": ["主能力"], "additional": ["物理"], "skill": ["残暴"] }
+    "image": "images/weapons/1663.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    }
   },
   {
-    "id": 19,
-    "name": { "zh": "爆破单元", "en": "Explosive Unit" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "1650",
+    "name": {
+      "zh": "联结点"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
+    "image": "images/weapons/1650.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["源石技艺"],
-      "skill": ["迸发"]
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "压制"
+      ]
     }
   },
   {
-    "id": 20,
-    "name": { "zh": "不知归", "en": "No Return" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1649",
+    "name": {
+      "zh": "四二式·肃阵"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["流转"] }
+    "image": "images/weapons/1649.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    }
   },
   {
-    "id": 21,
-    "name": { "zh": "典范", "en": "Archetype" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "1572",
+    "name": {
+      "zh": "灯火使命"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 6,
-    "stats": { "basic": ["主能力"], "additional": ["攻击"], "skill": ["压制"] }
+    "image": "images/weapons/1572.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    }
   },
   {
-    "id": 22,
-    "name": { "zh": "J.E.T.", "en": "J.E.T." },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
+    "id": "1571",
+    "name": {
+      "zh": "幻想苦痛"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
     "rarity": 6,
-    "stats": { "basic": ["主能力"], "additional": ["攻击"], "skill": ["压制"] }
+    "image": "images/weapons/1571.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    }
   },
   {
-    "id": 23,
-    "name": { "zh": "白夜新星", "en": "White Night Nova" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1570",
+    "name": {
+      "zh": "镀红祝福"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 6,
+    "image": "images/weapons/1570.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["源石技艺"],
-      "skill": ["附术"]
+      "basic": [],
+      "additional": [],
+      "skill": []
     }
   },
   {
-    "id": 24,
-    "name": { "zh": "遗忘", "en": "Oblivion" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "1569",
+    "name": {
+      "zh": "赤缨"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
     "rarity": 6,
+    "image": "images/weapons/1569.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["法术伤害"],
-      "skill": ["夜幕"]
+      "basic": [],
+      "additional": [],
+      "skill": []
     }
   },
   {
-    "id": 25,
-    "name": { "zh": "熔铸火焰", "en": "Molten Flame" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1382",
+    "name": {
+      "zh": "孤舟"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
-    "stats": { "basic": ["智识"], "additional": ["攻击"], "skill": ["夜幕"] }
+    "image": "images/weapons/1382.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
   },
   {
-    "id": 26,
-    "name": { "zh": "昔日精品", "en": "Former Masterpiece" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "1400",
+    "name": {
+      "zh": "雾中微光"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["生命"], "skill": ["效益"] }
-  },
-  {
-    "id": 27,
-    "name": { "zh": "布道自由", "en": "Preach Freedom" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
+    "image": "images/weapons/1400.png",
     "stats": {
-      "basic": ["意志"],
-      "additional": ["治疗效率"],
-      "skill": ["医疗"]
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "电磁"
+      ],
+      "skill": [
+        "效益"
+      ]
     }
   },
   {
-    "id": 28,
-    "name": { "zh": "十二问", "en": "Twelve Inquiries" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["附术"] }
-  },
-  {
-    "id": 29,
-    "name": { "zh": "终点之声", "en": "Voice of the End" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["力量"], "additional": ["生命"], "skill": ["医疗"] }
-  },
-  {
-    "id": 30,
-    "name": { "zh": "O.B.J. 尖峰", "en": "O.B.J. Peak" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 5,
-    "stats": { "basic": ["意志"], "additional": ["物理"], "skill": ["附术"] }
-  },
-  {
-    "id": 31,
-    "name": { "zh": "O.B.J.术识", "en": "O.B.J. Arcanum" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
+    "id": "1177",
+    "name": {
+      "zh": "狼之绯"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/1177.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["源石技艺"],
-      "skill": ["追袭"]
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "切骨"
+      ]
     }
   },
   {
-    "id": 32,
-    "name": { "zh": "O.B.J.轻芒", "en": "O.B.J. Light Edge" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["流转"] }
-  },
-  {
-    "id": 33,
-    "name": { "zh": "O.B.J.重荷", "en": "O.B.J. Heavy Burden" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["力量"], "additional": ["生命"], "skill": ["效益"] }
-  },
-  {
-    "id": 34,
-    "name": { "zh": "向心之引", "en": "Centripetal Pull" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 5,
-    "stats": { "basic": ["意志"], "additional": ["电磁"], "skill": ["压制"] }
-  },
-  {
-    "id": 35,
-    "name": { "zh": "仰止", "en": "Admiration" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["夜幕"] }
-  },
-  {
-    "id": 36,
-    "name": { "zh": "悼亡诗", "en": "Elegy" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
-    "stats": { "basic": ["智识"], "additional": ["攻击"], "skill": ["夜幕"] }
-  },
-  {
-    "id": 37,
-    "name": { "zh": "钢铁余音", "en": "Steel Echo" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["巧技"] }
-  },
-  {
-    "id": 38,
-    "name": { "zh": "作品:众生", "en": "Work: All Beings" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 5,
+    "id": "1176",
+    "name": {
+      "zh": "落草"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/1176.png",
     "stats": {
-      "basic": ["敏捷"],
-      "additional": ["法术伤害"],
-      "skill": ["附术"]
+      "basic": [],
+      "additional": [],
+      "skill": []
     }
   },
   {
-    "id": 39,
-    "name": { "zh": "莫奈何", "en": "Beyond Reproach" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
+    "id": "1174",
+    "name": {
+      "zh": "望乡"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/1174.png",
     "stats": {
-      "basic": ["意志"],
-      "additional": ["终结技效率"],
-      "skill": ["昂扬"]
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "寒冷"
+      ],
+      "skill": [
+        "压制"
+      ]
     }
   },
   {
-    "id": 40,
-    "name": { "zh": "坚城铸造者", "en": "Stronghold Forger" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
+    "id": "1173",
+    "name": {
+      "zh": "光荣记忆"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/1173.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["终结技效率"],
-      "skill": ["昂扬"]
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "夜幕"
+      ]
     }
   },
   {
-    "id": 41,
-    "name": { "zh": "探骊", "en": "Deep Dive" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 5,
+    "id": "112",
+    "name": {
+      "zh": "艺术暴君"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/112.png",
     "stats": {
-      "basic": ["力量"],
-      "additional": ["终结技效率"],
-      "skill": ["迸发"]
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "切骨"
+      ]
     }
   },
   {
-    "id": 42,
-    "name": { "zh": "O.B.J.迅极", "en": "O.B.J. Swift Extreme" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 5,
+    "id": "124",
+    "name": {
+      "zh": "使命必达"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/124.png",
     "stats": {
-      "basic": ["敏捷"],
-      "additional": ["终结技效率"],
-      "skill": ["迸发"]
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "追袭"
+      ]
     }
   },
   {
-    "id": 43,
-    "name": { "zh": "迷失荒野", "en": "Lost Wilderness" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
-    "stats": { "basic": ["智识"], "additional": ["电磁"], "skill": ["附术"] }
-  },
-  {
-    "id": 44,
-    "name": { "zh": "逐鳞3.0", "en": "Chasing Scale 3.0" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["力量"], "additional": ["寒冷"], "skill": ["压制"] }
-  },
-  {
-    "id": 45,
-    "name": { "zh": "古渠", "en": "Ancient Ditch" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 5,
+    "id": "70",
+    "name": {
+      "zh": "熔铸火焰"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/70.png",
     "stats": {
-      "basic": ["力量"],
-      "additional": ["源石技艺"],
-      "skill": ["残暴"]
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "夜幕"
+      ]
     }
   },
   {
-    "id": 46,
-    "name": { "zh": "嵌合正义", "en": "Chimeric Justice" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 5,
+    "id": "71",
+    "name": {
+      "zh": "黯色火炬"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/71.png",
     "stats": {
-      "basic": ["力量"],
-      "additional": ["终结技效率"],
-      "skill": ["残暴"]
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "灼热"
+      ],
+      "skill": [
+        "附术"
+      ]
     }
   },
   {
-    "id": 47,
-    "name": { "zh": "理性告别", "en": "Rational Farewell" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 5,
-    "stats": { "basic": ["力量"], "additional": ["灼热"], "skill": ["追袭"] }
+    "id": "113",
+    "name": {
+      "zh": "领航者"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/113.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "寒冷"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
   },
   {
-    "id": 48,
-    "name": { "zh": "全自动骇新星", "en": "Fully Automatic Nova" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "126",
+    "name": {
+      "zh": "作品：蚀迹"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/126.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "自然"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
+  },
+  {
+    "id": "129",
+    "name": {
+      "zh": "骑士精神"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/129.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "医疗"
+      ]
+    }
+  },
+  {
+    "id": "128",
+    "name": {
+      "zh": "遗忘"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/128.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    }
+  },
+  {
+    "id": "127",
+    "name": {
+      "zh": "爆破单元"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/127.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "源石技艺"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    }
+  },
+  {
+    "id": "125",
+    "name": {
+      "zh": "沧溟星梦"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/125.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "治疗效率"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "115",
+    "name": {
+      "zh": "同类相食"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/115.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "114",
+    "name": {
+      "zh": "楔子"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/114.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "105",
+    "name": {
+      "zh": "J.E.T."
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 6,
+    "image": "images/weapons/105.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
+  },
+  {
+    "id": "104",
+    "name": {
+      "zh": "骁勇"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 6,
+    "image": "images/weapons/104.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "巧技"
+      ]
+    }
+  },
+  {
+    "id": "103",
+    "name": {
+      "zh": "负山"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 6,
+    "image": "images/weapons/103.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "效益"
+      ]
+    }
+  },
+  {
+    "id": "96",
+    "name": {
+      "zh": "破碎君王"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/96.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "粉碎"
+      ]
+    }
+  },
+  {
+    "id": "86",
+    "name": {
+      "zh": "昔日精品"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/86.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "效益"
+      ]
+    }
+  },
+  {
+    "id": "85",
+    "name": {
+      "zh": "典范"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/85.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
+  },
+  {
+    "id": "84",
+    "name": {
+      "zh": "赫拉芬格"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/84.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    }
+  },
+  {
+    "id": "83",
+    "name": {
+      "zh": "大雷斑"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/83.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "医疗"
+      ]
+    }
+  },
+  {
+    "id": "75",
+    "name": {
+      "zh": "白夜新星"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/75.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "源石技艺"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "74",
+    "name": {
+      "zh": "显赫声名"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/74.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "残暴"
+      ]
+    }
+  },
+  {
+    "id": "73",
+    "name": {
+      "zh": "热熔切割器"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/73.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "流转"
+      ]
+    }
+  },
+  {
+    "id": "72",
+    "name": {
+      "zh": "扶摇"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/72.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    }
+  },
+  {
+    "id": "68",
+    "name": {
+      "zh": "不知归"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/68.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "流转"
+      ]
+    }
+  },
+  {
+    "id": "67",
+    "name": {
+      "zh": "宏愿"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/67.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "123",
+    "name": {
+      "zh": "O.B.J.术识"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/123.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "源石技艺"
+      ],
+      "skill": [
+        "追袭"
+      ]
+    }
+  },
+  {
+    "id": "122",
+    "name": {
+      "zh": "布道自由"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/122.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "治疗效率"
+      ],
+      "skill": [
+        "医疗"
+      ]
+    }
+  },
+  {
+    "id": "121",
+    "name": {
+      "zh": "迷失荒野"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/121.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "电磁"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "120",
+    "name": {
+      "zh": "莫奈何"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/120.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "昂扬"
+      ]
+    }
+  },
+  {
+    "id": "119",
+    "name": {
+      "zh": "悼亡诗"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/119.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    }
+  },
+  {
+    "id": "111",
+    "name": {
+      "zh": "理性告别"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 5,
+    "image": "images/weapons/111.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "灼热"
+      ],
+      "skill": [
+        "追袭"
+      ]
+    }
+  },
+  {
+    "id": "110",
+    "name": {
+      "zh": "O.B.J.迅极"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 5,
+    "image": "images/weapons/110.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    }
+  },
+  {
+    "id": "109",
+    "name": {
+      "zh": "作品：众生"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 5,
+    "image": "images/weapons/109.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "102",
+    "name": {
+      "zh": "向心之引"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 5,
+    "image": "images/weapons/102.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "电磁"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
+  },
+  {
+    "id": "101",
+    "name": {
+      "zh": "O.B.J.尖峰"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 5,
+    "image": "images/weapons/101.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "100",
+    "name": {
+      "zh": "嵌合正义"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 5,
+    "image": "images/weapons/100.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "残暴"
+      ]
+    }
+  },
+  {
+    "id": "82",
+    "name": {
+      "zh": "O.B.J.重荷"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/82.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "效益"
+      ]
+    }
+  },
+  {
+    "id": "81",
+    "name": {
+      "zh": "终点之声"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/81.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "医疗"
+      ]
+    }
+  },
+  {
+    "id": "80",
+    "name": {
+      "zh": "古渠"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/80.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "源石技艺"
+      ],
+      "skill": [
+        "残暴"
+      ]
+    }
+  },
+  {
+    "id": "79",
+    "name": {
+      "zh": "探骊"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/79.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    }
+  },
+  {
+    "id": "66",
+    "name": {
+      "zh": "仰止"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/66.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    }
+  },
+  {
+    "id": "65",
+    "name": {
+      "zh": "O.B.J.轻芒"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/65.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "流转"
+      ]
+    }
+  },
+  {
+    "id": "64",
+    "name": {
+      "zh": "十二问"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/64.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "附术"
+      ]
+    }
+  },
+  {
+    "id": "63",
+    "name": {
+      "zh": "逐鳞3.0"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/63.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "寒冷"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
+  },
+  {
+    "id": "62",
+    "name": {
+      "zh": "坚城铸造者"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/62.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "昂扬"
+      ]
+    }
+  },
+  {
+    "id": "61",
+    "name": {
+      "zh": "钢铁余音"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/61.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "巧技"
+      ]
+    }
+  },
+  {
+    "id": "118",
+    "name": {
+      "zh": "荧光雷羽"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 4,
+    "image": "images/weapons/118.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["法术伤害"],
-      "skill": ["昂扬"]
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
     }
   },
   {
-    "id": 49,
-    "name": { "zh": "应急手段", "en": "Emergency Measures" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "117",
+    "name": {
+      "zh": "全自动骇新星"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 4,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["压制"] }
-  },
-  {
-    "id": 50,
-    "name": { "zh": "呼啸守卫", "en": "Howling Guard" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 4,
-    "stats": { "basic": ["智识"], "additional": ["攻击"], "skill": ["压制"] }
-  },
-  {
-    "id": 51,
-    "name": { "zh": "荧光雷羽", "en": "Fluorescent Lightning Feather" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 4,
-    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["压制"] }
-  },
-  {
-    "id": 52,
-    "name": { "zh": "浪潮", "en": "Tide" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 4,
-    "stats": { "basic": ["智识"], "additional": ["攻击"], "skill": ["追袭"] }
-  },
-  {
-    "id": 53,
-    "name": { "zh": "工业零点一", "en": "Industrial Zero Point One" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 4,
-    "stats": { "basic": ["力量"], "additional": ["攻击"], "skill": ["压制"] }
-  },
-  {
-    "id": 54,
-    "name": { "zh": "长路", "en": "Long Road" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 4,
+    "image": "images/weapons/117.png",
     "stats": {
-      "basic": ["力量"],
-      "additional": ["法术伤害"],
-      "skill": ["追袭"]
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "昂扬"
+      ]
     }
   },
   {
-    "id": 55,
-    "name": { "zh": "淬火者", "en": "Quenched One" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "108",
+    "name": {
+      "zh": "长路"
+    },
+    "type": {
+      "zh": "手铳"
+    },
     "rarity": 4,
-    "stats": { "basic": ["意志"], "additional": ["生命"], "skill": ["粉碎"] }
-  },
-  {
-    "id": 56,
-    "name": { "zh": "寻路者道标", "en": "Pathfinder Beacon" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 4,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["昂扬"] }
-  },
-  {
-    "id": 57,
-    "name": { "zh": "天使杀手", "en": "Angel Slayer" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 4,
+    "image": "images/weapons/108.png",
     "stats": {
-      "basic": ["意志"],
-      "additional": ["法术伤害"],
-      "skill": ["压制"]
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "追袭"
+      ]
     }
   },
   {
-    "id": 58,
-    "name": { "zh": "佩科5", "en": "Peck 5" },
-    "type": { "zh": "手铳", "en": "Pistol" },
+    "id": "107",
+    "name": {
+      "zh": "呼啸守卫"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 4,
+    "image": "images/weapons/107.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
+  },
+  {
+    "id": "99",
+    "name": {
+      "zh": "天使杀手"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 4,
+    "image": "images/weapons/99.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
+  },
+  {
+    "id": "98",
+    "name": {
+      "zh": "寻路者道标"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 4,
+    "image": "images/weapons/98.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "昂扬"
+      ]
+    }
+  },
+  {
+    "id": "78",
+    "name": {
+      "zh": "淬火者"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 4,
+    "image": "images/weapons/78.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "粉碎"
+      ]
+    }
+  },
+  {
+    "id": "77",
+    "name": {
+      "zh": "工业零点一"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 4,
+    "image": "images/weapons/77.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    }
+  },
+  {
+    "id": "60",
+    "name": {
+      "zh": "浪潮"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 4,
+    "image": "images/weapons/60.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "追袭"
+      ]
+    }
+  },
+  {
+    "id": "59",
+    "name": {
+      "zh": "显锋"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 4,
+    "image": "images/weapons/59.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    }
+  },
+  {
+    "id": "116",
+    "name": {
+      "zh": "吉米尼12"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+    "image": "images/weapons/116.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    }
   },
   {
-    "id": 59,
-    "name": { "zh": "达尔霍夫7", "en": "Dalhoff 7" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "106",
+    "name": {
+      "zh": "佩科5"
+    },
+    "type": {
+      "zh": "手铳"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+    "image": "images/weapons/106.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    }
   },
   {
-    "id": 60,
-    "name": { "zh": "奥佩罗77", "en": "Opero 77" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
+    "id": "97",
+    "name": {
+      "zh": "奥佩罗77"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+    "image": "images/weapons/97.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    }
   },
   {
-    "id": 61,
-    "name": { "zh": "吉米尼12", "en": "Jiminy 12" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "76",
+    "name": {
+      "zh": "达尔霍夫7"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+    "image": "images/weapons/76.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    }
   },
   {
-    "id": 62,
-    "name": { "zh": "塔尔11", "en": "Tar 11" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "58",
+    "name": {
+      "zh": "塔尔11"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
-  },
-  {
-    "id": 63,
-    "name": { "zh": "孤舟", "en": "Lone Boat" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["压制"] }
-  },
-  {
-    "id": 64,
-    "name": { "zh": "冥中微光", "en": "Glimmer in the Dark" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["电磁"], "skill": ["效益"] }
-  },
-  {
-    "id": 65,
-    "name": { "zh": "狼之绯", "en": "Crimson of the Wolf" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["暴击率"], "skill": ["切骨"] }
-  },
-  {
-    "id": 66,
-    "name": { "zh": "落草", "en": "Fallen Grass" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["迸发"] }
-  },
-  {
-    "id": 67,
-    "name": { "zh": "光荣记忆", "en": "Glorious Memory" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["暴击率"], "skill": ["夜幕"] }
-  },
-  {
-    "id": 68,
-    "name": { "zh": "望乡", "en": "Homesickness" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["寒冷"], "skill": ["压制"] }
+    "image": "images/weapons/58.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    }
   }
 ]

@@ -9,14 +9,16 @@ export default function EssenceLookupPage() {
   const [selectedWeapon, setSelectedWeapon] = useState(null)
 
   return (
-    <Layout>
+    <Layout maxWidth="xl">
       <Box
         sx={{
-          position: 'sticky',
-          top: 0,
-          zIndex: 10,
-          backgroundColor: 'background.default',
-          pb: 2,
+          display: 'grid',
+          gridTemplateColumns: {
+            xs: 'minmax(0, 1fr)',
+            md: 'minmax(0, 1fr) minmax(0, 1fr)',
+          },
+          gap: { xs: 3, md: 4 },
+          alignItems: 'start',
         }}
       >
         <WeaponSelector
@@ -24,8 +26,18 @@ export default function EssenceLookupPage() {
           selectedWeapon={selectedWeapon}
           onSelect={setSelectedWeapon}
         />
+        <Box
+          component="section"
+          aria-labelledby="farm-locations-title"
+          sx={{
+            minWidth: 0,
+            position: { md: 'sticky' },
+            top: { md: 24 },
+          }}
+        >
+          <FarmPlaceResults weapon={selectedWeapon} pools={pools} weapons={weapons} />
+        </Box>
       </Box>
-      <FarmPlaceResults weapon={selectedWeapon} pools={pools} weapons={weapons} />
     </Layout>
   )
 }

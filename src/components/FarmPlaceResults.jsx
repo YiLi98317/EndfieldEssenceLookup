@@ -117,27 +117,49 @@ function PoolStatsBlock({ stats, hasCategorized, isMatchingStat, t, flattenStats
 
 export default function FarmPlaceResults({ weapon, pools, weapons = [] }) {
   const { t, language } = useLanguage();
+  const weaponStatsSet = useMemo(
+    () => new Set(flattenStats(weapon?.stats)),
+    [weapon]
+  );
 
   if (!weapon) {
     return (
-      <Typography color="text.secondary">{t("selectWeaponHint")}</Typography>
+      <Paper variant="outlined" sx={{ p: { xs: 2, sm: 3 } }}>
+        <Typography id="farm-locations-title" variant="h5" sx={{ mb: 0.75 }}>
+          {t("farmLocations")}
+        </Typography>
+        <Typography color="text.secondary">{t("selectWeaponHint")}</Typography>
+      </Paper>
     );
   }
 
-  const matchingPools = getMatchingPools(weapon, pools);
   const weaponName = getLocalizedName(weapon.name, language);
   const statsList = flattenStats(weapon.stats);
   const statsStr = statsList.join(", ");
 
-  const weaponStatsSet = useMemo(
-    () => new Set(flattenStats(weapon.stats)),
-    [weapon]
-  );
+  if (statsList.length === 0) {
+    return (
+      <Paper sx={{ p: 2 }}>
+        <Typography id="farm-locations-title" variant="h5" sx={{ mb: 0.75 }}>
+          {t("farmLocations")}
+        </Typography>
+        <Typography color="text.secondary">
+          {t("weaponStatsNotAvailable", { name: weaponName })}
+        </Typography>
+      </Paper>
+    );
+  }
+
+  const matchingPools = getMatchingPools(weapon, pools);
+
   const isMatchingStat = (stat) => weaponStatsSet.has(stat);
 
   if (matchingPools.length === 0) {
     return (
       <Paper sx={{ p: 2 }}>
+        <Typography id="farm-locations-title" variant="h5" sx={{ mb: 0.75 }}>
+          {t("farmLocations")}
+        </Typography>
         <Typography color="error">
           {t("noFarmPlace", { name: weaponName, stats: statsStr })}
         </Typography>
@@ -147,7 +169,10 @@ export default function FarmPlaceResults({ weapon, pools, weapons = [] }) {
 
   return (
     <Box>
-      <Typography variant="subtitle1" sx={{ mb: 1 }}>
+      <Typography id="farm-locations-title" variant="h5" sx={{ mb: 0.75 }}>
+        {t("farmLocations")}
+      </Typography>
+      <Typography variant="subtitle1" sx={{ mb: 1.5 }}>
         {t("farmThesePlaces", { name: weaponName, stats: statsStr })}
       </Typography>
       <Paper>

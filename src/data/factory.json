@@ -1,0 +1,5353 @@
+{
+  "categories": [
+    {
+      "id": "10246",
+      "name": "物流设备"
+    },
+    {
+      "id": "10247",
+      "name": "资源开采"
+    },
+    {
+      "id": "10250",
+      "name": "仓储存取"
+    },
+    {
+      "id": "10252",
+      "name": "基础生产"
+    },
+    {
+      "id": "10248",
+      "name": "合成制造"
+    },
+    {
+      "id": "10251",
+      "name": "电力供应"
+    },
+    {
+      "id": "10249",
+      "name": "功能设备"
+    },
+    {
+      "id": "10245",
+      "name": "战斗辅助"
+    },
+    {
+      "id": "10333",
+      "name": "种植调配"
+    },
+    {
+      "id": "10410",
+      "name": "装饰物品"
+    }
+  ],
+  "machines": [
+    {
+      "id": "2330",
+      "name": "安玛的关切",
+      "image": "images/machines/2330.png",
+      "categoryId": "10410",
+      "description": "存放于设备列表的装饰物品界面中，可放置的装饰物品",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "crystal_ball_1",
+        "nameId": 447255844482647718,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "2317",
+      "name": "显梦",
+      "image": "images/machines/2317.png",
+      "categoryId": "10410",
+      "description": "存放于设备列表的装饰物品界面中，可放置的装饰物品",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "dream_bubble_1",
+        "nameId": 2894799444326876847,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "2316",
+      "name": "彩虹",
+      "image": "images/machines/2316.png",
+      "categoryId": "10410",
+      "description": "存放于设备列表的装饰物品界面中，可放置的装饰物品",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "rainbow_1",
+        "nameId": -1485893175763642762,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "2315",
+      "name": "炽热宴会",
+      "image": "images/machines/2315.png",
+      "categoryId": "10410",
+      "description": "存放于设备列表的装饰物品界面中，可放置的装饰物品",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "barbecue_1",
+        "nameId": -8732411385140384988,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "2143",
+      "name": "陪伴款“晨星”玩偶",
+      "image": "images/machines/2143.png",
+      "categoryId": "10410",
+      "description": "存放于设备列表的装饰物品界面中，可放置的装饰物品",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "doll_1",
+        "nameId": 1667836651538599651,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 2
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "2142",
+      "name": "“缎带之声”麦克风",
+      "image": "images/machines/2142.png",
+      "categoryId": "10410",
+      "description": "存放于设备列表的装饰物品界面中，可放置的装饰物品",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "microphone_1",
+        "nameId": -3352878093282828833,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 2
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "2141",
+      "name": "“偶像的身姿”立牌",
+      "image": "images/machines/2141.png",
+      "categoryId": "10410",
+      "description": "存放于设备列表的装饰物品界面中，可放置的装饰物品",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "display_stand_1",
+        "nameId": -8678549564303549719,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 2
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1956",
+      "name": "甲二型“电荷”",
+      "image": "images/machines/1956.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n20625\n攻击间隔：\n5\n秒\n攻击方式：释放电能攻击敌人，攻击会弹射到附近敌人（至多2次），造成\n电磁伤害\n，并在敌人附近留下电球，持续对附近敌人造成\n电磁伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_lightning_2",
+        "nameId": 2999060094813376261,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 5
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1955",
+      "name": "“暴雨”铳械塔",
+      "image": "images/machines/1955.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n10310\n攻击间隔：\n2\n秒\n攻击方式：持续发射III级能量弹，对敌人造成\n物理伤害\n，每第6次攻击会发射强力能量弹对范围内的敌人造成\n物理伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_turret_3",
+        "nameId": -2984341937028554536,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1901",
+      "name": "震撼美味！",
+      "image": "images/machines/1901.png",
+      "categoryId": "10410",
+      "description": "可放置的装饰物品。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "signboard_1",
+        "nameId": 2008066233385026907,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 2
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1900",
+      "name": "小咆兽活动架",
+      "image": "images/machines/1900.png",
+      "categoryId": "10410",
+      "description": "可放置的装饰物品。",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "cat_tree_1",
+        "nameId": -5681600519618525672,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1899",
+      "name": "猩红记忆",
+      "image": "images/machines/1899.png",
+      "categoryId": "10410",
+      "description": "存放于设备列表的装饰物品界面中，可放置的装饰物品",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "photo_frame_1",
+        "nameId": -1169737817549354888,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1722",
+      "name": "储气罐",
+      "image": "images/machines/1722.png",
+      "categoryId": "10250",
+      "description": "存储气体的设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "gas_storager_1",
+        "nameId": 4849011724321094684,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1721",
+      "name": "气体反应炉",
+      "image": "images/machines/1721.png",
+      "categoryId": "10248",
+      "description": "能够进行气体与气体间反应的设备。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "gas_reactor_1",
+        "nameId": 4281469525117512126,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1720",
+      "name": "气体散布机",
+      "image": "images/machines/1720.png",
+      "categoryId": "10248",
+      "description": "可以将持续输入的气体散布到自身周围，从而改变周围环境状态的设备，只在生效期间改变自身周围环境，不会对实际环境造成危害。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "vaporizer_1",
+        "nameId": 6807059220651859510,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1719",
+      "name": "液气转化机",
+      "image": "images/machines/1719.png",
+      "categoryId": "10248",
+      "description": "通过持续通入液化息壤激活，可以将物品的物质形态在气态和液态之间进行转化的设备。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "transmuter_1",
+        "nameId": 1709986425405937770,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1718",
+      "name": "固气转化机",
+      "image": "images/machines/1718.png",
+      "categoryId": "10248",
+      "description": "通过持续通入息壤气激活，可以将物品的物质形态在气态和固态之间进行转化的设备。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "transmuter_2",
+        "nameId": -8983857368953963999,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "1717",
+      "name": "气体收集泵",
+      "image": "images/machines/1717.png",
+      "categoryId": "10247",
+      "description": "无需通电即可工作，可用来开采惰气等多种气体的机械设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "gas_pump_1",
+        "nameId": -9036112900524676824,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 6
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1623",
+      "name": "虎·牢·关",
+      "image": "images/machines/1623.png",
+      "categoryId": "10410",
+      "description": "可放置的装饰物品。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "jail_1",
+        "nameId": -7215159609796883993,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1622",
+      "name": "龙泡泡气球",
+      "image": "images/machines/1622.png",
+      "categoryId": "10410",
+      "description": "可放置的装饰物品。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "chubby_lung_balloon_1",
+        "nameId": -3455101132397967349,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1450",
+      "name": "山樆小景",
+      "image": "images/machines/1450.png",
+      "categoryId": "10410",
+      "description": "可放置的装饰物品。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "pear_blossom_bonsai_1",
+        "nameId": -2882387588720587763,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 2
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1411",
+      "name": "充气教授",
+      "image": "images/machines/1411.png",
+      "categoryId": "10410",
+      "description": "可放置的装饰物品。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "air_dancer_1",
+        "nameId": 7162007888815155369,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 7
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1410",
+      "name": "龙泡泡石墩",
+      "image": "images/machines/1410.png",
+      "categoryId": "10410",
+      "description": "可放置的装饰物品。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "chubby_lung_stone_1",
+        "nameId": -667352216612211856,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 2
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1389",
+      "name": "“酸洗”MK-I",
+      "image": "images/machines/1389.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n12375\n攻击间隔：\n5\n秒\n攻击方式：发射特制酸液弹，酸液弹会在敌人附近地面爆炸并造成范围\n自然伤害\n，同时降低范围内敌人的防御力。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_debuff_1",
+        "nameId": 883979063319449468,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1388",
+      "name": "重锤迫击炮",
+      "image": "images/machines/1388.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n33000\n攻击间隔：\n8\n秒\n攻击方式：消耗大量充能向目标发射威力极大的炮弹，对范围内敌人造成高额\n物理伤害\n。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_rocket_1",
+        "nameId": 1529963665601380128,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 6
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1387",
+      "name": "高能射线塔",
+      "image": "images/machines/1387.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n45375 \n攻击间隔：\n8\n秒\n攻击方式：消耗大量充能向目标发射强力射线，优先锁定范围内威胁更高的敌人，对敌人造成高额\n电磁伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_laser_2",
+        "nameId": -6687751987851290048,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 6
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1386",
+      "name": "多口暗管出口",
+      "image": "images/machines/1386.png",
+      "categoryId": "10250",
+      "description": "地下暗管的大型出口，可与多口暗管入口进行配对连接，传输管道中的液体。",
+      "footprint": {
+        "width": 3,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "udpipe_unloader_2",
+        "nameId": 7189473514481318528,
+        "footprint": {
+          "width": 3,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1385",
+      "name": "多口暗管入口",
+      "image": "images/machines/1385.png",
+      "categoryId": "10250",
+      "description": "地下暗管的大型入口，可与多口暗管出口进行配对连接，传输管道中的液体。",
+      "footprint": {
+        "width": 3,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "udpipe_loader_2",
+        "nameId": 4132416324238613393,
+        "footprint": {
+          "width": 3,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1384",
+      "name": "提纯机",
+      "image": "images/machines/1384.png",
+      "categoryId": "10248",
+      "description": "用于将溶液提纯至更高纯度溶液的设备。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "liquid_purifier_1",
+        "nameId": 1245311982760861054,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 6,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 7,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1383",
+      "name": "扩容反应池",
+      "image": "images/machines/1383.png",
+      "categoryId": "10248",
+      "description": "进行固液体化学反应的设备，拥有更多的端口并可同时进行更多的化学反应。",
+      "footprint": {
+        "width": 6,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "mix_pool_2",
+        "nameId": 3376769834046907218,
+        "footprint": {
+          "width": 6,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 5,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 5,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1201",
+      "name": "激流塔",
+      "image": "images/machines/1201.png",
+      "categoryId": "10245",
+      "description": "攻击间隔：\n5\n秒\n攻击方式：当敌人靠近时，发射一道激流，激流会使中型及小型敌人向攻击方向后退。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_jet_1",
+        "nameId": -6102348041564824698,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1200",
+      "name": "AF1“熔甲者”",
+      "image": "images/machines/1200.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n17252\n攻击方式：当敌人靠近时，喷射火焰攻击敌人，对范围内的敌人持续造成\n灼热伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_trap_1",
+        "nameId": -5516101861352149877,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "1199",
+      "name": "暗管出口",
+      "image": "images/machines/1199.png",
+      "categoryId": "10250",
+      "description": "地下暗管的出口，可与暗管入口进行配对连接，传输管道中的货物。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "udpipe_unloader_1",
+        "nameId": -7654724255146295932,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1198",
+      "name": "暗管入口",
+      "image": "images/machines/1198.png",
+      "categoryId": "10250",
+      "description": "地下暗管的入口，可与暗管出口进行配对连接，传输管道中的货物。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "udpipe_loader_1",
+        "nameId": 5952059820530921240,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1170",
+      "name": "二型耐酸水泵",
+      "image": "images/machines/1170.png",
+      "categoryId": "10247",
+      "description": "在通电状态下，用于抽取液体的设备，可以进行腐蚀性液体的抽取。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "pump_2",
+        "nameId": 1048933963095617277,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1169",
+      "name": "废水处理机",
+      "image": "images/machines/1169.png",
+      "categoryId": "10246",
+      "description": "用于处理污水的设备，也可低效处理壤晶废液与惰性壤晶废液。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "liquid_cleaner_1",
+        "nameId": -7349549195938711637,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "1168",
+      "name": "水驱矿机",
+      "image": "images/machines/1168.png",
+      "categoryId": "10247",
+      "description": "用来开采赤铜矿等多种矿物的机械设备，可使用清水完成自供能，不需要通电就可以运作。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "miner_4",
+        "nameId": 7005348151014873730,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "752",
+      "name": "天有洪炉",
+      "image": "images/machines/752.png",
+      "categoryId": "10248",
+      "description": "用于息壤相关产物合成的设备。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "xiranite_oven_1",
+        "nameId": 22769543061142547,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "751",
+      "name": "仓库存取线源桩",
+      "image": "images/machines/751.png",
+      "categoryId": "10250",
+      "description": "作为仓库存取线的起始点，可以在集成核心区域自由放置。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "log_hongs_bus_source",
+        "nameId": -7934000686830466989,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 2
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "750",
+      "name": "仓库存取线基段",
+      "image": "images/machines/750.png",
+      "categoryId": "10250",
+      "description": "可以在集成核心区域放置的仓库存取线基段，需要和仓库存取线源桩或其他生效的仓库存取线基段相连，其上可贴靠仓库存货口和仓库取货口。",
+      "footprint": {
+        "width": 4,
+        "height": 8
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "log_hongs_bus",
+        "nameId": 4969022035964744339,
+        "footprint": {
+          "width": 4,
+          "depth": 8,
+          "height": 2
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "749",
+      "name": "息壤中继器",
+      "image": "images/machines/749.png",
+      "categoryId": "10251",
+      "description": "可自动连接80M内的全部息壤电力设备，可进行电力传输与小范围供电。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_pole_3",
+        "nameId": 8843319720080895773,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 15
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "748",
+      "name": "息壤供电桩",
+      "image": "images/machines/748.png",
+      "categoryId": "10251",
+      "description": "可自动连接80M内的协议核心与息壤中继器，且可自动连接30M内的息壤供电桩与其他电力设备。\n可进行范围供电与短距离电力传输。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_diffuser_2",
+        "nameId": -770917564358191340,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 7
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "747",
+      "name": "“毒沼”MK-I",
+      "image": "images/machines/747.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n5485\n攻击间隔：\n5\n秒\n攻击方式：发射特制毒雾弹，毒雾弹会在敌人附近地面爆炸并造成范围\n自然伤害\n，同时在地面留下一片毒雾区，对敌人造成伤害并降低移动速度。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_fog_1",
+        "nameId": -5171225426844846087,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "746",
+      "name": "反应池",
+      "image": "images/machines/746.png",
+      "categoryId": "10248",
+      "description": "进行固液体化学反应的设备。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "mix_pool_1",
+        "nameId": -6601956170207128481,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "745",
+      "name": "拆解机",
+      "image": "images/machines/745.png",
+      "categoryId": "10248",
+      "description": "用于进行物理分拆的设备。",
+      "footprint": {
+        "width": 6,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "dismantler_1",
+        "nameId": -874044681144829301,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 6,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 5,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "744",
+      "name": "给水器",
+      "image": "images/machines/744.png",
+      "categoryId": "10249",
+      "description": "用于供给液体的设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "dumper_1",
+        "nameId": -1487493209529051135,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "743",
+      "name": "洒水机",
+      "image": "images/machines/743.png",
+      "categoryId": "10249",
+      "description": "向固定位置喷洒液体的设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "squirter_1",
+        "nameId": 4887084825050613813,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "742",
+      "name": "储液罐",
+      "image": "images/machines/742.png",
+      "categoryId": "10250",
+      "description": "存储液体的设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "liquid_storager_1",
+        "nameId": 4985017352026843790,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "741",
+      "name": "管道汇流器",
+      "image": "images/machines/741.png",
+      "categoryId": "10246",
+      "description": "可让多根（最多3根）分支管道汇流传输到1根管道的物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=741&header=0"
+    },
+    {
+      "id": "739",
+      "name": "管道分流器",
+      "image": "images/machines/739.png",
+      "categoryId": "10246",
+      "description": "可让1根管道均匀传输到多根（最多3根）分支管道的物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=739&header=0"
+    },
+    {
+      "id": "738",
+      "name": "管道准入口",
+      "image": "images/machines/738.png",
+      "categoryId": "10246",
+      "description": "可以设置允许通过的材料与最大数量的管道物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=738&header=0"
+    },
+    {
+      "id": "740",
+      "name": "管道桥",
+      "image": "images/machines/740.png",
+      "categoryId": "10246",
+      "description": "可让两根管道交叉运输互不干扰的物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=740&header=0"
+    },
+    {
+      "id": "737",
+      "name": "管道",
+      "image": "images/machines/737.png",
+      "categoryId": "10246",
+      "description": "可以传输液体或气体的传输物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=737&header=0"
+    },
+    {
+      "id": "736",
+      "name": "水泵",
+      "image": "images/machines/736.png",
+      "categoryId": "10247",
+      "description": "用于抽取液体的设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "pump_1",
+        "nameId": -3400985951025354443,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "766",
+      "name": "琼叶参田块",
+      "image": "images/machines/766.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量琼叶参。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_sp_3",
+        "nameId": -4604368691569704493,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "352",
+      "name": "金石稻田块",
+      "image": "images/machines/352.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量金石稻。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_sp_4",
+        "nameId": 2500740281615465532,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "351",
+      "name": "苦叶椒田块",
+      "image": "images/machines/351.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量苦叶椒。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_sp_2",
+        "nameId": -2564485119477257046,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "350",
+      "name": "灰芦麦田块",
+      "image": "images/machines/350.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量灰芦麦。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_sp_1",
+        "nameId": -2222648571334079482,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "349",
+      "name": "芽针田块",
+      "image": "images/machines/349.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量芽针，有较高概率额外获得荆刺芽针。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_grass_2",
+        "nameId": 6617693437946419540,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "348",
+      "name": "锦草田块",
+      "image": "images/machines/348.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量锦草，有较高概率额外获得蓬茸锦草。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_grass_1",
+        "nameId": -9046870407130493442,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "347",
+      "name": "酮化灌木田块",
+      "image": "images/machines/347.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量酮化灌木。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_bbflower_1",
+        "nameId": 3975017990575392389,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "346",
+      "name": "砂叶田块",
+      "image": "images/machines/346.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量砂叶。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_moss_3",
+        "nameId": -7922812087189185954,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "345",
+      "name": "柑实田块",
+      "image": "images/machines/345.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量柑实，有较高概率额外获得黯银柑实。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_moss_2",
+        "nameId": -7423791299964302906,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "344",
+      "name": "荞花田块",
+      "image": "images/machines/344.png",
+      "categoryId": "10333",
+      "description": "此田块上按步骤进行精细种植，收获后可获得大量荞花，有较高概率额外获得映火荞花。",
+      "footprint": {
+        "width": 4,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_moss_1",
+        "nameId": 6376518929239824346,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "372",
+      "name": "高爆榴弹塔",
+      "image": "images/machines/372.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n5585\n攻击间隔：\n3\n秒\n攻击方式：以抛物线发射II级榴弹攻击敌人，榴弹会在敌人附近地面爆炸并造成范围\n灼热伤害\n，同时在地面留下一片燃烧区对敌人造成伤害。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_cannon_2",
+        "nameId": -5055228203656221535,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "340",
+      "name": "射线塔",
+      "image": "images/machines/340.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n22338\n攻击间隔：\n8\n秒\n攻击方式：消耗大量充能向目标发射射线，对敌人造成高额\n电磁伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_laser_1",
+        "nameId": 2874748583317591588,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 6
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "339",
+      "name": "哨戒塔",
+      "image": "images/machines/339.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n11634\n攻击间隔：\n5\n秒\n攻击方式：拥有较大攻击范围，优先锁定范围内威胁更高的敌人，对敌人造成高额\n物理伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_sniper_1",
+        "nameId": -2945073605374214046,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "187",
+      "name": "电涌塔",
+      "image": "images/machines/187.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n4886\n攻击间隔：\n3\n秒\n攻击方式：释放电能攻击敌人，攻击会弹射到附近敌人(至多2次)，造成\n电磁伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_lightning_1",
+        "nameId": 4639497296353884147,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 5
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "338",
+      "name": "全向声波塔",
+      "image": "images/machines/338.png",
+      "categoryId": "10245",
+      "description": "攻击间隔：5秒\n攻击方式：发射一道震荡波，对范围内的普通敌人和进阶敌人施加\n晕眩效果\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_shockwave_1",
+        "nameId": -8120641266057736245,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "185",
+      "name": "扩装铳械塔",
+      "image": "images/machines/185.png",
+      "categoryId": "10245",
+      "description": "攻击力：2136\n攻击间隔：2秒\n攻击方式：持续发射II级能量弹，每第4次攻击会发射一次强力能量弹，对敌人造成\n物理伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_turret_2",
+        "nameId": -4594396201748436138,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "186",
+      "name": "榴弹塔",
+      "image": "images/machines/186.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n981\n攻击间隔：\n3\n秒\n攻击方式：以抛物线发射榴弹攻击敌人，榴弹会在敌人附近地面爆炸并造成范围\n灼热伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_cannon_1",
+        "nameId": 899625875856932881,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "184",
+      "name": "液氮塔",
+      "image": "images/machines/184.png",
+      "categoryId": "10245",
+      "description": "攻击间隔：\n5\n秒\n攻击方式：发射特殊液氮晶体，晶体爆裂后会降低范围内敌人的移动速度。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_frost_1",
+        "nameId": -6841684686838952111,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "183",
+      "name": "医疗塔",
+      "image": "images/machines/183.png",
+      "categoryId": "10245",
+      "description": "最小治疗间隔：\n5\n秒\n可将充能转化为治疗量，治疗周围受伤的干员。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_medic_1",
+        "nameId": 3923246942668576743,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "50",
+      "name": "铳械塔",
+      "image": "images/machines/50.png",
+      "categoryId": "10245",
+      "description": "攻击力：\n609\n攻击间隔：\n2\n秒\n攻击方式：持续发射能量弹，对敌人造成\n物理伤害\n。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_turret_1",
+        "nameId": 2747116929585261030,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "182",
+      "name": "便捷存取站",
+      "image": "images/machines/182.png",
+      "categoryId": "10249",
+      "description": "用于便捷存取仓库物品的设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "carrier_1",
+        "nameId": 4402662202830116591,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "181",
+      "name": "留言信标",
+      "image": "images/machines/181.png",
+      "categoryId": "10249",
+      "description": "用于留下标记信息的设备。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "marker_1",
+        "nameId": 4672678249070282487,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 1
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "180",
+      "name": "长距滑索架",
+      "image": "images/machines/180.png",
+      "categoryId": "10249",
+      "description": "可在110M范围内相连，架起索道的大型设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "travel_pole_2",
+        "nameId": 5175629959207694599,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 7
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "179",
+      "name": "滑索架",
+      "image": "images/machines/179.png",
+      "categoryId": "10249",
+      "description": "可在80M范围内相连，架起索道的小型设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "travel_pole_1",
+        "nameId": -1441543688028441752,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 7
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "170",
+      "name": "仓库取货口",
+      "image": "images/machines/170.png",
+      "categoryId": "10250",
+      "description": "可选择物品从当地仓库取出的活动端口，只能贴靠仓库存取线放置。",
+      "footprint": {
+        "width": 3,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "unloader_1",
+        "nameId": 5745066332652832990,
+        "footprint": {
+          "width": 3,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0",
+              "zmax"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "169",
+      "name": "仓库存货口",
+      "image": "images/machines/169.png",
+      "categoryId": "10250",
+      "description": "可将物品运送至当地仓库的活动端口，只能贴靠仓库存取线放置。",
+      "footprint": {
+        "width": 3,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "loader_1",
+        "nameId": 1435928344676127467,
+        "footprint": {
+          "width": 3,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0",
+              "zmax"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "168",
+      "name": "协议储存箱",
+      "image": "images/machines/168.png",
+      "categoryId": "10250",
+      "description": "拥有多个容纳格的储物设备，由于在通电状态下可将其中物品转移至仓库，因此多用于产线末端。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "storager_1",
+        "nameId": -8889490815914340577,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "188",
+      "name": "研磨机",
+      "image": "images/machines/188.png",
+      "categoryId": "10248",
+      "description": "可以对粉末材料进行细致研磨处理的设备。",
+      "footprint": {
+        "width": 6,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "thickener_1",
+        "nameId": 5166929608136996750,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "174",
+      "name": "种植机",
+      "image": "images/machines/174.png",
+      "categoryId": "10252",
+      "description": "能够培育各类普通植物的仓形设备。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "planter_1",
+        "nameId": 172076019967147986,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "173",
+      "name": "采种机",
+      "image": "images/machines/173.png",
+      "categoryId": "10252",
+      "description": "能够采集普通植物种子的设备。",
+      "footprint": {
+        "width": 5,
+        "height": 5
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "seedcollector_1",
+        "nameId": 9074920705434778722,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "177",
+      "name": "封装机",
+      "image": "images/machines/177.png",
+      "categoryId": "10248",
+      "description": "用于封装部分能量元件的设备。",
+      "footprint": {
+        "width": 6,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "tools_assebling_mc_1",
+        "nameId": -3641370763677533611,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "176",
+      "name": "灌装机",
+      "image": "images/machines/176.png",
+      "categoryId": "10248",
+      "description": "能够将原料灌装到容器的设备。",
+      "footprint": {
+        "width": 6,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "filling_powder_mc_1",
+        "nameId": 3037152073639457480,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 6,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "172",
+      "name": "塑形机",
+      "image": "images/machines/172.png",
+      "categoryId": "10252",
+      "description": "能够冲压各种容器的设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "shaper_1",
+        "nameId": -7663809661744258752,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "171",
+      "name": "配件机",
+      "image": "images/machines/171.png",
+      "categoryId": "10252",
+      "description": "能够加工各式零件的平台。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "component_mc_1",
+        "nameId": -8065374912336935076,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "175",
+      "name": "装备原件机",
+      "image": "images/machines/175.png",
+      "categoryId": "10248",
+      "description": "能够将不同材料嵌合加工成装备原件的设备。",
+      "footprint": {
+        "width": 6,
+        "height": 4
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "winder_1",
+        "nameId": 4162606876609136016,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "54",
+      "name": "粉碎机",
+      "image": "images/machines/54.png",
+      "categoryId": "10252",
+      "description": "能粉碎各种材料的重型设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "grinder_1",
+        "nameId": -2759718786708393424,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "53",
+      "name": "精炼炉",
+      "image": "images/machines/53.png",
+      "categoryId": "10252",
+      "description": "使用高温精炼其他材料的设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "furnance_1",
+        "nameId": -503494240391317693,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "178",
+      "name": "热能池",
+      "image": "images/machines/178.png",
+      "categoryId": "10251",
+      "description": "利用源矿或电池提供电能的设备，只有接入电网才能生效。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_station_1",
+        "nameId": 6123612352655638714,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 1
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "52",
+      "name": "中继器",
+      "image": "images/machines/52.png",
+      "categoryId": "10251",
+      "description": "可以在80M范围内完成电力配给的中继设备，只能进行电力传输。\n完成后续工业计划研发后可给小范围内的终末地设备无线供电。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_pole_2",
+        "nameId": 7255157082925949345,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 15
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "51",
+      "name": "供电桩",
+      "image": "images/machines/51.png",
+      "categoryId": "10251",
+      "description": "通电后可给较大范围内的终末地设备无线供电。\n完成后续工业计划研发后可进行30M内短距离电力运输。",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_diffuser_1",
+        "nameId": 4549244853186961110,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 7
+        },
+        "ports": []
+      }
+    },
+    {
+      "id": "167",
+      "name": "二型电驱矿机",
+      "image": "images/machines/167.png",
+      "categoryId": "10247",
+      "description": "在通电状态下，可以用来开采蓝铁矿等多种矿物的机械设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "miner_3",
+        "nameId": 8086532161114917353,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "166",
+      "name": "电驱矿机",
+      "image": "images/machines/166.png",
+      "categoryId": "10247",
+      "description": "在通电状态下，可以用来开采源矿、紫晶矿的机械设备。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "miner_2",
+        "nameId": 5924226502547698972,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "55",
+      "name": "便携源石矿机",
+      "image": "images/machines/55.png",
+      "categoryId": "10247",
+      "description": "用来开采源矿的机械设备，可使用源石完成自供能，不需要通电就可以运作。",
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "miner_1",
+        "nameId": 6480248539413103259,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 3
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "name": "物品准入口",
+      "image": "images/machines/10.png",
+      "categoryId": "10246",
+      "description": "可以设置允许通过的材料与最大数量的传送带物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=10&header=0"
+    },
+    {
+      "id": "337",
+      "name": "汇流器",
+      "image": "images/machines/337.png",
+      "categoryId": "10246",
+      "description": "可让多条（最多3条）分支传送带汇流传输到1条传送带的物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=337&header=0"
+    },
+    {
+      "id": "165",
+      "name": "分流器",
+      "image": "images/machines/165.png",
+      "categoryId": "10246",
+      "description": "可让1条传送带均匀传输到多条（最多3条）分支传送带的工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=165&header=0"
+    },
+    {
+      "id": "164",
+      "name": "物流桥",
+      "image": "images/machines/164.png",
+      "categoryId": "10246",
+      "description": "可让两条传送带交叉运输互不干扰的物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=164&header=0"
+    },
+    {
+      "id": "161",
+      "name": "传送带",
+      "image": "images/machines/161.png",
+      "categoryId": "10246",
+      "description": "可传输固体的传输物流工具。",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=161&header=0"
+    }
+  ],
+  "akedatabase": {
+    "source": {
+      "provider": "AKEDatabase",
+      "baseUrl": "https://data.akedata.wiki",
+      "manifestUrl": "https://data.akedata.wiki/manifest.json",
+      "gameVersion": "1.5.3",
+      "hotfixVersion": "10506507-7",
+      "publishedAt": "2026-09-24T02:04:11.595820+00:00",
+      "retrievedAt": "2026-10-06T22:22:55+00:00",
+      "tableUrl": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "textTableUrl": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/I18nTextTable_CN.json",
+      "manifestSha256": "613a5a795ba77caacca4112a5066900b1c74ee9cd3ef88e325a1a23b77d29039",
+      "buildingTableSha256": "0974bd95f3e9ebb028be19c896ef660eb1d5830c905b39744a7e9cd5b5563a53",
+      "textTableSha256": "eaca356e58c469c34bd2fab5a362195a58c1938eedb2d471b80ff0e0294d5921"
+    },
+    "matchedMachines": 92,
+    "catalogMachines": 102,
+    "unmatchedMachineNames": [
+      "传送带",
+      "分流器",
+      "汇流器",
+      "物品准入口",
+      "物流桥",
+      "管道",
+      "管道准入口",
+      "管道分流器",
+      "管道桥",
+      "管道汇流器"
+    ]
+  }
+}

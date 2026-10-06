@@ -1,0 +1,55 @@
+export const factoryTranslations = {
+  en: {
+    title: 'Factory Simulator', badge: 'V1 · Layout planner',
+    intro: 'Build your factory, one tile at a time.',
+    land: 'Factory land', occupied: 'occupied', footprint: 'Equipment uses its sourced footprint; unknown sizes use a 1 × 1 preview.',
+    instructions: 'Drag equipment onto an empty tile, or select equipment and click a tile. Drag placed equipment to move it. Drag from an empty tile to select an area, or enable Select area to start anywhere. Delete selected equipment with the button or Delete key.',
+    selectArea: 'Select area', selectedCells: 'cells selected', selectedMachines: 'machines selected',
+    removeArea: 'Delete selected', areaRemoved: 'Selected machines removed.',
+    zoom: 'Grid zoom', zoomIn: 'Zoom in', zoomOut: 'Zoom out', fitGrid: 'Fit grid',
+    grid: 'Factory land, 20 rows by 20 columns', empty: 'Empty tile', row: 'Row', column: 'column',
+    catalog: 'Available equipment', search: 'Search equipment', all: 'All categories', category: 'Category',
+    source: 'Names and descriptions are from the downloaded Chinese catalog.', noResults: 'No equipment matches your search.',
+    limits: 'Resource gathering limits', limitsHint: 'Set the maximum incoming resources per minute. These settings are saved for future simulation.',
+    ore: 'Ore', water: 'Water', gas: 'Gas', units: 'units / min',
+    inactive: 'Simulation inactive', inactiveHint: 'V1 is for layout planning. Gathering, production, power, and transport are not simulated yet.',
+    selected: 'Selected equipment', selectHint: 'Select equipment below to place it. Select a placed machine to inspect, move, or remove it.',
+    placeHint: 'Click an empty tile to place a copy.', moveHint: 'Click an empty tile to move this machine.',
+    portLegend: 'Port legend', inputPort: 'input', outputPort: 'output', pipePort: 'pipe in', pipeOutputPort: 'pipe out',
+    portSummary: ports => {
+      const count = (role, medium) => ports.filter(port => port.role === role && port.medium === medium).length
+      return `Ports: ${count('input', 'belt')} belt in, ${count('input', 'pipe')} pipe in, ${count('output', 'belt')} belt out, ${count('output', 'pipe')} pipe out.`
+    },
+    remove: 'Remove machine', cancel: 'Deselect', clear: 'Clear land', clearTitle: 'Clear the factory land?',
+    clearBody: 'This removes all placed equipment. Resource limits will be kept.', keep: 'Keep layout',
+    placed: 'Machine placed.', moved: 'Machine moved.', blocked: 'That footprint does not fit here. Choose a clear area inside the land.',
+    removed: 'Machine removed.', cleared: 'Land cleared.', saved: 'Saved locally', saveError: 'Local saving unavailable. Changes will last for this visit only.',
+    categories: { '10246': 'Logistics', '10247': 'Extraction', '10250': 'Storage', '10252': 'Basic production', '10248': 'Manufacturing', '10251': 'Power', '10249': 'Functional equipment', '10245': 'Combat support', '10333': 'Cultivation', '10410': 'Decorations' },
+  },
+  zh: {
+    title: '工厂模拟器', badge: 'V1 · 布局规划', intro: '从一格开始，搭建你的工厂。',
+    land: '工厂用地', occupied: '已占用', footprint: '设备使用已采集的占地尺寸；未知尺寸暂以 1 × 1 预览。',
+    instructions: '将设备拖放到空格，或选中设备后点击空格。拖动已放置的设备可移动位置。从空格拖动可框选区域，或启用“框选区域”从任意格开始。点击删除按钮或按 Delete 键删除选中的设备。',
+    selectArea: '框选区域', selectedCells: '格已选中', selectedMachines: '台设备已选中',
+    removeArea: '删除选中设备', areaRemoved: '已删除选中的设备。',
+    zoom: '网格缩放', zoomIn: '放大', zoomOut: '缩小', fitGrid: '适应网格',
+    grid: '工厂用地，20 行 20 列', empty: '空格', row: '行', column: '列',
+    catalog: '可用设备', search: '搜索设备', all: '所有分类', category: '分类',
+    source: '设备名称和描述来自已下载的中文目录。', noResults: '没有符合搜索条件的设备。',
+    limits: '资源采集上限', limitsHint: '设置每分钟可输入的资源上限，保存供后续模拟使用。',
+    ore: '矿物', water: '水', gas: '气体', units: '单位 / 分钟',
+    inactive: '模拟尚未启用', inactiveHint: 'V1 仅用于布局规划，暂不模拟采集、生产、供电和运输。',
+    selected: '已选设备', selectHint: '在下方选择设备进行放置，或选择已放置的设备以查看、移动或移除。',
+    placeHint: '点击空格放置一个设备。', moveHint: '点击空格移动此设备。',
+    portLegend: '接口图例', inputPort: '输入', outputPort: '输出', pipePort: '管道输入', pipeOutputPort: '管道输出',
+    portSummary: ports => {
+      const count = (role, medium) => ports.filter(port => port.role === role && port.medium === medium).length
+      return `接口：传送带输入 ${count('input', 'belt')}，管道输入 ${count('input', 'pipe')}，传送带输出 ${count('output', 'belt')}，管道输出 ${count('output', 'pipe')}。`
+    },
+    remove: '移除设备', cancel: '取消选择', clear: '清空用地', clearTitle: '清空工厂用地？',
+    clearBody: '将移除所有已放置的设备，资源上限会保留。', keep: '保留布局',
+    placed: '设备已放置。', moved: '设备已移动。', blocked: '该设备尺寸无法放在这里，请选择工厂用地内的空闲区域。',
+    removed: '设备已移除。', cleared: '用地已清空。', saved: '已保存至本地', saveError: '本地保存不可用，更改仅在本次访问期间保留。',
+    categories: {},
+  },
+}

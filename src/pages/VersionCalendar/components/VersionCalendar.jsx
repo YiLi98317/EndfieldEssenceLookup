@@ -1,11 +1,6 @@
 import { Box } from '@mui/material'
-import { useLanguage } from '../i18n/LanguageContext'
-
-const imageSx = {
-  display: 'block',
-  width: '100%',
-  height: 'auto',
-}
+import { useLanguage } from '../../../i18n/LanguageContext'
+import styles from './styles'
 
 export default function VersionCalendar({
   titleImage,
@@ -20,34 +15,25 @@ export default function VersionCalendar({
   const timelineScale = 1 / contentWidthRatio
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
+    <Box sx={styles.calendar}>
       <Box
-        sx={{
-          position: 'sticky',
-          top: 0,
-          zIndex: 1,
-          backgroundColor: 'background.default',
-        }}
+        sx={styles.stickyHeader}
       >
         {titleImage && (
           <Box
             component="img"
             src={titleImage}
             alt={titleAlt ?? t('versionCalendarTitleAlt')}
-            sx={imageSx}
+            sx={styles.image}
           />
         )}
         {timelineImage && (
-          <Box sx={{ overflow: 'hidden' }}>
+          <Box sx={styles.timelineContainer}>
             <Box
               component="img"
               src={timelineImage}
               alt={timelineAlt ?? t('versionCalendarTimelineAlt')}
-              sx={{
-                ...imageSx,
-                width: `${timelineScale * 100}%`,
-                ml: `${(1 - timelineScale) * 100}%`,
-              }}
+              sx={styles.timelineImage(timelineScale)}
             />
           </Box>
         )}
@@ -58,7 +44,7 @@ export default function VersionCalendar({
           src={contentImage}
           alt={contentAlt ?? t('versionCalendarContentAlt')}
           loading="lazy"
-          sx={imageSx}
+          sx={styles.image}
         />
       )}
     </Box>

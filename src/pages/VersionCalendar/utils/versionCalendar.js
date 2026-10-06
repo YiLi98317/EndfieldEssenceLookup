@@ -1,4 +1,4 @@
-import versions from './versionCalendars.json'
+import versions from '../../../data/versionCalendars.json'
 
 const imageBase = `${import.meta.env.BASE_URL}images/version-calendar/`
 

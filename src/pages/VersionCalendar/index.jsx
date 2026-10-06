@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { FormControl, InputLabel, ListItemText, MenuItem, Select } from '@mui/material'
-import Layout from '../components/Layout'
-import VersionCalendar from '../components/VersionCalendar'
-import { latestVersionCalendar, versionCalendars } from '../data/versionCalendar'
-import { useLanguage } from '../i18n/LanguageContext'
+import VersionCalendar from './components/VersionCalendar'
+import { latestVersionCalendar, versionCalendars } from './utils/versionCalendar'
+import { useLanguage } from '../../i18n/LanguageContext'
+import styles from './styles'
 
 function formatReleaseDate(releaseDate, language) {
   return new Intl.DateTimeFormat(language === 'zh' ? 'zh-CN' : 'en-US', {
@@ -32,8 +32,8 @@ export default function VersionCalendarPage() {
       .join(' · ')
 
   return (
-    <Layout maxWidth="lg">
-      <FormControl size="small" sx={{ mb: 2, minWidth: 280, maxWidth: '100%' }}>
+    <>
+      <FormControl size="small" sx={styles.versionSelect}>
         <InputLabel id="version-calendar-select-label">{t('versionCalendarVersion')}</InputLabel>
         <Select
           labelId="version-calendar-select-label"
@@ -56,6 +56,6 @@ export default function VersionCalendarPage() {
         contentImage={calendar.contentImage}
         contentWidthRatio={calendar.contentWidthRatio}
       />
-    </Layout>
+    </>
   )
 }

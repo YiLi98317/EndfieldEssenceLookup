@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-06",
+  "units": "grid-cells",
+  "catalogUrl": "https://wiki.skland.com/endfield/catalog?mainTypeId=1&subTypeId=5&header=0",
+  "sourceNotice": "WIKI站内搭建的内容为测试期间内容，实际以上线版本内容为准。",
+  "axisConvention": "Source length (长) maps to canonical footprint.width (columns); source width (宽) maps to footprint.height (rows). This does not establish facing or port positions.",
+  "entries": {
+    "2330": {
+      "name": "安玛的关切",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2330&header=0",
+      "areaRequirement": "放置安玛的关切需要长1格、宽1格的可用空地。"
+    },
+    "2317": {
+      "name": "显梦",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2317&header=0",
+      "areaRequirement": "放置显梦需要长1格、宽1格的可用空地。"
+    },
+    "2316": {
+      "name": "彩虹",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2316&header=0",
+      "areaRequirement": "放置彩虹需要长2格、宽1格的可用空地。"
+    },
+    "2315": {
+      "name": "炽热宴会",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2315&header=0",
+      "areaRequirement": "放置炽热宴会需要长2格、宽1格的可用空地。"
+    },
+    "2143": {
+      "name": "陪伴款“晨星”玩偶",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2143&header=0",
+      "areaRequirement": "放置陪伴款“晨星”玩偶需要长1格、宽1格的可用空地。"
+    },
+    "2142": {
+      "name": "“缎带之声”麦克风",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2142&header=0",
+      "areaRequirement": "放置“缎带之声”麦克风需要长1格、宽1格的可用空地。"
+    },
+    "2141": {
+      "name": "“偶像的身姿”立牌",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2141&header=0",
+      "areaRequirement": "放置“偶像的身姿”立牌需要长2格、宽1格的可用空地。"
+    },
+    "1956": {
+      "name": "甲二型“电荷”",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1956&header=0",
+      "areaRequirement": "放置甲二型“电荷”需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "1955": {
+      "name": "“暴雨”铳械塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1955&header=0",
+      "areaRequirement": "放置“暴雨”铳械塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "1901": {
+      "name": "震撼美味！",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1901&header=0",
+      "areaRequirement": "放置震撼美味！需要长2格、宽2格的可用空地。"
+    },
+    "1900": {
+      "name": "小咆兽活动架",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1900&header=0",
+      "areaRequirement": "放置小咆兽活动架需要长2格、宽1格的可用空地。"
+    },
+    "1899": {
+      "name": "猩红记忆",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1899&header=0",
+      "areaRequirement": "放置猩红记忆需要长2格、宽1格的可用空地。"
+    },
+    "1722": {
+      "name": "储气罐",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1722&header=0",
+      "areaRequirement": "放置储气罐需要长3格、宽3格的可用空地。"
+    },
+    "1721": {
+      "name": "气体反应炉",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1721&header=0",
+      "areaRequirement": "放置气体反应炉需要长5格、宽5格的可用空地。"
+    },
+    "1720": {
+      "name": "气体散布机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1720&header=0",
+      "areaRequirement": "放置气体散布机需要长3格、宽3格的可用空地，且与其他气体散布机的间隔≥10格。"
+    },
+    "1719": {
+      "name": "液气转化机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1719&header=0",
+      "areaRequirement": "放置液气转化机需要长5格、宽5格的可用空地。"
+    },
+    "1718": {
+      "name": "固气转化机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1718&header=0",
+      "areaRequirement": "放置固气转化机需要长5格、宽5格的可用空地。"
+    },
+    "1717": {
+      "name": "气体收集泵",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1717&header=0",
+      "areaRequirement": "放置气体收集泵需要长3格、宽3格的可用空地。"
+    },
+    "1623": {
+      "name": "虎·牢·关",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1623&header=0",
+      "areaRequirement": "放置虎·牢·关需要长3格、宽3格的可用空地。"
+    },
+    "1622": {
+      "name": "龙泡泡气球",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1622&header=0",
+      "areaRequirement": "放置龙泡泡气球需要长1格、宽1格的可用空地。"
+    },
+    "1450": {
+      "name": "山樆小景",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1450&header=0",
+      "areaRequirement": "放置山樆小景需要长1格、宽1格的可用空地。"
+    },
+    "1411": {
+      "name": "充气教授",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1411&header=0",
+      "areaRequirement": "放置充气教授需要长1格、宽1格的可用空地。"
+    },
+    "1410": {
+      "name": "龙泡泡石墩",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1410&header=0",
+      "areaRequirement": "放置龙泡泡石墩需要长2格、宽2格的可用空地。"
+    },
+    "1389": {
+      "name": "“酸洗”MK-I",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1389&header=0",
+      "areaRequirement": "放置“酸洗”MK-I需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "1388": {
+      "name": "重锤迫击炮",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1388&header=0",
+      "areaRequirement": "放置重锤迫击炮需要长3格、宽3格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "1387": {
+      "name": "高能射线塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1387&header=0",
+      "areaRequirement": "放置高能射线塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "1386": {
+      "name": "多口暗管出口",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1386&header=0",
+      "areaRequirement": "放置多口暗管出口需要长5格、宽3格的可用空地。"
+    },
+    "1385": {
+      "name": "多口暗管入口",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1385&header=0",
+      "areaRequirement": "放置多口暗管入口需要长5格、宽3格的可用空地。"
+    },
+    "1384": {
+      "name": "提纯机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1384&header=0",
+      "areaRequirement": "放置提纯机需要长5格、宽5格的可用空地。"
+    },
+    "1383": {
+      "name": "扩容反应池",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1383&header=0",
+      "areaRequirement": "放置扩容反应池需要长6格、宽5格的可用空地。"
+    },
+    "1201": {
+      "name": "激流塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1201&header=0",
+      "areaRequirement": "放置激流塔需要长3格、宽3格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "1200": {
+      "name": "AF1“熔甲者”",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1200&header=0",
+      "areaRequirement": "放置AF1“熔甲者”需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "1199": {
+      "name": "暗管出口",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1199&header=0",
+      "areaRequirement": "放置暗管出口需要长3格、宽3格的可用空地。"
+    },
+    "1198": {
+      "name": "暗管入口",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1198&header=0",
+      "areaRequirement": "放置暗管入口需要长3格、宽3格的可用空地。"
+    },
+    "1170": {
+      "name": "二型耐酸水泵",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1170&header=0",
+      "areaRequirement": "放置二型耐酸水泵需要长3格、宽3格的可用空地，且水泵的取水管必须接触液体或容器。"
+    },
+    "1169": {
+      "name": "废水处理机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1169&header=0",
+      "areaRequirement": "放置废水处理机需要长3格、宽3格的可用空地。"
+    },
+    "1168": {
+      "name": "水驱矿机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1168&header=0",
+      "areaRequirement": "水驱矿机必须放置在可用矿点上。"
+    },
+    "752": {
+      "name": "天有洪炉",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=752&header=0",
+      "areaRequirement": "放置天有洪炉需要长5格、宽5格的可用空地。"
+    },
+    "751": {
+      "name": "仓库存取线源桩",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=751&header=0",
+      "areaRequirement": "放置仓库存取线源桩需要长4格、宽4格的可用空地。"
+    },
+    "750": {
+      "name": "仓库存取线基段",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=750&header=0",
+      "areaRequirement": "放置仓库存取线基段需要长8格、宽4格的可用空地，且只能贴靠仓库存取线放置。"
+    },
+    "749": {
+      "name": "息壤中继器",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=749&header=0",
+      "areaRequirement": "放置息壤中继器需要长3格、宽3格的可用空地。"
+    },
+    "748": {
+      "name": "息壤供电桩",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=748&header=0",
+      "areaRequirement": "放置息壤供电桩需要长2格、宽2格的可用空地。"
+    },
+    "747": {
+      "name": "“毒沼”MK-I",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=747&header=0",
+      "areaRequirement": "放置“毒沼”MK-I需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "746": {
+      "name": "反应池",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=746&header=0",
+      "areaRequirement": "放置反应池需要长5格、宽5格的可用空地。"
+    },
+    "745": {
+      "name": "拆解机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=745&header=0",
+      "areaRequirement": "放置拆解机需要长6格、宽4格的可用空地。"
+    },
+    "744": {
+      "name": "给水器",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=744&header=0",
+      "areaRequirement": "放置给水器需要长3格、宽3格的可用空地。\n\n给水器只能在湖泊或水池附近建造，且给水器的输水口必须悬于液面上方。"
+    },
+    "743": {
+      "name": "洒水机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=743&header=0",
+      "areaRequirement": "放置洒水机需要长3格、宽3格的可用空地，且必须对准可喷洒目标放置。"
+    },
+    "742": {
+      "name": "储液罐",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=742&header=0",
+      "areaRequirement": "放置储液罐需要长3格、宽3格的可用空地。"
+    },
+    "741": {
+      "name": "管道汇流器",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=741&header=0",
+      "areaRequirement": "放置管道汇流器需要长1格、宽1格的可用空地。"
+    },
+    "739": {
+      "name": "管道分流器",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=739&header=0",
+      "areaRequirement": "放置管道分流器需要长1格、宽1格的可用空地。"
+    },
+    "738": {
+      "name": "管道准入口",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=738&header=0",
+      "areaRequirement": "放置管道准入口需要长1格、宽1格的可用空地，且必须放置在管道上。"
+    },
+    "740": {
+      "name": "管道桥",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=740&header=0",
+      "areaRequirement": "放置管道桥需要长1格、宽1格的可用空地。"
+    },
+    "737": {
+      "name": "管道",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=737&header=0",
+      "areaRequirement": "放置管道需要长1格、宽1格的可用空地。\n\n管道可以与传送带路径有所重合，但必须从设备与物流出口或其他管道处开始连接。"
+    },
+    "736": {
+      "name": "水泵",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=736&header=0",
+      "areaRequirement": "放置水泵需要长3格、宽3格的可用空地，且水泵的取水管必须接触液体或容器。"
+    },
+    "766": {
+      "name": "琼叶参田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=766&header=0",
+      "areaRequirement": "放置田块需要在武陵城-实验作物试点区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "352": {
+      "name": "金石稻田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=352&header=0",
+      "areaRequirement": "放置田块需要在武陵城-实验作物试点区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "351": {
+      "name": "苦叶椒田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=351&header=0",
+      "areaRequirement": "放置苦叶椒田块需要在源石研究园-生态种植区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "350": {
+      "name": "灰芦麦田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=350&header=0",
+      "areaRequirement": "放置灰芦麦田块需要在源石研究园-生态种植区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "349": {
+      "name": "芽针田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=349&header=0",
+      "areaRequirement": "放置芽针田块需要在武陵城-实验作物试点区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "348": {
+      "name": "锦草田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=348&header=0",
+      "areaRequirement": "放置锦草田块需要在武陵城-实验作物试点区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "347": {
+      "name": "酮化灌木田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=347&header=0",
+      "areaRequirement": "放置酮化灌木田块需要在源石研究园-生态种植区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "346": {
+      "name": "砂叶田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=346&header=0",
+      "areaRequirement": "放置田块需要在源石研究园-生态种植区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "345": {
+      "name": "柑实田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=345&header=0",
+      "areaRequirement": "放置柑实田块需要在源石研究园-生态种植区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "344": {
+      "name": "荞花田块",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=344&header=0",
+      "areaRequirement": "放置荞花田块需要在源石研究园-生态种植区的长4格、宽4格的可用空地，且与其他田块间隔≥3格。"
+    },
+    "372": {
+      "name": "高爆榴弹塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=372&header=0",
+      "areaRequirement": "放置高爆榴弹塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "340": {
+      "name": "射线塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=340&header=0",
+      "areaRequirement": "放置射线塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "339": {
+      "name": "哨戒塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=339&header=0",
+      "areaRequirement": "放置哨戒塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "187": {
+      "name": "电涌塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=187&header=0",
+      "areaRequirement": "放置电涌塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "338": {
+      "name": "全向声波塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=338&header=0",
+      "areaRequirement": "放置全向声波塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "185": {
+      "name": "扩装铳械塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=185&header=0",
+      "areaRequirement": "放置扩装铳械塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "186": {
+      "name": "榴弹塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=186&header=0",
+      "areaRequirement": "放置榴弹塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "184": {
+      "name": "液氮塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=184&header=0",
+      "areaRequirement": "放置液氮塔需要长2格、宽2格的可用空地，且与其他战斗辅助设备间隔≥3格。"
+    },
+    "183": {
+      "name": "医疗塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=183&header=0",
+      "areaRequirement": "放置医疗塔需要长3格、宽3格的可用空地。"
+    },
+    "50": {
+      "name": "铳械塔",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=50&header=0",
+      "areaRequirement": "放置铳械塔需要长2格、宽2格的可用空地。"
+    },
+    "182": {
+      "name": "便捷存取站",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=182&header=0",
+      "areaRequirement": "放置便捷存取站需要长3格、宽3格的可用空地。"
+    },
+    "181": {
+      "name": "留言信标",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=181&header=0",
+      "areaRequirement": "放置留言信标需要长1格、宽1格的可用空地，且不可在俯瞰模式下放置。"
+    },
+    "180": {
+      "name": "长距滑索架",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=180&header=0",
+      "areaRequirement": "放置长距滑索架需要长3格、宽3格的可用空地。"
+    },
+    "179": {
+      "name": "滑索架",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=179&header=0",
+      "areaRequirement": "放置滑索架需要长3格、宽3格的可用空地。"
+    },
+    "170": {
+      "name": "仓库取货口",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=170&header=0",
+      "areaRequirement": "放置仓库取货口需要长3格、宽1格的可用空地，且只能贴靠仓库存取线放置。"
+    },
+    "169": {
+      "name": "仓库存货口",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=169&header=0",
+      "areaRequirement": "放置仓库存货口需要长3格、宽1格的可用空地，且只能贴靠仓库存取线放置。"
+    },
+    "168": {
+      "name": "协议储存箱",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=168&header=0",
+      "areaRequirement": "放置协议储存箱需要长3格、宽3格的可用空地。"
+    },
+    "188": {
+      "name": "研磨机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=188&header=0",
+      "areaRequirement": "放置研磨机需要长6格、宽4格的可用空地。"
+    },
+    "174": {
+      "name": "种植机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=174&header=0",
+      "areaRequirement": "放置种植机需要长5格、宽5格的可用空地。"
+    },
+    "173": {
+      "name": "采种机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=173&header=0",
+      "areaRequirement": "放置采种机需要长5格、宽5格的可用空地。"
+    },
+    "177": {
+      "name": "封装机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=177&header=0",
+      "areaRequirement": "放置封装机需要长6格、宽4格的可用空地。"
+    },
+    "176": {
+      "name": "灌装机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=176&header=0",
+      "areaRequirement": "放置灌装机需要长6格、宽4格的可用空地。"
+    },
+    "172": {
+      "name": "塑形机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=172&header=0",
+      "areaRequirement": "放置塑形机需要长3格、宽3格的可用空地。"
+    },
+    "171": {
+      "name": "配件机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=171&header=0",
+      "areaRequirement": "放置配件机需要长3格、宽3格的可用空地。"
+    },
+    "175": {
+      "name": "装备原件机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=175&header=0",
+      "areaRequirement": "放置装备原件机需要长6格、宽4格的可用空地。"
+    },
+    "54": {
+      "name": "粉碎机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=54&header=0",
+      "areaRequirement": "放置粉碎机需要长3格、宽3格的可用空地。"
+    },
+    "53": {
+      "name": "精炼炉",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=53&header=0",
+      "areaRequirement": "放置精炼炉需要长3格、宽3格的可用空地。"
+    },
+    "178": {
+      "name": "热能池",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=178&header=0",
+      "areaRequirement": "放置热能池需要长2格、宽2格的可用空地。"
+    },
+    "52": {
+      "name": "中继器",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=52&header=0",
+      "areaRequirement": "放置中继器需要长3格、宽3格的可用空地。"
+    },
+    "51": {
+      "name": "供电桩",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=51&header=0",
+      "areaRequirement": "放置供电桩需要长2格、宽2格的可用空地。"
+    },
+    "167": {
+      "name": "二型电驱矿机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=167&header=0",
+      "areaRequirement": "二型电驱矿机必须放置在可用矿点上。"
+    },
+    "166": {
+      "name": "电驱矿机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=166&header=0",
+      "areaRequirement": "电驱矿机必须放置在可用矿点上。"
+    },
+    "55": {
+      "name": "便携源石矿机",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=55&header=0",
+      "areaRequirement": "便携源石矿机必须放置在可用矿点上。"
+    },
+    "10": {
+      "name": "物品准入口",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=10&header=0",
+      "areaRequirement": "放置物品准入口需要长1格、宽1格的可用空地，且必须放置在传送带上。"
+    },
+    "337": {
+      "name": "汇流器",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=337&header=0",
+      "areaRequirement": "放置汇流器需要长1格、宽1格的可用空地。"
+    },
+    "165": {
+      "name": "分流器",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=165&header=0",
+      "areaRequirement": "放置分流器需要长1格、宽1格的可用空地。"
+    },
+    "164": {
+      "name": "物流桥",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=164&header=0",
+      "areaRequirement": "放置物流桥需要长1格、宽1格的可用空地。"
+    },
+    "161": {
+      "name": "传送带",
+      "url": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=161&header=0",
+      "areaRequirement": "放置传送带需要长1格、宽1格的可用空地。"
+    }
+  }
+}

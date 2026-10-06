@@ -5,7 +5,7 @@ import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline'
 import catalog from '../../data/factory.json'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { factoryTranslations } from './utils/translations'
-import { SIZE, STORAGE_KEY, machinesById, resourceIds, emptyDraft, sanitizeDraft, placeMachine, cellsInArea } from './model'
+import { SIZE, STORAGE_KEY, machinesById, resourceIds, emptyDraft, sanitizeDraft, placeMachine, cellsInArea, footprintFor, footprintCells, machineAt, anchorsInArea, occupiedCells } from './model'
 import styles from './styles'
 
 function loadDraft() {
@@ -40,13 +40,19 @@ export default function FactorySimulatorPage() {
   const suppressClick = useRef(false)
   const areaCells = cellsInArea(area?.start, area?.end)
   const selectedCells = new Set(areaCells)
-  const selectedCount = areaCells.filter(cell => draft.cells[cell]).length
+  const selectedAnchors = anchorsInArea(draft.cells, areaCells)
+  const selectedCount = selectedAnchors.length
+  const occupied = occupiedCells(draft.cells)
   const gridSize = fitSize * zoom / 100
   const selectedMachine = selection && machinesById[selection.machineId]
   const visibleMachines = catalog.machines.filter(machine =>
     (category === 'all' || machine.categoryId === category) &&
     `${machine.name} ${machine.description}`.toLowerCase().includes(search.trim().toLowerCase()),
   )
+  const previewCells = hovered === null || !selection ? [] : footprintCells(selection.machineId, hovered)
+  const placedMachines = Object.entries(draft.cells).map(([anchor, machineId]) => ({
+    anchor: Number(anchor), machineId, machine: machinesById[machineId], footprint: footprintFor(machineId),
+  }))
 
   useEffect(() => {
     try {
@@ -149,7 +155,7 @@ export default function FactorySimulatorPage() {
   function removeSelected() {
     if (!area && selection?.source == null) return
     const cells = { ...draft.cells }
-    for (const cell of area ? areaCells : [selection.source]) delete cells[cell]
+    for (const anchor of area ? selectedAnchors : [selection.source]) delete cells[anchor]
     setDraft({ ...draft, cells })
     deselect()
     setMessage(area ? text.areaRemoved : text.removed)
@@ -196,7 +202,7 @@ export default function FactorySimulatorPage() {
                 <Button size="small" onClick={deselect}>{text.cancel}</Button>
               </div>
             </> : selectedMachine ? <>
-              <div className="factory-selected-machine"><MachineImage key={selectedMachine.id} machine={selectedMachine} /><strong>{selectedMachine.name}</strong><Chip label="1 × 1" size="small" /></div>
+              <div className="factory-selected-machine"><MachineImage key={selectedMachine.id} machine={selectedMachine} /><strong>{selectedMachine.name}</strong><Chip label={selectedMachine.footprint ? `${selectedMachine.footprint.width} × ${selectedMachine.footprint.height}` : 'size unverified'} size="small" /></div>
               <p lang="zh-Hans">{selectedMachine.description}</p><p>{selection.source === null ? text.placeHint : text.moveHint}</p>
               <div className="factory-selection-actions">
                 {selection.source !== null && <Button size="small" color="error" onClick={removeSelected}>{text.remove}</Button>}
@@ -207,7 +213,7 @@ export default function FactorySimulatorPage() {
         </aside>
         <section className="factory-land factory-panel" aria-labelledby="factory-land-title">
           <div className="factory-land-heading">
-            <div><h3 id="factory-land-title">{text.land} <span>20 × 20</span></h3><p>{Object.keys(draft.cells).length} / 400 {text.occupied} · {text.footprint}</p></div>
+            <div><h3 id="factory-land-title">{text.land} <span>20 × 20</span></h3><p>{occupied.size} / 400 {text.occupied} · {text.footprint}</p></div>
             <Button size="small" startIcon={<DeleteOutlineIcon />} disabled={!Object.keys(draft.cells).length} onClick={() => setConfirmClear(true)}>{text.clear}</Button>
           </div>
           <p className="factory-instructions">{text.instructions}</p>
@@ -229,21 +235,23 @@ export default function FactorySimulatorPage() {
             <div className="factory-grid-stage" style={{ minWidth: gridSize, minHeight: gridSize }}>
               <div className="factory-grid" style={{ width: gridSize, height: gridSize }} role="group" aria-label={text.grid}>
                 {Array.from({ length: SIZE * SIZE }, (_, cell) => {
-                  const machine = machinesById[draft.cells[cell]]
-                  const selected = selectedCells.has(cell) || selection?.source === cell
-                  const preview = hovered === cell
+                  const placement = machineAt(draft.cells, cell)
+                  const machine = placement?.machine
+                  const selected = selectedCells.has(cell) || placement?.anchor === selection?.source
+                  const preview = previewCells.includes(cell)
+                  const previewBlocked = preview && placement && placement.anchor !== selection?.source
                   const position = `${text.row} ${Math.floor(cell / SIZE) + 1}, ${text.column} ${cell % SIZE + 1}`
                   return (
                     <button
                       type="button" key={cell}
-                      className={`factory-cell${machine ? ' occupied' : ''}${selected ? ' selected' : ''}${preview ? machine ? ' blocked' : ' preview' : ''}`}
+                      className={`factory-cell${machine ? ' occupied' : ''}${selected ? ' selected' : ''}${preview ? previewBlocked ? ' blocked' : ' preview' : ''}`}
                       aria-label={`${position}: ${machine?.name ?? text.empty}`}
                       aria-pressed={selected} title={`${position}${machine ? ` · ${machine.name}` : ''}`}
                       data-factory-cell={cell}
                       draggable={false}
                       onPointerDown={event => {
                         if (areaMode || !machine) startArea(event, cell)
-                        else startDrag(event, machine.id, cell)
+                        else startDrag(event, machine.id, placement.anchor)
                       }}
                       onPointerMove={moveDrag}
                       onPointerUp={endDrag}
@@ -252,15 +260,22 @@ export default function FactorySimulatorPage() {
                         if (suppressClick.current) { suppressClick.current = false; return }
                         if (areaMode) {
                           setSelection(null); setArea({ start: cell, end: cell })
-                        } else if (machine) selectMachine({ machineId: machine.id, source: cell })
+                        } else if (machine) selectMachine({ machineId: machine.id, source: placement.anchor })
                         else if (selection) place(cell)
                         else { setArea({ start: cell, end: cell }) }
                       }}
                       onKeyDown={event => navigateGrid(event, cell)}
                     >
-                      {machine && <MachineImage key={machine.id} machine={machine} />}
                     </button>
                   )
+                })}
+                {placedMachines.map(({ anchor, machineId, machine, footprint }) => {
+                  const selected = selectedCells.has(anchor) || selection?.source === anchor
+                  const row = Math.floor(anchor / SIZE)
+                  const column = anchor % SIZE
+                  return <div key={`${anchor}-${machineId}`} className={`factory-machine-overlay${selected ? ' selected' : ''}`}
+                    style={{ left: `${column / SIZE * 100}%`, top: `${row / SIZE * 100}%`, width: `${footprint.width / SIZE * 100}%`, height: `${footprint.height / SIZE * 100}%` }}
+                    aria-hidden="true"><MachineImage machine={machine} /></div>
                 })}
               </div>
             </div>
@@ -287,7 +302,7 @@ export default function FactorySimulatorPage() {
               }}
               onPointerDown={event => startDrag(event, machine.id)} onPointerMove={moveDrag}
               onPointerUp={endDrag} onPointerCancel={cancelDrag}>
-              <MachineImage machine={machine} /><span lang="zh-Hans">{machine.name}</span><small>1 × 1</small>
+              <MachineImage machine={machine} /><span lang="zh-Hans">{machine.name}</span><small>{machine.footprint ? `${machine.footprint.width} × ${machine.footprint.height}` : 'size unverified'}</small>
             </button>)}
             {!visibleMachines.length && <p className="factory-empty-results">{text.noResults}</p>}
           </div>

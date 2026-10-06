@@ -105,6 +105,7 @@ const styles = {
       borderTop: '1px solid #ccd8d4',
       borderLeft: '1px solid #ccd8d4',
       background: '#f8faf8',
+      position: 'relative',
     },
     '& .factory-cell': {
       display: 'flex',
@@ -146,6 +147,28 @@ const styles = {
       height: '100%',
       objectFit: 'contain',
       pointerEvents: 'none',
+    },
+    '& .factory-machine-overlay': {
+      position: 'absolute',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '3px',
+      border: '1px solid #77988a',
+      borderRadius: '3px',
+      background: 'rgba(224, 235, 229, 0.82)',
+      pointerEvents: 'none',
+      zIndex: 2,
+      overflow: 'hidden',
+    },
+    '& .factory-machine-overlay.selected': {
+      border: '2px solid var(--factory-accent)',
+      background: 'rgba(187, 219, 204, 0.82)',
+    },
+    '& .factory-machine-overlay img, & .factory-machine-overlay > svg': {
+      width: '100%',
+      height: '100%',
+      objectFit: 'contain',
     },
     '& .factory-cell:focus-visible, & .factory-machine-card:focus-visible': {
       outline: '2px solid var(--factory-accent)',

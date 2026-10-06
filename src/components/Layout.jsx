@@ -1,39 +1,39 @@
 import { useState } from 'react'
 import {
   AppBar,
-  Toolbar,
-  Typography,
-  Container,
-  ToggleButtonGroup,
-  ToggleButton,
   Box,
-  IconButton,
+  Container,
+  Divider,
   Drawer,
+  IconButton,
   List,
   ListItemButton,
   ListItemText,
-  Divider,
+  ToggleButton,
+  ToggleButtonGroup,
+  Toolbar,
+  Typography,
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import { Link as RouterLink, useLocation } from 'react-router'
 import { useLanguage } from '../i18n/LanguageContext'
+import styles from './styles'
 
 const navItems = [
   { to: '/', labelKey: 'navEssenceLookup' },
   { to: '/version-calendar', labelKey: 'navVersionCalendar' },
 ]
 
-const DRAWER_WIDTH = 260
-
-export default function Layout({ children, maxWidth = 'md' }) {
+export default function Layout({ children }) {
   const { language, setLanguage, t } = useLanguage()
   const { pathname } = useLocation()
   const [drawerOpen, setDrawerOpen] = useState(false)
+  const fullHeight = pathname === '/'
 
   return (
-    <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <Box sx={styles.shell(fullHeight)}>
       <AppBar position="static">
-        <Toolbar sx={{ columnGap: 1 }}>
+        <Toolbar sx={styles.toolbar}>
           <IconButton
             edge="start"
             color="inherit"
@@ -42,14 +42,14 @@ export default function Layout({ children, maxWidth = 'md' }) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="h1" sx={{ flexGrow: 1 }}>
+          <Typography variant="h6" component="h1" sx={styles.appTitle}>
             {t('appTitle')}
           </Typography>
         </Toolbar>
       </AppBar>
       <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
-        <Box sx={{ width: DRAWER_WIDTH, height: '100%', display: 'flex', flexDirection: 'column' }}>
-          <Typography variant="h6" component="div" sx={{ px: 2, py: 2 }}>
+        <Box sx={styles.drawer}>
+          <Typography variant="h6" component="div" sx={styles.drawerTitle}>
             {t('appTitle')}
           </Typography>
           <Divider />
@@ -64,17 +64,17 @@ export default function Layout({ children, maxWidth = 'md' }) {
                   selected={active}
                   aria-current={active ? 'page' : undefined}
                   onClick={() => setDrawerOpen(false)}
-                  sx={{ color: 'text.primary', '&:hover': { color: 'text.primary' } }}
+                  sx={styles.navItem}
                 >
                   <ListItemText primary={t(labelKey)} />
                 </ListItemButton>
               )
             })}
           </List>
-          <Box sx={{ flexGrow: 1 }} />
+          <Box sx={styles.drawerSpacer} />
           <Divider />
-          <Box sx={{ p: 2 }}>
-            <Typography variant="caption" color="text.secondary" component="div" sx={{ mb: 1 }}>
+          <Box sx={styles.languageSection}>
+            <Typography variant="caption" color="text.secondary" component="div" sx={styles.languageLabel}>
               {t('language')}
             </Typography>
             <ToggleButtonGroup
@@ -90,15 +90,8 @@ export default function Layout({ children, maxWidth = 'md' }) {
           </Box>
         </Box>
       </Drawer>
-      <Box
-        component="main"
-        sx={{
-          flex: 1,
-          width: '100%',
-          py: 3,
-        }}
-      >
-        <Container maxWidth={maxWidth} sx={{ width: '100%' }}>
+      <Box component="main" sx={styles.main(fullHeight)}>
+        <Container maxWidth={fullHeight ? 'xl' : 'lg'} sx={styles.container(fullHeight)}>
           {children}
         </Container>
       </Box>

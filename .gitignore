@@ -20,6 +20,7 @@ __pycache__
 
 # Editor directories and files
 .cursor
+.agents
 .vscode/*
 !.vscode/extensions.json
 .idea

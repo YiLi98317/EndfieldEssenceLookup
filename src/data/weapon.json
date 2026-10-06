@@ -1,558 +1,1760 @@
 [
   {
-    "id": 1,
-    "name": { "zh": "艺术暴君", "en": "Tyrant of Art" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
-    "stats": { "basic": ["智识"], "additional": ["暴击率"], "skill": ["切骨"] }
-  },
-  {
-    "id": 2,
-    "name": { "zh": "骑士精神", "en": "Chivalry" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["生命"], "skill": ["医疗"] }
-  },
-  {
-    "id": 3,
-    "name": { "zh": "黯色火炬", "en": "Dark Torch" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["智识"], "additional": ["灼热"], "skill": ["附术"] }
-  },
-  {
-    "id": 4,
-    "name": { "zh": "破碎君王", "en": "Shattered King" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["力量"], "additional": ["暴击率"], "skill": ["粉碎"] }
-  },
-  {
-    "id": 5,
-    "name": { "zh": "领航者", "en": "Navigator" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
-    "stats": { "basic": ["智识"], "additional": ["寒冷"], "skill": ["附术"] }
-  },
-  {
-    "id": 6,
-    "name": { "zh": "作品:蚀迹", "en": "Work: Erosion" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["自然"], "skill": ["压制"] }
-  },
-  {
-    "id": 7,
-    "name": { "zh": "扶摇", "en": "Soaring" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 6,
+    "id": "2120",
+    "name": {
+      "zh": "点心时刻"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/2120.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["暴击率"],
-      "skill": ["夜幕"]
-    }
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n轻超域技术实验室推出的奇特作品。据传灵感来自于艺术家拜访的一处医疗中心。造型独特，用料大胆，锋利的剑刃满足任何食用……或战斗需求。"
   },
   {
-    "id": 8,
-    "name": { "zh": "使命必达", "en": "Mission Accomplished" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "2119",
+    "name": {
+      "zh": "苦难的尽头"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
+    "image": "images/weapons/2119.png",
     "stats": {
-      "basic": ["意志"],
-      "additional": ["终结技效率"],
-      "skill": ["追袭"]
-    }
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n巫术时刻推出的古怪施术单元之一。似乎是附着了什么奇特的源石技艺，总是能让持有者有一种莫名的安心感。"
   },
   {
-    "id": 9,
-    "name": { "zh": "大雷斑", "en": "Great Thunder" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "2118",
+    "name": {
+      "zh": "寒夜幽影"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
-    "stats": { "basic": ["力量"], "additional": ["生命"], "skill": ["医疗"] }
-  },
-  {
-    "id": 10,
-    "name": { "zh": "负山", "en": "Shouldering the Mountain" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["效益"] }
-  },
-  {
-    "id": 11,
-    "name": { "zh": "楔子", "en": "Wedge" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
+    "image": "images/weapons/2118.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["暴击率"],
-      "skill": ["附术"]
-    }
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n熔炉要塞铸造的武器之一。造型简洁流畅，特殊的镀层适用于昏暗环境隐蔽作战。"
   },
   {
-    "id": 12,
-    "name": { "zh": "热熔切割器", "en": "Melting Cutter" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1686",
+    "name": {
+      "zh": "黄金时代"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["流转"] }
-  },
-  {
-    "id": 13,
-    "name": { "zh": "沧溟星梦", "en": "Azure Star Dream" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
+    "image": "images/weapons/1686.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["治疗效率"],
-      "skill": ["附术"]
-    }
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业的高端线产品之一。枪尖由特殊金合金制成，坚固且锋利，造型典雅，造价高昂，常被用于需要彰显使用者地位的场合。"
   },
   {
-    "id": 14,
-    "name": { "zh": "宏愿", "en": "Grand Vow" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1685",
+    "name": {
+      "zh": "遥望"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
     "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["附术"] }
+    "image": "images/weapons/1685.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业探索武器规格时制作的范本之一。以通用为目的，投入高端素材完成的全能武器，承载着武库干员们对于终末地的理想。"
   },
   {
-    "id": 15,
-    "name": { "zh": "赫拉芬格", "en": "Hrafngr" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "1663",
+    "name": {
+      "zh": "曜夜的首演"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 6,
-    "stats": { "basic": ["力量"], "additional": ["攻击"], "skill": ["迸发"] }
+    "image": "images/weapons/1663.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业专为流行艺术家定制的高端线产品。梦幻张扬的麦克风造型搭配意外强劲的性能，让不少试用者都印象深刻。"
   },
   {
-    "id": 16,
-    "name": { "zh": "骁勇", "en": "Valiant" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
+    "id": "1650",
+    "name": {
+      "zh": "联结点"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["巧技"] }
+    "image": "images/weapons/1650.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业概念设计比赛优胜作品。微秒级加速与优异的悬停性能融入了设计者对无重力的独特理解。"
   },
   {
-    "id": 17,
-    "name": { "zh": "同类相食", "en": "Cannibalism" },
-    "type": { "zh": "手铳", "en": "Pistol" },
+    "id": "1649",
+    "name": {
+      "zh": "四二式·肃阵"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
+    "image": "images/weapons/1649.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["法术伤害"],
-      "skill": ["附术"]
-    }
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局研发的制式施术单元，应龙特勤队的现役装备之一。拥有优异的稳定性与功能性，能够适应严苛的环境。"
   },
   {
-    "id": 18,
-    "name": { "zh": "显赫声名", "en": "Illustrious Name" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1572",
+    "name": {
+      "zh": "灯火使命"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 6,
-    "stats": { "basic": ["主能力"], "additional": ["物理"], "skill": ["残暴"] }
+    "image": "images/weapons/1572.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n北进重工支援所的旧款产品，操纵性较差但威力惊人，其过大的重量并不讨喜，但却广受作战风格大开大合者的喜欢。"
   },
   {
-    "id": 19,
-    "name": { "zh": "爆破单元", "en": "Explosive Unit" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "1571",
+    "name": {
+      "zh": "幻想苦痛"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
     "rarity": 6,
+    "image": "images/weapons/1571.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["源石技艺"],
-      "skill": ["迸发"]
-    }
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n轻超域技术实验室的实验型产品，剑身使用了前沿性材料，因此重量极轻。当然，它的破坏力并未降低。"
   },
   {
-    "id": 20,
-    "name": { "zh": "不知归", "en": "No Return" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1570",
+    "name": {
+      "zh": "镀红祝福"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["流转"] }
+    "image": "images/weapons/1570.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n巫术时刻发行的长枪之一。在塞什卡开放日上推出的特别纪念款，枪身采用了特殊的镀层工艺，兼具实用性与美学价值。"
   },
   {
-    "id": 21,
-    "name": { "zh": "典范", "en": "Archetype" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "1569",
+    "name": {
+      "zh": "赤缨"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
     "rarity": 6,
-    "stats": { "basic": ["主能力"], "additional": ["攻击"], "skill": ["压制"] }
+    "image": "images/weapons/1569.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局积十余年之功设计、制作的大剑。规制严整，挥舞起来刚猛至极，是重型兵刃的典范之作。"
   },
   {
-    "id": 22,
-    "name": { "zh": "J.E.T.", "en": "J.E.T." },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
+    "id": "1382",
+    "name": {
+      "zh": "孤舟"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
-    "stats": { "basic": ["主能力"], "additional": ["攻击"], "skill": ["压制"] }
+    "image": "images/weapons/1382.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局研发的施术单元。大胆采用了与息壤相结合的新型材料，优秀的性能可以大幅提高施术效能，但对使用者而言也有着一定的门槛。"
   },
   {
-    "id": 23,
-    "name": { "zh": "白夜新星", "en": "White Night Nova" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1400",
+    "name": {
+      "zh": "雾中微光"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 6,
+    "image": "images/weapons/1400.png",
     "stats": {
-      "basic": ["主能力"],
-      "additional": ["源石技艺"],
-      "skill": ["附术"]
-    }
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "电磁"
+      ],
+      "skill": [
+        "效益"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业的经典产品，在极点远征时期大量投入使用。金黄色涂装十分醒目，在漫天暴雪中都清晰可见。"
   },
   {
-    "id": 24,
-    "name": { "zh": "遗忘", "en": "Oblivion" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "1177",
+    "name": {
+      "zh": "狼之绯"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
     "rarity": 6,
+    "image": "images/weapons/1177.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["法术伤害"],
-      "skill": ["夜幕"]
-    }
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "切骨"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n雷神工业生产的热销款长剑，经黑市渠道行销文明环带之外，在裂地者中颇受欢迎，不少人都会为它增加特殊改装模块。"
   },
   {
-    "id": 25,
-    "name": { "zh": "熔铸火焰", "en": "Molten Flame" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "1176",
+    "name": {
+      "zh": "落草"
+    },
+    "type": {
+      "zh": "手铳"
+    },
     "rarity": 6,
-    "stats": { "basic": ["智识"], "additional": ["攻击"], "skill": ["夜幕"] }
+    "image": "images/weapons/1176.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局研发的铳械。设计简单，用料扎实，携带轻便，能适应多种复杂环境。"
   },
   {
-    "id": 26,
-    "name": { "zh": "昔日精品", "en": "Former Masterpiece" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "1174",
+    "name": {
+      "zh": "望乡"
+    },
+    "type": {
+      "zh": "手铳"
+    },
     "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["生命"], "skill": ["效益"] }
-  },
-  {
-    "id": 27,
-    "name": { "zh": "布道自由", "en": "Preach Freedom" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
+    "image": "images/weapons/1174.png",
     "stats": {
-      "basic": ["意志"],
-      "additional": ["治疗效率"],
-      "skill": ["医疗"]
-    }
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "寒冷"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局研发的铳械。为贴合宏科院武装力量的基本方针，在设计时特别减轻了重量，优化了持握手感。"
   },
   {
-    "id": 28,
-    "name": { "zh": "十二问", "en": "Twelve Inquiries" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["附术"] }
-  },
-  {
-    "id": 29,
-    "name": { "zh": "终点之声", "en": "Voice of the End" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["力量"], "additional": ["生命"], "skill": ["医疗"] }
-  },
-  {
-    "id": 30,
-    "name": { "zh": "O.B.J. 尖峰", "en": "O.B.J. Peak" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 5,
-    "stats": { "basic": ["意志"], "additional": ["物理"], "skill": ["附术"] }
-  },
-  {
-    "id": 31,
-    "name": { "zh": "O.B.J.术识", "en": "O.B.J. Arcanum" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
+    "id": "1173",
+    "name": {
+      "zh": "光荣记忆"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/1173.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["源石技艺"],
-      "skill": ["追袭"]
-    }
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n熔炉要塞铸造的武器之一。造型典雅精致，常用于铁誓军的仪式场合而非前线搏杀，剑身经多重精磨，刃口锋锐至极。"
   },
   {
-    "id": 32,
-    "name": { "zh": "O.B.J.轻芒", "en": "O.B.J. Light Edge" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["流转"] }
-  },
-  {
-    "id": 33,
-    "name": { "zh": "O.B.J.重荷", "en": "O.B.J. Heavy Burden" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["力量"], "additional": ["生命"], "skill": ["效益"] }
-  },
-  {
-    "id": 34,
-    "name": { "zh": "向心之引", "en": "Centripetal Pull" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 5,
-    "stats": { "basic": ["意志"], "additional": ["电磁"], "skill": ["压制"] }
-  },
-  {
-    "id": 35,
-    "name": { "zh": "仰止", "en": "Admiration" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["夜幕"] }
-  },
-  {
-    "id": 36,
-    "name": { "zh": "悼亡诗", "en": "Elegy" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
-    "stats": { "basic": ["智识"], "additional": ["攻击"], "skill": ["夜幕"] }
-  },
-  {
-    "id": 37,
-    "name": { "zh": "钢铁余音", "en": "Steel Echo" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["巧技"] }
-  },
-  {
-    "id": 38,
-    "name": { "zh": "作品:众生", "en": "Work: All Beings" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 5,
+    "id": "112",
+    "name": {
+      "zh": "艺术暴君"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/112.png",
     "stats": {
-      "basic": ["敏捷"],
-      "additional": ["法术伤害"],
-      "skill": ["附术"]
-    }
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "切骨"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业大胆推出的艺术家联名系列中最受欢迎的产品之一。充满个性的造型匹配狂暴的性能，在二级市场的溢价足以证明它的人气。"
   },
   {
-    "id": 39,
-    "name": { "zh": "莫奈何", "en": "Beyond Reproach" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
+    "id": "124",
+    "name": {
+      "zh": "使命必达"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/124.png",
     "stats": {
-      "basic": ["意志"],
-      "additional": ["终结技效率"],
-      "skill": ["昂扬"]
-    }
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "追袭"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n雷神工业的经典尖端产品，其原型从第一次天使战争时便投入使用。该产品不断迭代至今，强大的火力意味着安全与保障。"
   },
   {
-    "id": 40,
-    "name": { "zh": "坚城铸造者", "en": "Stronghold Forger" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
+    "id": "70",
+    "name": {
+      "zh": "熔铸火焰"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/70.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["终结技效率"],
-      "skill": ["昂扬"]
-    }
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n巫术时刻锻铸的锋利兵刃之一。特殊精炼使得剑身泛红，施术单元采取独特的液化源石方案，仿佛是熔炉中流下的一滴血泪。"
   },
   {
-    "id": 41,
-    "name": { "zh": "探骊", "en": "Deep Dive" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 5,
+    "id": "71",
+    "name": {
+      "zh": "黯色火炬"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/71.png",
     "stats": {
-      "basic": ["力量"],
-      "additional": ["终结技效率"],
-      "skill": ["迸发"]
-    }
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "灼热"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n雷神工业推出的新一代轻量化武器。整个剑身均采用特制的合成金属作为材料。深受“专业人士”青睐。"
   },
   {
-    "id": 42,
-    "name": { "zh": "O.B.J.迅极", "en": "O.B.J. Swift Extreme" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 5,
+    "id": "113",
+    "name": {
+      "zh": "领航者"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/113.png",
     "stats": {
-      "basic": ["敏捷"],
-      "additional": ["终结技效率"],
-      "skill": ["迸发"]
-    }
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "寒冷"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业年度概念新品，以此致敬带领我们踏上塔卫二无垠旅途的领航者。"
   },
   {
-    "id": 43,
-    "name": { "zh": "迷失荒野", "en": "Lost Wilderness" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 5,
-    "stats": { "basic": ["智识"], "additional": ["电磁"], "skill": ["附术"] }
-  },
-  {
-    "id": 44,
-    "name": { "zh": "逐鳞3.0", "en": "Chasing Scale 3.0" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 5,
-    "stats": { "basic": ["力量"], "additional": ["寒冷"], "skill": ["压制"] }
-  },
-  {
-    "id": 45,
-    "name": { "zh": "古渠", "en": "Ancient Ditch" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 5,
+    "id": "126",
+    "name": {
+      "zh": "作品：蚀迹"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/126.png",
     "stats": {
-      "basic": ["力量"],
-      "additional": ["源石技艺"],
-      "skill": ["残暴"]
-    }
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "自然"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n轻超域技术实验室签约作品。艺术家亲手錾刻的金属器件与冰碛岩的纹理缀合，形成独一无二的施术回路。"
   },
   {
-    "id": 46,
-    "name": { "zh": "嵌合正义", "en": "Chimeric Justice" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 5,
+    "id": "129",
+    "name": {
+      "zh": "骑士精神"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/129.png",
     "stats": {
-      "basic": ["力量"],
-      "additional": ["终结技效率"],
-      "skill": ["残暴"]
-    }
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "医疗"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业研发的施术单元之一。选用特制D64钢壳，配多款定制模块。这款产品让人联想起昔日竞技场的烟火秀。"
   },
   {
-    "id": 47,
-    "name": { "zh": "理性告别", "en": "Rational Farewell" },
-    "type": { "zh": "手铳", "en": "Pistol" },
+    "id": "128",
+    "name": {
+      "zh": "遗忘"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/128.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n巫术时刻研发的施术单元之一。除了基本源石线路外，一切材质不明。这真的是可以在塔卫二造出来的东西吗？"
+  },
+  {
+    "id": "127",
+    "name": {
+      "zh": "爆破单元"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/127.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "源石技艺"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n北进重工支援所开发的施术单元，拥有毫无争议的最佳源石技艺传导性。只有最强壮的使用者才能驾驭这一产品。"
+  },
+  {
+    "id": "125",
+    "name": {
+      "zh": "沧溟星梦"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 6,
+    "image": "images/weapons/125.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "治疗效率"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业的高端线产品之一。优秀的源石技艺传导性让它不像其他时髦产品那样华而不实。"
+  },
+  {
+    "id": "115",
+    "name": {
+      "zh": "同类相食"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/115.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n雷神工业制造的特殊铳械，使用难度极高。因为是实验型武器，所以仅在市场上投放了少量样品。"
+  },
+  {
+    "id": "114",
+    "name": {
+      "zh": "楔子"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 6,
+    "image": "images/weapons/114.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n北进重工支援所的传奇产品。完美体现北进重工的风格：强大的破坏力、绝对的可靠性，以及令人头疼的操作性。"
+  },
+  {
+    "id": "105",
+    "name": {
+      "zh": "J.E.T."
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 6,
+    "image": "images/weapons/105.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n北进重工支援所的实验型高级产品，原型由其已解散的航空器研究中心设计。它载有源石增压喷射器，性能惊人。"
+  },
+  {
+    "id": "104",
+    "name": {
+      "zh": "骁勇"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 6,
+    "image": "images/weapons/104.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "巧技"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业的中端线产品之一。复古的巨箭型设计以及不俗的实战实用性，使其至今仍有市无价。"
+  },
+  {
+    "id": "103",
+    "name": {
+      "zh": "负山"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 6,
+    "image": "images/weapons/103.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "效益"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局研发的实验型长枪。枪杆部位在铸造时混入了极特殊的金合金，在保证强度的同时极大提高了韧性。"
+  },
+  {
+    "id": "96",
+    "name": {
+      "zh": "破碎君王"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/96.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "粉碎"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n巫术时刻限量发行的特殊武器之一，似乎是依循着什么古老传说打造的外形，仿佛能捕捉梦境中的呻吟。"
+  },
+  {
+    "id": "86",
+    "name": {
+      "zh": "昔日精品"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/86.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "效益"
+      ]
+    },
+    "description": "终未地干员用武器，装备之后可以显著提升干员的作战能力。\n北进重工支援所的高端产品。一款采用旧技术设计的链式切割器，目前已不再大规模生产，但设计依然可靠。"
+  },
+  {
+    "id": "85",
+    "name": {
+      "zh": "典范"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/85.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业最新推出的独立产品。据传这款设计源于寂语修会的发掘产物，内含绝密技术，分金裂石，无坚不摧。"
+  },
+  {
+    "id": "84",
+    "name": {
+      "zh": "赫拉芬格"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/84.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n巫术时刻推出的古怪武器之一。刀身由寻常的冰块打造，但表面附着的奇特源石技艺让其变得坚不可摧。"
+  },
+  {
+    "id": "83",
+    "name": {
+      "zh": "大雷斑"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/83.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "医疗"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的特别装备之一。焰形剑搭配的交错式源石线路能提高基质效率。灵感来于观测到的塔罗斯现象。"
+  },
+  {
+    "id": "75",
+    "name": {
+      "zh": "白夜新星"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/75.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "源石技艺"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n熔炉要塞铸造的武器之一。剑柄采用了拉丝设计，增加阻尼，握持感优良。剑身取自荒原上的稀有矿石。"
+  },
+  {
+    "id": "74",
+    "name": {
+      "zh": "显赫声名"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/74.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "残暴"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业推出的高品质佩剑，深受环塔商会上流人士的青睐。精细雕琢的外表下，性能同样值得信赖。"
+  },
+  {
+    "id": "73",
+    "name": {
+      "zh": "热熔切割器"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/73.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "流转"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n北进重工支援所“开拓者”系列的基础产品。四型热熔切割器采用专利高温材料，切割性能强劲，受到工程人员广泛好评。"
+  },
+  {
+    "id": "72",
+    "name": {
+      "zh": "扶摇"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/72.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [
+        "暴击率"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局的高端佩剑产品，用于表彰有突出贡献的人士，命名由宏科院内部征集确定。"
+  },
+  {
+    "id": "68",
+    "name": {
+      "zh": "不知归"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/68.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "流转"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n熔炉要塞锻造的武器之一。即使经过反复重铸，锋芒内敛，却依旧蕴含迫人威势。"
+  },
+  {
+    "id": "67",
+    "name": {
+      "zh": "宏愿"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 6,
+    "image": "images/weapons/67.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的优质武器，极具创意地将实验型源石材料作为剑身主体，使其拥有了极佳的能量传导性能。"
+  },
+  {
+    "id": "123",
+    "name": {
+      "zh": "O.B.J.术识"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 5,
-    "stats": { "basic": ["力量"], "additional": ["灼热"], "skill": ["追袭"] }
+    "image": "images/weapons/123.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "源石技艺"
+      ],
+      "skill": [
+        "追袭"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业出品的系列制式装备。由资深武库工程师奥佩罗所组建的原型创意组设计。功率取决于使用者的源石技艺水平。"
   },
   {
-    "id": 48,
-    "name": { "zh": "全自动骇新星", "en": "Fully Automatic Nova" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "122",
+    "name": {
+      "zh": "布道自由"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/122.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "治疗效率"
+      ],
+      "skill": [
+        "医疗"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业为寂语修会定制的施术单元。该产品从设计、验证到落地生产和调试都在寂语修会修士的指导建议下完成。"
+  },
+  {
+    "id": "121",
+    "name": {
+      "zh": "迷失荒野"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/121.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "电磁"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n雷神工业研发的一款施术单元，以简洁和轻量著称。其材料用量不足普通施术单元的一半。"
+  },
+  {
+    "id": "120",
+    "name": {
+      "zh": "莫奈何"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/120.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "昂扬"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局研发的施术单元，采用了珍贵的息壤材料。因其材料特性，使用者必须具备极高的操控准确度。"
+  },
+  {
+    "id": "119",
+    "name": {
+      "zh": "悼亡诗"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
+    "rarity": 5,
+    "image": "images/weapons/119.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n巫术时刻推出的古怪施术单元之一。反直觉地削弱了源石技艺的适应性，只为强调古老提卡兹巫术的黑暗逻辑。"
+  },
+  {
+    "id": "111",
+    "name": {
+      "zh": "理性告别"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 5,
+    "image": "images/weapons/111.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "灼热"
+      ],
+      "skill": [
+        "追袭"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n雷神工业为支持人类对外探索而设计生产的高性能铳械，具有较强的环境适应能力，是大多探索者的标配武器。"
+  },
+  {
+    "id": "110",
+    "name": {
+      "zh": "O.B.J.迅极"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 5,
+    "image": "images/weapons/110.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业出品的系列制式装备。由资深武库工程师奥佩罗所组建的原型创意组设计。采用轻量材质，扎实耐用。"
+  },
+  {
+    "id": "109",
+    "name": {
+      "zh": "作品：众生"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 5,
+    "image": "images/weapons/109.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n轻超域技术实验室受托定制作品。艺术家大胆地使用遗迹残石包覆铳膛，并在残石上刻下了特殊的脉络。"
+  },
+  {
+    "id": "102",
+    "name": {
+      "zh": "向心之引"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 5,
+    "image": "images/weapons/102.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "电磁"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n雷神工业客制化产品线的经典案例。在军用刺枪形制的基础上，增添了多样化的特殊功能和个人化的美学设计。"
+  },
+  {
+    "id": "101",
+    "name": {
+      "zh": "O.B.J.尖峰"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 5,
+    "image": "images/weapons/101.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业出品的系列制式装备。由资深武库工程师奥佩罗所组建的原型创意组设计。使用者可自由调整枪尖的组件。"
+  },
+  {
+    "id": "100",
+    "name": {
+      "zh": "嵌合正义"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 5,
+    "image": "images/weapons/100.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "残暴"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业设计的实验型长枪，实际投产量较少，为了适应复杂多变的战场而采用了便于拆卸拼接的模块化设计。"
+  },
+  {
+    "id": "82",
+    "name": {
+      "zh": "O.B.J.重荷"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/82.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "效益"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业出品的系列制式装备。由资深武库工程师奥佩罗所组建的原型创意组设计。可根据实战需求，装配不同的模块套件。"
+  },
+  {
+    "id": "81",
+    "name": {
+      "zh": "终点之声"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/81.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "医疗"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业小规模生产的特别产品。本品是梅什科工业与骑士竞技专家克伦威尔合作系列的最后一款设计。"
+  },
+  {
+    "id": "80",
+    "name": {
+      "zh": "古渠"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/80.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "源石技艺"
+      ],
+      "skill": [
+        "残暴"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局制造的优质大剑。较之同类产品，它更轻盈，但杀伤力却没有降低分毫。"
+  },
+  {
+    "id": "79",
+    "name": {
+      "zh": "探骊"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/79.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "迸发"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局研发的制式大剑。剑身使用了新型特种涂料，防护能力优良，即使处于极端恶劣环境下也能免受影响。"
+  },
+  {
+    "id": "66",
+    "name": {
+      "zh": "仰止"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/66.png",
+    "stats": {
+      "basic": [],
+      "additional": [],
+      "skill": []
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n宏山选剑局推出的上等武器，是其所有产品中较受市场欢迎的一款，在荒地上亦有不少仿品。"
+  },
+  {
+    "id": "65",
+    "name": {
+      "zh": "O.B.J.轻芒"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/65.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "流转"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业出品的系列制式装备。由资深武库工程师奥佩罗所组建的原型创意组设计。剑柄配有可拆卸的辅助配件。"
+  },
+  {
+    "id": "64",
+    "name": {
+      "zh": "十二问"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/64.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "附术"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n产自荒野的锋利长剑。不同的武器工匠在这类武器上缠裹饰品的方式截然不同。"
+  },
+  {
+    "id": "63",
+    "name": {
+      "zh": "逐鳞3.0"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/63.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "寒冷"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n北进重工支援所“户外探索”系列的旗舰产品。因其亲近自然的设计理念和便携的功能性，受到许多探险家与捕鳞爱好者的强烈推荐。"
+  },
+  {
+    "id": "62",
+    "name": {
+      "zh": "坚城铸造者"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/62.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "终结技效率"
+      ],
+      "skill": [
+        "昂扬"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n熔炉要塞铸造的武器之一。旧式的结构设计使其坚实耐用，厚重的剑躯随着战线的推移在冻土上留下了无数痕迹。"
+  },
+  {
+    "id": "61",
+    "name": {
+      "zh": "钢铁余音"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 5,
+    "image": "images/weapons/61.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "巧技"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员高级装备之一。握柄与护手采用一体化设计，应力充能机构储存动能，提高武器的杀伤力。"
+  },
+  {
+    "id": "118",
+    "name": {
+      "zh": "荧光雷羽"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 4,
+    "image": "images/weapons/118.png",
     "stats": {
-      "basic": ["智识"],
-      "additional": ["法术伤害"],
-      "skill": ["昂扬"]
-    }
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的施术单元之一。结构大胆，传导性强，难以驾驭。许多干员将熟练使用它当作小有所成的证明。"
   },
   {
-    "id": 49,
-    "name": { "zh": "应急手段", "en": "Emergency Measures" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "117",
+    "name": {
+      "zh": "全自动骇新星"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 4,
-    "stats": { "basic": ["敏捷"], "additional": ["物理"], "skill": ["压制"] }
-  },
-  {
-    "id": 50,
-    "name": { "zh": "呼啸守卫", "en": "Howling Guard" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 4,
-    "stats": { "basic": ["智识"], "additional": ["攻击"], "skill": ["压制"] }
-  },
-  {
-    "id": 51,
-    "name": { "zh": "荧光雷羽", "en": "Fluorescent Lightning Feather" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 4,
-    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["压制"] }
-  },
-  {
-    "id": 52,
-    "name": { "zh": "浪潮", "en": "Tide" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 4,
-    "stats": { "basic": ["智识"], "additional": ["攻击"], "skill": ["追袭"] }
-  },
-  {
-    "id": 53,
-    "name": { "zh": "工业零点一", "en": "Industrial Zero Point One" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
-    "rarity": 4,
-    "stats": { "basic": ["力量"], "additional": ["攻击"], "skill": ["压制"] }
-  },
-  {
-    "id": 54,
-    "name": { "zh": "长路", "en": "Long Road" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 4,
+    "image": "images/weapons/117.png",
     "stats": {
-      "basic": ["力量"],
-      "additional": ["法术伤害"],
-      "skill": ["追袭"]
-    }
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "昂扬"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员进阶装备之一。武库沿用了安德烈的设计方案，可预存储术式，在紧急情况下快速传导法术。"
   },
   {
-    "id": 55,
-    "name": { "zh": "淬火者", "en": "Quenched One" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "108",
+    "name": {
+      "zh": "长路"
+    },
+    "type": {
+      "zh": "手铳"
+    },
     "rarity": 4,
-    "stats": { "basic": ["意志"], "additional": ["生命"], "skill": ["粉碎"] }
-  },
-  {
-    "id": 56,
-    "name": { "zh": "寻路者道标", "en": "Pathfinder Beacon" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 4,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["昂扬"] }
-  },
-  {
-    "id": 57,
-    "name": { "zh": "天使杀手", "en": "Angel Slayer" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
-    "rarity": 4,
+    "image": "images/weapons/108.png",
     "stats": {
-      "basic": ["意志"],
-      "additional": ["法术伤害"],
-      "skill": ["压制"]
-    }
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "追袭"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n熔炉要塞为铁誓军基层士兵生产的制式铳械，因其结构简单，输出功率高而备受欢迎。"
   },
   {
-    "id": 58,
-    "name": { "zh": "佩科5", "en": "Peck 5" },
-    "type": { "zh": "手铳", "en": "Pistol" },
+    "id": "107",
+    "name": {
+      "zh": "呼啸守卫"
+    },
+    "type": {
+      "zh": "手铳"
+    },
+    "rarity": 4,
+    "image": "images/weapons/107.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业推出的中端产品之一。复古拉特兰结构与现代工业结构的完美融合，蓝色漆面金属勾勒出独特的审美。"
+  },
+  {
+    "id": "99",
+    "name": {
+      "zh": "天使杀手"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 4,
+    "image": "images/weapons/99.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "法术伤害"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n熔炉要塞为铁誓军基层士兵生产的制式长枪。以锋利著称，专为克制天使而设计。"
+  },
+  {
+    "id": "98",
+    "name": {
+      "zh": "寻路者道标"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
+    "rarity": 4,
+    "image": "images/weapons/98.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "昂扬"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员进阶装备之一。造型简洁，携行轻便，平衡性优良，令人想起罗德岛先锋干员的制式长枪。"
+  },
+  {
+    "id": "78",
+    "name": {
+      "zh": "淬火者"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 4,
+    "image": "images/weapons/78.png",
+    "stats": {
+      "basic": [
+        "意志"
+      ],
+      "additional": [
+        "生命"
+      ],
+      "skill": [
+        "粉碎"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n熔炉要塞出品的制式大剑。虽然精通者廖寥，但由于上手十分简单，历来是新兵的入门武器首选。"
+  },
+  {
+    "id": "77",
+    "name": {
+      "zh": "工业零点一"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
+    "rarity": 4,
+    "image": "images/weapons/77.png",
+    "stats": {
+      "basic": [
+        "力量"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "压制"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n在开拓区常见的一种武器类型，基础设计已难以追溯。这种武器制造工艺并不复杂，常见工业设备都可生产。"
+  },
+  {
+    "id": "60",
+    "name": {
+      "zh": "浪潮"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 4,
+    "image": "images/weapons/60.png",
+    "stats": {
+      "basic": [
+        "智识"
+      ],
+      "additional": [
+        "攻击"
+      ],
+      "skill": [
+        "追袭"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n梅什科工业的中端产品之一。潮流新锐的造型，惊人的性价比，使其成为环塔商会的时尚消费新宠。"
+  },
+  {
+    "id": "59",
+    "name": {
+      "zh": "显锋"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
+    "rarity": 4,
+    "image": "images/weapons/59.png",
+    "stats": {
+      "basic": [
+        "敏捷"
+      ],
+      "additional": [
+        "物理"
+      ],
+      "skill": [
+        "夜幕"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员进阶装备之一。简洁的模块化构造带来了轻盈平衡的握持体验，剑刃耐用性十足。"
+  },
+  {
+    "id": "116",
+    "name": {
+      "zh": "吉米尼12"
+    },
+    "type": {
+      "zh": "施术单元"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+    "image": "images/weapons/116.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员基础装备之一。由武库工程师吉米尼负责设计。这款施术单元格外受新进干员喜爱。"
   },
   {
-    "id": 59,
-    "name": { "zh": "达尔霍夫7", "en": "Dalhoff 7" },
-    "type": { "zh": "双手剑", "en": "Two-handed Sword" },
+    "id": "106",
+    "name": {
+      "zh": "佩科5"
+    },
+    "type": {
+      "zh": "手铳"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+    "image": "images/weapons/106.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员基础装备之一。由武库工程师佩科负责设计。蚀刻弹药与铳械不再只属于萨科塔。"
   },
   {
-    "id": 60,
-    "name": { "zh": "奥佩罗77", "en": "Opero 77" },
-    "type": { "zh": "长柄武器", "en": "Polearm" },
+    "id": "97",
+    "name": {
+      "zh": "奥佩罗77"
+    },
+    "type": {
+      "zh": "长柄武器"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+    "image": "images/weapons/97.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员基础装备之一。由资深武库工程师奥佩罗亲自设计。其舒适的握持感令新进干员也能运用自如。"
   },
   {
-    "id": 61,
-    "name": { "zh": "吉米尼12", "en": "Jiminy 12" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
+    "id": "76",
+    "name": {
+      "zh": "达尔霍夫7"
+    },
+    "type": {
+      "zh": "双手剑"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
+    "image": "images/weapons/76.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员基础装备之一。由武库工程师达尔霍夫负责设计。该设计为攻坚任务提供装备选择。"
   },
   {
-    "id": 62,
-    "name": { "zh": "塔尔11", "en": "Tar 11" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
+    "id": "58",
+    "name": {
+      "zh": "塔尔11"
+    },
+    "type": {
+      "zh": "单手剑"
+    },
     "rarity": 3,
-    "stats": { "basic": ["主能力"], "additional": [], "skill": ["强攻"] }
-  },
-  {
-    "id": 63,
-    "name": { "zh": "孤舟", "en": "Lone Boat" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["攻击"], "skill": ["压制"] }
-  },
-  {
-    "id": 64,
-    "name": { "zh": "冥中微光", "en": "Glimmer in the Dark" },
-    "type": { "zh": "施术单元", "en": "Spell Unit" },
-    "rarity": 6,
-    "stats": { "basic": ["意志"], "additional": ["电磁"], "skill": ["效益"] }
-  },
-  {
-    "id": 65,
-    "name": { "zh": "狼之绯", "en": "Crimson of the Wolf" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["暴击率"], "skill": ["切骨"] }
-  },
-  {
-    "id": 66,
-    "name": { "zh": "落草", "en": "Fallen Grass" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["攻击"], "skill": ["迸发"] }
-  },
-  {
-    "id": 67,
-    "name": { "zh": "光荣记忆", "en": "Glorious Memory" },
-    "type": { "zh": "单手剑", "en": "One-handed Sword" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["暴击率"], "skill": ["夜幕"] }
-  },
-  {
-    "id": 68,
-    "name": { "zh": "望乡", "en": "Homesickness" },
-    "type": { "zh": "手铳", "en": "Pistol" },
-    "rarity": 6,
-    "stats": { "basic": ["敏捷"], "additional": ["寒冷"], "skill": ["压制"] }
+    "image": "images/weapons/58.png",
+    "stats": {
+      "basic": [
+        "主能力"
+      ],
+      "additional": [],
+      "skill": [
+        "强攻"
+      ]
+    },
+    "description": "终末地干员用武器，装备之后可以显著提升干员的作战能力。\n终末地工业制造的干员基础装备之一。 由武库工程师塔尔负责设计。 它是许多外勤干员的第一把武器。"
   }
 ]

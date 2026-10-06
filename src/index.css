@@ -13,6 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+*,
+*::before,
+*::after {
+  cursor: image-set(url('/cursors/pointer.png') 1x, url('/cursors/pointer@2x.png') 2x) 1 1, auto !important;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

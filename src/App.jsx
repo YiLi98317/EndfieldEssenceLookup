@@ -1,15 +1,10 @@
-import { Routes, Route, Navigate } from 'react-router'
-import EssenceLookupPage from './pages/EssenceLookupPage'
-import VersionCalendarPage from './pages/VersionCalendarPage'
+import Layout from './components/Layout'
+import AppRouter from './router'
 
-function App() {
+export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<EssenceLookupPage />} />
-      <Route path="/version-calendar" element={<VersionCalendarPage />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <Layout>
+      <AppRouter />
+    </Layout>
   )
 }
-
-export default App

@@ -65,21 +65,40 @@ const styles = {
     '& .factory-instructions': {
       padding: '0 18px 12px',
     },
+    '& .factory-grid-toolbar': {
+      display: 'flex',
+      alignItems: 'center',
+      flexWrap: 'wrap',
+      gap: '8px',
+      padding: '0 12px 12px',
+    },
+    '& .factory-zoom-controls': {
+      display: 'flex',
+      alignItems: 'center',
+      marginLeft: 'auto',
+      fontSize: '12px',
+      gap: '4px',
+      '& button': { minWidth: '32px' },
+      '& span': { minWidth: '40px', textAlign: 'center' },
+    },
     '& .factory-grid-scroll': {
-      overflow: 'hidden',
+      overflow: 'auto',
       padding: '12px',
       background: '#edf2f1',
       flex: 1,
       minHeight: 0,
+      overscrollBehavior: 'contain',
+    },
+    '& .factory-grid-stage': {
+      height: '100%',
       display: 'grid',
       placeItems: 'center',
-      containerType: 'size',
     },
     '& .factory-grid': {
       display: 'grid',
       gridTemplateColumns: 'repeat(20, minmax(0, 1fr))',
       gridTemplateRows: 'repeat(20, minmax(0, 1fr))',
-      width: 'min(100cqw, 100cqh)',
+      flexShrink: 0,
       minWidth: 0,
       margin: 0,
       aspectRatio: '1',
@@ -270,7 +289,7 @@ const styles = {
     '& .factory-empty-results': {
       padding: '24px 0',
     },
-    '& .factory-cell.occupied, & .factory-machine-card': {
+    '& .factory-cell, & .factory-machine-card': {
       touchAction: 'none',
       userSelect: 'none',
       WebkitUserSelect: 'none',

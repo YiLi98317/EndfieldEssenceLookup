@@ -13,9 +13,7 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) (or the URL Vite prints).
 
-Node.js 22.12+ is recommended (CI/workflows use Node 22). This repo includes:
-- `.nvmrc` for `nvm`
-- `.node-version` for tools like `asdf`
+Node.js 22.12+ is recommended (CI/workflows use Node 22). Run `nvm use` to pick up the version in `.nvmrc`.
 
 ## Desktop (Electron)
 

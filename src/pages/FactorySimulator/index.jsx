@@ -45,6 +45,7 @@ export default function FactorySimulatorPage() {
   const occupied = occupiedCells(draft.cells)
   const gridSize = fitSize * zoom / 100
   const selectedMachine = selection && machinesById[selection.machineId]
+  const selectedPorts = selectedMachine?.akedatabase?.ports ?? []
   const visibleMachines = catalog.machines.filter(machine =>
     (category === 'all' || machine.categoryId === category) &&
     `${machine.name} ${machine.description}`.toLowerCase().includes(search.trim().toLowerCase()),
@@ -203,7 +204,9 @@ export default function FactorySimulatorPage() {
               </div>
             </> : selectedMachine ? <>
               <div className="factory-selected-machine"><MachineImage key={selectedMachine.id} machine={selectedMachine} /><strong>{selectedMachine.name}</strong><Chip label={selectedMachine.footprint ? `${selectedMachine.footprint.width} × ${selectedMachine.footprint.height}` : 'size unverified'} size="small" /></div>
-              <p lang="zh-Hans">{selectedMachine.description}</p><p>{selection.source === null ? text.placeHint : text.moveHint}</p>
+              <p lang="zh-Hans">{selectedMachine.description}</p>
+              {selectedPorts.length > 0 && <p>{text.portSummary(selectedPorts)}</p>}
+              <p>{selection.source === null ? text.placeHint : text.moveHint}</p>
               <div className="factory-selection-actions">
                 {selection.source !== null && <Button size="small" color="error" onClick={removeSelected}>{text.remove}</Button>}
                 <Button size="small" onClick={deselect}>{text.cancel}</Button>
@@ -222,6 +225,12 @@ export default function FactorySimulatorPage() {
               setAreaMode(!areaMode); deselect()
             }}>{text.selectArea}</Button>
             <Button size="small" color="error" disabled={!selectedCount} onClick={removeSelected}>{text.removeArea}{selectedCount ? ` (${selectedCount})` : ''}</Button>
+            <div className="factory-port-legend" aria-label={text.portLegend}>
+              <span className="factory-port-key input belt">I</span>{text.inputPort}
+              <span className="factory-port-key output belt">O</span>{text.outputPort}
+              <span className="factory-port-key input pipe">I</span>{text.pipePort}
+              <span className="factory-port-key output pipe">O</span>{text.pipeOutputPort}
+            </div>
             <div className="factory-zoom-controls" role="group" aria-label={text.zoom}>
               <Button size="small" aria-label={text.zoomOut} disabled={zoom <= 50} onClick={() => setZoom(value => Math.max(50, value - 25))}>−</Button>
               <span aria-live="polite">{zoom}%</span>
@@ -273,9 +282,20 @@ export default function FactorySimulatorPage() {
                   const selected = selectedCells.has(anchor) || selection?.source === anchor
                   const row = Math.floor(anchor / SIZE)
                   const column = anchor % SIZE
+                  const ports = machine.akedatabase?.ports ?? []
+                  const sourceFootprint = machine.akedatabase?.footprint ?? { width: footprint.width, depth: footprint.height }
                   return <div key={`${anchor}-${machineId}`} className={`factory-machine-overlay${selected ? ' selected' : ''}`}
                     style={{ left: `${column / SIZE * 100}%`, top: `${row / SIZE * 100}%`, width: `${footprint.width / SIZE * 100}%`, height: `${footprint.height / SIZE * 100}%` }}
-                    aria-hidden="true"><MachineImage machine={machine} /></div>
+                    aria-hidden="true"><MachineImage machine={machine} />
+                    {ports.map((port, index) => {
+                      const x = Number(port.position?.x)
+                      const z = Number(port.position?.z)
+                      if (!Number.isFinite(x) || !Number.isFinite(z)) return null
+                      return <span key={`${port.role}-${port.index ?? index}`} className={`factory-port-marker ${port.role} ${port.medium}`}
+                        style={{ left: `${((x + 0.5) / sourceFootprint.width) * 100}%`, top: `${((z + 0.5) / sourceFootprint.depth) * 100}%` }}
+                        title={`${port.role} · ${port.medium}${port.edges?.length ? ` · ${port.edges.join('/')}` : ''}`}>{port.role === 'input' ? 'I' : 'O'}</span>
+                    })}
+                  </div>
                 })}
               </div>
             </div>

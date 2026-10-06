@@ -1,8 +1,9 @@
 # Factory footprint dataset
 
-Collected from the SKLand equipment catalog on October 6, 2026. All 102 local
-catalog entries were matched to their detail-page `gameEntryId` and name.
-98 pages specify numeric grid dimensions; four mining devices do not.
+Collected from the SKLand equipment catalog and AKEDatabase on October 6, 2026.
+All 102 local catalog entries were matched to their SKLand detail-page ID and
+name. AKEDatabase supplies 92 machine layouts directly; the remaining 10
+transport/decorative entries retain their SKLand dimensions.
 
 ## Local files
 
@@ -10,6 +11,11 @@ catalog entries were matched to their detail-page `gameEntryId` and name.
   `footprintStatus`, and `footprintSource`.
 - `src/data/factory-dimension-sources.json`: exact area-requirement excerpts,
   detail URLs, collection date, and the site's testing-content notice.
+- `src/data/akedatabase-machine-layouts.json`: normalized layouts from the
+  current AKEDatabase `FactoryBuildingTable` and Chinese text table, including
+  2D/3D ranges and local input/output ports.
+- `scripts/sync_akedatabase.py`: fetches the manifest's latest AKEDatabase
+  version, writes the normalized layout snapshot, and merges matched records.
 - `scripts/import_factory_dimensions.py`: offline validation and import.
 
 `footprint.width` is the number of grid columns and `footprint.height` is the
@@ -18,26 +24,23 @@ columns and its width (宽) maps to rows. This is a coordinate convention;
 it does not establish input/output facing or port positions. A quarter-turn
 rotation must swap the two dimensions.
 
-`footprintStatus: "sourced"` means an explicit grid size was found on SKLand.
-It does not mean independently checked in the live game. The wiki warns that
-its content is from testing and the released game takes precedence. The
-dataset's target game version has not yet been established.
+`footprintStatus: "sourced"` means an explicit grid size was found in the
+current merged sources. For the 92 matched machines, AKEDatabase's
+`range.width × range.depth` projection is authoritative; for the remaining 10,
+the value is from SKLand. The AKEDatabase game/hotfix, table URLs, retrieval
+time, and table hashes are recorded under the root `akedatabase.source` object
+in `factory.json` and in the normalized layout snapshot.
 
-## Coverage and unresolved sizes
+## Coverage and source boundaries
 
 Examples include 传送带 at 1 × 1, 精炼炉 at 3 × 3, 种植机 at 5 × 5,
 灌装机 at 6 × 4, and 仓库存取线基段 at 8 × 4.
 
-These four entries have `footprint: null` and `footprintStatus: "unknown"`:
-
-- 水驱矿机 (`1168`)
-- 二型电驱矿机 (`167`)
-- 电驱矿机 (`166`)
-- 便携源石矿机 (`55`)
-
-Their area sections only require placement on an available mineral deposit.
-Measure these in the game's build view before assigning numeric footprints.
-Do not turn an unknown size into a verified 1 × 1 fallback.
+The current AKEDatabase `FactoryBuildingTable` response does not contain the
+10 local logistics names (`传送带`, splitters, mergers, bridges,
+and related entrances). Those records are listed in `factory.json` under
+`akedatabase.unmatchedMachineNames`; their SKLand dimensions remain available,
+but they do not yet have AKEDatabase port records.
 
 Area excerpts also preserve restrictions such as separation distances,
 placement on belts/pipes, attachment to warehouse lines, and regional limits.
@@ -46,27 +49,34 @@ a complete placement specification.
 
 ## Updating and checking
 
-Update the saved excerpts after inspecting the corresponding source pages,
-then run from the repository root:
+To refresh the primary layout source, run from the repository root:
+
+```sh
+python3 scripts/sync_akedatabase.py
+```
+
+Then validate the SKLand excerpts and merged catalog:
 
 ```sh
 python3 scripts/import_factory_dimensions.py
 python3 scripts/import_factory_dimensions.py --check
 ```
 
-The importer rejects missing/extra IDs, duplicate catalog IDs, name/URL
-mismatches, conflicting sizes, and nonpositive dimensions. `--check` also
-ensures the catalog matches the excerpts without writing files. It uses only
-the Python standard library and does not require browser credentials.
+The importers reject missing/extra IDs, duplicate catalog IDs, name/URL
+mismatches, conflicting sizes, nonpositive dimensions, and mismatched
+AKEDatabase footprints. The sync command records the selected manifest version
+so a refresh produces a reviewable data diff.
 
 ## Current simulator integration
 
 The simulator now stores one catalog entry per placed machine anchor, derives
 all occupied cells from its footprint, rejects out-of-bounds and overlapping
 placements, and renders the image across the full rectangle. Existing V1 saves
-continue to load because their one-cell entries are valid anchors. Unknown
-mining sizes use a clearly labeled 1 × 1 approximation until measured.
+continue to load because their one-cell entries are valid anchors. Any future
+unknown source record must remain explicitly marked instead of being silently
+converted to a 1 × 1 approximation.
 
-Rotation and port positions are intentionally separate follow-up work: the
-current footprint is shown in its canonical orientation, and no direction is
-inferred from the size data.
+The grid now renders AKEDatabase input/output markers on matched machines.
+Markers distinguish input/output roles and belt/pipe media; the selected
+machine panel reports the counts. Placement rotation is still a follow-up, so
+the current markers are shown in the source's canonical local orientation.

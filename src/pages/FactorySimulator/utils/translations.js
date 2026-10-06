@@ -15,6 +15,11 @@ export const factoryTranslations = {
     inactive: 'Simulation inactive', inactiveHint: 'V1 is for layout planning. Gathering, production, power, and transport are not simulated yet.',
     selected: 'Selected equipment', selectHint: 'Select equipment below to place it. Select a placed machine to inspect, move, or remove it.',
     placeHint: 'Click an empty tile to place a copy.', moveHint: 'Click an empty tile to move this machine.',
+    portLegend: 'Port legend', inputPort: 'input', outputPort: 'output', pipePort: 'pipe in', pipeOutputPort: 'pipe out',
+    portSummary: ports => {
+      const count = (role, medium) => ports.filter(port => port.role === role && port.medium === medium).length
+      return `Ports: ${count('input', 'belt')} belt in, ${count('input', 'pipe')} pipe in, ${count('output', 'belt')} belt out, ${count('output', 'pipe')} pipe out.`
+    },
     remove: 'Remove machine', cancel: 'Deselect', clear: 'Clear land', clearTitle: 'Clear the factory land?',
     clearBody: 'This removes all placed equipment. Resource limits will be kept.', keep: 'Keep layout',
     placed: 'Machine placed.', moved: 'Machine moved.', blocked: 'That footprint does not fit here. Choose a clear area inside the land.',
@@ -36,6 +41,11 @@ export const factoryTranslations = {
     inactive: '模拟尚未启用', inactiveHint: 'V1 仅用于布局规划，暂不模拟采集、生产、供电和运输。',
     selected: '已选设备', selectHint: '在下方选择设备进行放置，或选择已放置的设备以查看、移动或移除。',
     placeHint: '点击空格放置一个设备。', moveHint: '点击空格移动此设备。',
+    portLegend: '接口图例', inputPort: '输入', outputPort: '输出', pipePort: '管道输入', pipeOutputPort: '管道输出',
+    portSummary: ports => {
+      const count = (role, medium) => ports.filter(port => port.role === role && port.medium === medium).length
+      return `接口：传送带输入 ${count('input', 'belt')}，管道输入 ${count('input', 'pipe')}，传送带输出 ${count('output', 'belt')}，管道输出 ${count('output', 'pipe')}。`
+    },
     remove: '移除设备', cancel: '取消选择', clear: '清空用地', clearTitle: '清空工厂用地？',
     clearBody: '将移除所有已放置的设备，资源上限会保留。', keep: '保留布局',
     placed: '设备已放置。', moved: '设备已移动。', blocked: '该设备尺寸无法放在这里，请选择工厂用地内的空闲区域。',

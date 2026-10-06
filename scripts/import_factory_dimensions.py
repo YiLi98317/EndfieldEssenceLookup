@@ -29,6 +29,7 @@ def apply_dimensions(catalog, source):
         raise ValueError("Only explicit grid-cell dimensions are supported")
 
     known = 0
+    akedatabase = 0
     for machine in machines:
         entry = entries[machine["id"]]
         url = urlparse(entry["url"])
@@ -45,6 +46,16 @@ def apply_dimensions(catalog, source):
         unique_sizes = set(matches)
         if len(unique_sizes) > 1:
             raise ValueError(f"Conflicting sizes for {machine['id']}")
+        # AKEDatabase is the current machine-layout authority. Keep the SKLand
+        # excerpt validated for provenance, but do not overwrite a footprint
+        # already merged from FactoryBuildingTable.
+        if machine.get("akedatabase"):
+            ak_footprint = machine["akedatabase"].get("footprint") or {}
+            expected = {"width": ak_footprint.get("width"), "height": ak_footprint.get("depth")}
+            if machine.get("footprint") != expected:
+                raise ValueError(f"AKEDatabase footprint mismatch for {machine['id']}")
+            akedatabase += 1
+            continue
         if matches:
             length, width = map(int, matches[0])
             if min(length, width) <= 0:
@@ -56,7 +67,7 @@ def apply_dimensions(catalog, source):
             machine["footprint"] = None
             machine["footprintStatus"] = "unknown"
         machine["footprintSource"] = entry["url"]
-    return known
+    return known, akedatabase
 
 
 def main():
@@ -67,14 +78,15 @@ def main():
     catalog = json.loads(CATALOG.read_text())
     original = json.loads(CATALOG.read_text())
     source = json.loads(args.source.read_text())
-    known = apply_dimensions(catalog, source)
+    known, akedatabase = apply_dimensions(catalog, source)
     if args.check:
         if original != catalog:
             raise ValueError("Catalog dimensions are out of sync; run importer without --check")
     else:
         CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
-    print(f"{len(catalog['machines'])} entries validated; {known} sourced footprints; "
-          f"{len(catalog['machines']) - known} unknown")
+    resolved = known + akedatabase
+    print(f"{len(catalog['machines'])} entries validated; {akedatabase} AKEDatabase footprints; "
+          f"{known} SKLand-only footprints; {len(catalog['machines']) - resolved} unresolved")
 
 
 if __name__ == "__main__":

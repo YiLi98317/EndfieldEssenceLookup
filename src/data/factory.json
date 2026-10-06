@@ -53,7 +53,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2330&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "crystal_ball_1",
+        "nameId": 447255844482647718,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "2317",
@@ -66,7 +76,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2317&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "dream_bubble_1",
+        "nameId": 2894799444326876847,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": []
+      }
     },
     {
       "id": "2316",
@@ -79,7 +99,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2316&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "rainbow_1",
+        "nameId": -1485893175763642762,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": []
+      }
     },
     {
       "id": "2315",
@@ -92,7 +122,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2315&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "barbecue_1",
+        "nameId": -8732411385140384988,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "2143",
@@ -105,7 +145,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2143&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "doll_1",
+        "nameId": 1667836651538599651,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 2
+        },
+        "ports": []
+      }
     },
     {
       "id": "2142",
@@ -118,7 +168,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2142&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "microphone_1",
+        "nameId": -3352878093282828833,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 2
+        },
+        "ports": []
+      }
     },
     {
       "id": "2141",
@@ -131,7 +191,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=2141&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "display_stand_1",
+        "nameId": -8678549564303549719,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 2
+        },
+        "ports": []
+      }
     },
     {
       "id": "1956",
@@ -144,7 +214,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1956&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_lightning_2",
+        "nameId": 2999060094813376261,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 5
+        },
+        "ports": []
+      }
     },
     {
       "id": "1955",
@@ -157,7 +237,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1955&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_turret_3",
+        "nameId": -2984341937028554536,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "1901",
@@ -170,7 +260,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1901&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "signboard_1",
+        "nameId": 2008066233385026907,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 2
+        },
+        "ports": []
+      }
     },
     {
       "id": "1900",
@@ -183,7 +283,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1900&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "cat_tree_1",
+        "nameId": -5681600519618525672,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": []
+      }
     },
     {
       "id": "1899",
@@ -196,7 +306,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1899&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "photo_frame_1",
+        "nameId": -1169737817549354888,
+        "footprint": {
+          "width": 2,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": []
+      }
     },
     {
       "id": "1722",
@@ -209,7 +329,46 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1722&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "gas_storager_1",
+        "nameId": 4849011724321094684,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1721",
@@ -222,7 +381,74 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1721&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "gas_reactor_1",
+        "nameId": 4281469525117512126,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1720",
@@ -235,7 +461,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1720&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "vaporizer_1",
+        "nameId": 6807059220651859510,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1719",
@@ -248,7 +499,88 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1719&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "transmuter_1",
+        "nameId": 1709986425405937770,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1718",
@@ -261,7 +593,144 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1718&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "transmuter_2",
+        "nameId": -8983857368953963999,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "1717",
@@ -274,7 +743,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1717&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "gas_pump_1",
+        "nameId": -9036112900524676824,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 6
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1623",
@@ -287,7 +781,17 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1623&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "jail_1",
+        "nameId": -7215159609796883993,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "1622",
@@ -296,11 +800,21 @@
       "categoryId": "10410",
       "description": "可放置的装饰物品。",
       "footprint": {
-        "width": 1,
-        "height": 1
+        "width": 5,
+        "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1622&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "chubby_lung_balloon_1",
+        "nameId": -3455101132397967349,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": []
+      }
     },
     {
       "id": "1450",
@@ -313,7 +827,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1450&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "pear_blossom_bonsai_1",
+        "nameId": -2882387588720587763,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 2
+        },
+        "ports": []
+      }
     },
     {
       "id": "1411",
@@ -322,11 +846,21 @@
       "categoryId": "10410",
       "description": "可放置的装饰物品。",
       "footprint": {
-        "width": 1,
-        "height": 1
+        "width": 2,
+        "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1411&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "air_dancer_1",
+        "nameId": 7162007888815155369,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 7
+        },
+        "ports": []
+      }
     },
     {
       "id": "1410",
@@ -339,7 +873,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1410&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "chubby_lung_stone_1",
+        "nameId": -667352216612211856,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 2
+        },
+        "ports": []
+      }
     },
     {
       "id": "1389",
@@ -352,7 +896,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1389&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_debuff_1",
+        "nameId": 883979063319449468,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "1388",
@@ -365,7 +919,17 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1388&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_rocket_1",
+        "nameId": 1529963665601380128,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 6
+        },
+        "ports": []
+      }
     },
     {
       "id": "1387",
@@ -378,7 +942,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1387&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_laser_2",
+        "nameId": -6687751987851290048,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 6
+        },
+        "ports": []
+      }
     },
     {
       "id": "1386",
@@ -387,11 +961,50 @@
       "categoryId": "10250",
       "description": "地下暗管的大型出口，可与多口暗管入口进行配对连接，传输管道中的液体。",
       "footprint": {
-        "width": 5,
-        "height": 3
+        "width": 3,
+        "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1386&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "udpipe_unloader_2",
+        "nameId": 7189473514481318528,
+        "footprint": {
+          "width": 3,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1385",
@@ -400,11 +1013,50 @@
       "categoryId": "10250",
       "description": "地下暗管的大型入口，可与多口暗管出口进行配对连接，传输管道中的液体。",
       "footprint": {
-        "width": 5,
-        "height": 3
+        "width": 3,
+        "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1385&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "udpipe_loader_2",
+        "nameId": 4132416324238613393,
+        "footprint": {
+          "width": 3,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1384",
@@ -417,7 +1069,160 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1384&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "liquid_purifier_1",
+        "nameId": 1245311982760861054,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 6,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 7,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1383",
@@ -430,7 +1235,186 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1383&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "mix_pool_2",
+        "nameId": 3376769834046907218,
+        "footprint": {
+          "width": 6,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 5,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 5,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1201",
@@ -439,11 +1423,21 @@
       "categoryId": "10245",
       "description": "攻击间隔：\n5\n秒\n攻击方式：当敌人靠近时，发射一道激流，激流会使中型及小型敌人向攻击方向后退。",
       "footprint": {
-        "width": 3,
-        "height": 3
+        "width": 2,
+        "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1201&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_jet_1",
+        "nameId": -6102348041564824698,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "1200",
@@ -456,7 +1450,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1200&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_trap_1",
+        "nameId": -5516101861352149877,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "1199",
@@ -469,7 +1473,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1199&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "udpipe_unloader_1",
+        "nameId": -7654724255146295932,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1198",
@@ -482,7 +1511,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1198&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "udpipe_loader_1",
+        "nameId": 5952059820530921240,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1170",
@@ -495,7 +1549,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1170&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "pump_2",
+        "nameId": 1048933963095617277,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1169",
@@ -508,7 +1587,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1169&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "liquid_cleaner_1",
+        "nameId": -7349549195938711637,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "1168",
@@ -516,9 +1620,81 @@
       "image": "images/machines/1168.png",
       "categoryId": "10247",
       "description": "用来开采赤铜矿等多种矿物的机械设备，可使用清水完成自供能，不需要通电就可以运作。",
-      "footprint": null,
-      "footprintStatus": "unknown",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=1168&header=0"
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "miner_4",
+        "nameId": 7005348151014873730,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "752",
@@ -531,7 +1707,176 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=752&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "xiranite_oven_1",
+        "nameId": 22769543061142547,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "751",
@@ -544,7 +1889,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=751&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "log_hongs_bus_source",
+        "nameId": -7934000686830466989,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 2
+        },
+        "ports": []
+      }
     },
     {
       "id": "750",
@@ -553,11 +1908,21 @@
       "categoryId": "10250",
       "description": "可以在集成核心区域放置的仓库存取线基段，需要和仓库存取线源桩或其他生效的仓库存取线基段相连，其上可贴靠仓库存货口和仓库取货口。",
       "footprint": {
-        "width": 8,
-        "height": 4
+        "width": 4,
+        "height": 8
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=750&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "log_hongs_bus",
+        "nameId": 4969022035964744339,
+        "footprint": {
+          "width": 4,
+          "depth": 8,
+          "height": 2
+        },
+        "ports": []
+      }
     },
     {
       "id": "749",
@@ -570,7 +1935,17 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=749&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_pole_3",
+        "nameId": 8843319720080895773,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 15
+        },
+        "ports": []
+      }
     },
     {
       "id": "748",
@@ -583,7 +1958,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=748&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_diffuser_2",
+        "nameId": -770917564358191340,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 7
+        },
+        "ports": []
+      }
     },
     {
       "id": "747",
@@ -596,7 +1981,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=747&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_fog_1",
+        "nameId": -5171225426844846087,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "746",
@@ -609,7 +2004,130 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=746&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "mix_pool_1",
+        "nameId": -6601956170207128481,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 4,
+              "y": 3,
+              "z": 3
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "745",
@@ -622,7 +2140,204 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=745&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "dismantler_1",
+        "nameId": -874044681144829301,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 6,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 5,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "744",
@@ -635,7 +2350,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=744&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "dumper_1",
+        "nameId": -1487493209529051135,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "743",
@@ -648,7 +2388,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=743&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "squirter_1",
+        "nameId": 4887084825050613813,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "742",
@@ -661,7 +2426,46 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=742&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "liquid_storager_1",
+        "nameId": 4985017352026843790,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "741",
@@ -739,7 +2543,32 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=736&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "pump_1",
+        "nameId": -3400985951025354443,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "766",
@@ -752,7 +2581,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=766&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_sp_3",
+        "nameId": -4604368691569704493,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "352",
@@ -765,7 +2604,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=352&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_sp_4",
+        "nameId": 2500740281615465532,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "351",
@@ -778,7 +2627,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=351&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_sp_2",
+        "nameId": -2564485119477257046,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "350",
@@ -791,7 +2650,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=350&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_sp_1",
+        "nameId": -2222648571334079482,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "349",
@@ -804,7 +2673,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=349&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_grass_2",
+        "nameId": 6617693437946419540,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "348",
@@ -817,7 +2696,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=348&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_grass_1",
+        "nameId": -9046870407130493442,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "347",
@@ -830,7 +2719,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=347&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_bbflower_1",
+        "nameId": 3975017990575392389,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "346",
@@ -843,7 +2742,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=346&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_moss_3",
+        "nameId": -7922812087189185954,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "345",
@@ -856,7 +2765,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=345&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_moss_2",
+        "nameId": -7423791299964302906,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "344",
@@ -869,7 +2788,17 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=344&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "soil_moss_1",
+        "nameId": 6376518929239824346,
+        "footprint": {
+          "width": 4,
+          "depth": 4,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "372",
@@ -882,7 +2811,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=372&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_cannon_2",
+        "nameId": -5055228203656221535,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "340",
@@ -895,7 +2834,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=340&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_laser_1",
+        "nameId": 2874748583317591588,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 6
+        },
+        "ports": []
+      }
     },
     {
       "id": "339",
@@ -908,7 +2857,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=339&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_sniper_1",
+        "nameId": -2945073605374214046,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "187",
@@ -921,7 +2880,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=187&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_lightning_1",
+        "nameId": 4639497296353884147,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 5
+        },
+        "ports": []
+      }
     },
     {
       "id": "338",
@@ -934,7 +2903,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=338&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_shockwave_1",
+        "nameId": -8120641266057736245,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "185",
@@ -947,7 +2926,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=185&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_turret_2",
+        "nameId": -4594396201748436138,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "186",
@@ -960,7 +2949,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=186&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_cannon_1",
+        "nameId": 899625875856932881,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "184",
@@ -973,7 +2972,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=184&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_frost_1",
+        "nameId": -6841684686838952111,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "183",
@@ -986,7 +2995,17 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=183&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_medic_1",
+        "nameId": 3923246942668576743,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "50",
@@ -999,7 +3018,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=50&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "battle_turret_1",
+        "nameId": 2747116929585261030,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "182",
@@ -1012,7 +3041,17 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=182&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "carrier_1",
+        "nameId": 4402662202830116591,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": []
+      }
     },
     {
       "id": "181",
@@ -1025,7 +3064,17 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=181&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "marker_1",
+        "nameId": 4672678249070282487,
+        "footprint": {
+          "width": 1,
+          "depth": 1,
+          "height": 1
+        },
+        "ports": []
+      }
     },
     {
       "id": "180",
@@ -1038,7 +3087,17 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=180&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "travel_pole_2",
+        "nameId": 5175629959207694599,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 7
+        },
+        "ports": []
+      }
     },
     {
       "id": "179",
@@ -1051,7 +3110,17 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=179&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "travel_pole_1",
+        "nameId": -1441543688028441752,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 7
+        },
+        "ports": []
+      }
     },
     {
       "id": "170",
@@ -1064,7 +3133,33 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=170&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "unloader_1",
+        "nameId": 5745066332652832990,
+        "footprint": {
+          "width": 3,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0",
+              "zmax"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "169",
@@ -1077,7 +3172,33 @@
         "height": 1
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=169&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "loader_1",
+        "nameId": 1435928344676127467,
+        "footprint": {
+          "width": 3,
+          "depth": 1,
+          "height": 3
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0",
+              "zmax"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "168",
@@ -1090,7 +3211,106 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=168&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "storager_1",
+        "nameId": -8889490815914340577,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "188",
@@ -1103,7 +3323,190 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=188&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "thickener_1",
+        "nameId": 5166929608136996750,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "174",
@@ -1116,7 +3519,176 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=174&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "planter_1",
+        "nameId": 172076019967147986,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "173",
@@ -1129,7 +3701,162 @@
         "height": 5
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=173&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "seedcollector_1",
+        "nameId": 9074920705434778722,
+        "footprint": {
+          "width": 5,
+          "depth": 5,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 4
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "177",
@@ -1142,7 +3869,190 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=177&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "tools_assebling_mc_1",
+        "nameId": -3641370763677533611,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "176",
@@ -1155,7 +4065,204 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=176&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "filling_powder_mc_1",
+        "nameId": 3037152073639457480,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 6,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 2
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "172",
@@ -1168,7 +4275,120 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=172&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "shaper_1",
+        "nameId": -7663809661744258752,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "171",
@@ -1181,7 +4401,106 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=171&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "component_mc_1",
+        "nameId": -8065374912336935076,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "175",
@@ -1194,7 +4513,190 @@
         "height": 4
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=175&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "winder_1",
+        "nameId": 4162606876609136016,
+        "footprint": {
+          "width": 6,
+          "depth": 4,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 3
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 4,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 5,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 5,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "54",
@@ -1207,7 +4709,106 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=54&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "grinder_1",
+        "nameId": -2759718786708393424,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "53",
@@ -1220,7 +4821,134 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=53&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "furnance_1",
+        "nameId": -503494240391317693,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 2
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "input",
+            "medium": "pipe",
+            "position": {
+              "x": 0,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "x0"
+            ],
+            "facing": 90
+          },
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 3,
+            "role": "output",
+            "medium": "pipe",
+            "position": {
+              "x": 2,
+              "y": 3,
+              "z": 1
+            },
+            "edges": [
+              "xmax"
+            ],
+            "facing": 90
+          }
+        ]
+      }
     },
     {
       "id": "178",
@@ -1233,7 +4961,48 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=178&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_station_1",
+        "nameId": 6123612352655638714,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 4
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "edges": [
+              "x0",
+              "zmax"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "input",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 1
+            },
+            "edges": [
+              "xmax",
+              "zmax"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "52",
@@ -1246,7 +5015,17 @@
         "height": 3
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=52&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_pole_2",
+        "nameId": 7255157082925949345,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 15
+        },
+        "ports": []
+      }
     },
     {
       "id": "51",
@@ -1259,7 +5038,17 @@
         "height": 2
       },
       "footprintStatus": "sourced",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=51&header=0"
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "power_diffuser_1",
+        "nameId": 4549244853186961110,
+        "footprint": {
+          "width": 2,
+          "depth": 2,
+          "height": 7
+        },
+        "ports": []
+      }
     },
     {
       "id": "167",
@@ -1267,9 +5056,67 @@
       "image": "images/machines/167.png",
       "categoryId": "10247",
       "description": "在通电状态下，可以用来开采蓝铁矿等多种矿物的机械设备。",
-      "footprint": null,
-      "footprintStatus": "unknown",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=167&header=0"
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "miner_3",
+        "nameId": 8086532161114917353,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "166",
@@ -1277,9 +5124,67 @@
       "image": "images/machines/166.png",
       "categoryId": "10247",
       "description": "在通电状态下，可以用来开采源矿、紫晶矿的机械设备。",
-      "footprint": null,
-      "footprintStatus": "unknown",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=166&header=0"
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "miner_2",
+        "nameId": 5924226502547698972,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 5
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "55",
@@ -1287,9 +5192,67 @@
       "image": "images/machines/55.png",
       "categoryId": "10247",
       "description": "用来开采源矿的机械设备，可使用源石完成自供能，不需要通电就可以运作。",
-      "footprint": null,
-      "footprintStatus": "unknown",
-      "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=55&header=0"
+      "footprint": {
+        "width": 3,
+        "height": 3
+      },
+      "footprintStatus": "sourced",
+      "footprintSource": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "akedatabase": {
+        "buildingId": "miner_1",
+        "nameId": 6480248539413103259,
+        "footprint": {
+          "width": 3,
+          "depth": 3,
+          "height": 3
+        },
+        "ports": [
+          {
+            "index": 0,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "x0",
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 1,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "z0"
+            ],
+            "facing": 180
+          },
+          {
+            "index": 2,
+            "role": "output",
+            "medium": "belt",
+            "position": {
+              "x": 2,
+              "y": 0,
+              "z": 0
+            },
+            "edges": [
+              "xmax",
+              "z0"
+            ],
+            "facing": 180
+          }
+        ]
+      }
     },
     {
       "id": "10",
@@ -1356,5 +5319,35 @@
       "footprintStatus": "sourced",
       "footprintSource": "https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=161&header=0"
     }
-  ]
+  ],
+  "akedatabase": {
+    "source": {
+      "provider": "AKEDatabase",
+      "baseUrl": "https://data.akedata.wiki",
+      "manifestUrl": "https://data.akedata.wiki/manifest.json",
+      "gameVersion": "1.5.3",
+      "hotfixVersion": "10506507-7",
+      "publishedAt": "2026-09-24T02:04:11.595820+00:00",
+      "retrievedAt": "2026-10-06T22:22:55+00:00",
+      "tableUrl": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+      "textTableUrl": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/I18nTextTable_CN.json",
+      "manifestSha256": "613a5a795ba77caacca4112a5066900b1c74ee9cd3ef88e325a1a23b77d29039",
+      "buildingTableSha256": "0974bd95f3e9ebb028be19c896ef660eb1d5830c905b39744a7e9cd5b5563a53",
+      "textTableSha256": "eaca356e58c469c34bd2fab5a362195a58c1938eedb2d471b80ff0e0294d5921"
+    },
+    "matchedMachines": 92,
+    "catalogMachines": 102,
+    "unmatchedMachineNames": [
+      "传送带",
+      "分流器",
+      "汇流器",
+      "物品准入口",
+      "物流桥",
+      "管道",
+      "管道准入口",
+      "管道分流器",
+      "管道桥",
+      "管道汇流器"
+    ]
+  }
 }

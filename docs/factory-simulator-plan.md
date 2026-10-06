@@ -5,14 +5,31 @@ Date: October 6, 2026
 ## Progress — footprint collection
 
 The full 102-entry SKLand equipment catalog has now been inspected for area
-requirements. `src/data/factory.json` contains 98 sourced numeric footprints
-and four explicitly unknown mining footprints. Exact area excerpts and source
-URLs are saved in `src/data/factory-dimension-sources.json`; an offline importer
-validates coverage and catalog synchronization. The simulator now derives
-occupied rectangles, blocks overlap/out-of-bounds placement, and renders
-machines at their sourced sizes. Rotation, ports, and direction remain the
-next implementation work. See [factory-dimensions.md](factory-dimensions.md)
-for conventions, unresolved sizes, and maintenance commands.
+requirements. `src/data/factory.json` contains 90 AKEDatabase footprints plus
+12 SKLand-only footprints, with no unresolved placement sizes in the merged
+catalog. Exact SKLand area excerpts and source URLs are saved in
+`src/data/factory-dimension-sources.json`; the offline importer validates both
+sources and catalog synchronization. The simulator derives occupied
+rectangles, blocks overlap/out-of-bounds placement, and renders machines at
+their sourced sizes. Rotation remains the next geometry task. See
+[factory-dimensions.md](factory-dimensions.md) for conventions and maintenance
+commands.
+
+The current AKEDatabase integration is now available in
+`src/data/akedatabase-machine-layouts.json` and merged into
+`src/data/factory.json`. It uses the public AKEDatabase manifest,
+`FactoryBuildingTable`, and `I18nTextTable_CN` directly. The latest fetched
+release is recorded per field with game version, hotfix, table URLs, retrieval
+time, and SHA-256 fingerprints. Ninety-two of the 102 local catalog machines
+match an AKEDatabase building by normalized localized name; the remaining ten
+logistics entries are explicitly listed as unmatched because they are not
+present in the current `FactoryBuildingTable` response.
+
+Run `python3 scripts/sync_akedatabase.py` to pull the manifest's latest version,
+normalize all available machine layouts, and merge matched records. Pin a
+release for review with `--game-version` and `--hotfix`. This command is the
+regular data-refresh todo: run it after an AKEDatabase hotfix, review the
+unmatched list and generated diff, then run the normal build checks.
 
 ## Recommendation
 
@@ -48,6 +65,8 @@ The current catalog also contains decorations and combat/support equipment. Cata
 ### Sources inspected
 
 - **Primary source: [SKLand equipment catalog](https://wiki.skland.com/endfield/catalog?mainTypeId=1&subTypeId=5&header=0).** The user confirmed this is the source of the existing machine catalog and image URLs. Inspected the catalog and clicked through to [灌装机, entry 176](https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=5&gameEntryId=176&header=0) in Chrome on October 6, 2026. Its `gameEntryId=176` matches local machine ID `176`. The page explicitly states length 6 grid cells and width 4 grid cells, resolving the ambiguous three-dimensional value from END Wiki for this machine. It includes recipe quantities, cycle times, power demand, and basic/gas-liquid modes plus hidden recipes. One listed basic recipe consumes 5 紫晶质瓶 and 5 柑实粉末 to produce 1 柑实罐头 in 10 seconds: theoretical consumption is 30/min for each ingredient and output is 6/min. The manufacturing recipe for building the machine is a separate section and must not be imported as one of its production recipes. Filled containers appear as a container name plus “已盛装” and contents; preserve that contents identity during normalization. No exact port coordinates or conveyor capacity were established from this inspected machine page. The site displays a testing-content notice, so retain version provenance and verify against the targeted live game release.
+- **Primary source: [AKEDatabase](https://akedata.wiki/), via its public data manifest and TableCfg data domain.** `FactoryBuildingTable.json` provides the building range plus raw input/output port coordinates, belt/pipe medium, and port rotation. `I18nTextTable_CN.json` resolves the localized building names used to join the source records to the SKLand catalog. `scripts/sync_akedatabase.py` downloads those tables directly and records the exact game/hotfix, URLs, retrieval time, and hashes. Do not use an extracted layout from another planner as a substitute for this source.
+- **Primary source: [SKLand item catalog](https://wiki.skland.com/endfield/catalog?mainTypeId=1&subTypeId=6&header=0).** The page currently renders 283 entries and links each card to a stable item detail URL. The inspected [赤铜块 detail page](https://wiki.skland.com/endfield/detail?mainTypeId=1&subTypeId=6&gameEntryId=1233&header=0) exposes industrial-processing tables with machine, input, and output relationships. Use item pages to normalize material identity and processing relationships, then join cycle times and modes from machine pages. The catalog also includes gameplay-only consumables, currency, and progression values; do not automatically treat those as factory materials. See [skland-item-catalog.md](skland-item-catalog.md) for the extraction boundary.
 - [END Wiki equipment directory](https://end.wiki/zh-Hans/factory/buildings/): candidate starting point for building details. Its inspected directory lists 69 buildings, versus 102 entries locally, so it is not a confirmed complete replacement for our catalog.
 - [END Wiki 灌装机](https://end.wiki/zh-Hans/factory/buildings/filling-powder-mc-1/): inspected detail page includes placement dimensions (`6×4×4`), power information, and recipe inputs/outputs with cycle times. It gives us a concrete extraction lead, but does not establish exact grid port coordinates. Do not assume which dimension is height or how dimensions translate to grid cells without checking.
 - [EnKAD](https://enkad.enka.network/): existing blueprint editor and production-capacity planner, useful for comparing interaction and results. The inspected home page advertises a newer beta separately from its main version; always identify the game version used for comparisons. No reusable API or dataset license was verified here.
@@ -60,7 +79,7 @@ Some wiki pages failed to load during research. This is source discovery, not a 
 1. Establish which game release/region the simulator targets and record that in dataset metadata.
 2. Use SKLand as the primary source of the already-downloaded Chinese catalog. Preserve its entry IDs and existing image mapping; create explicit mappings for other sources instead of joining only on translated names. The filling-machine match is verified; validate the remaining IDs during import.
 3. Collect machine dimensions and recipes from SKLand detail pages, including each relevant mode and hidden-recipe section. Separate machine construction recipes from machine processing recipes. Prefer a documented export/API if one exists; otherwise use a repeatable detail-page importer after evaluating source access and reuse terms. Browser control has been verified for reading these pages; a bulk import mechanism has not yet been implemented.
-4. Verify footprint orientation, port positions, allowed connections, and transport behavior against the current game's build view/tooltips or controlled measurements. Store references or screenshots for observations.
+4. Verify footprint orientation, port positions, allowed connections, and transport behavior against the current game's build view/tooltips or controlled measurements. Store references or screenshots for observations. AKEDatabase coordinates are machine-local; do not label them north/south/east/west until the placed-instance rotation is implemented.
 5. Keep local normalized JSON bundled with the app, so GitHub Pages and Electron do not depend on a live wiki at runtime.
 6. Record source URL, retrieval date, game version, and verification status per record or field group. Store raw source dimensions separately from normalized grid footprint.
 7. Use a small curated override file for manual corrections. Import updates should produce reviewable diffs and must not erase overrides or verified values when a source is unavailable.
@@ -99,7 +118,7 @@ Tasks:
 - Keep the grid for hit testing and keyboard access; draw each machine once as an overlay spanning its occupied cells, with an outline and readable name/icon.
 - Add placement previews covering the whole footprint, including invalid overlap and out-of-bounds previews.
 - Add a visible rotate control and `R` shortcut for preview/selected instances; rotation changes footprint and ports together. Avoid shortcuts while typing in inputs.
-- Show directional arrows on belts. Show input/output markers on machine edges, with shape/arrows as well as color; expose details on hover and selection. Keep marker size readable under zoom.
+- Show directional arrows on belts. Show AKEDatabase input/output markers on machine edges, with role shape/color and belt/pipe medium; expose details on hover and selection. Keep marker size readable under zoom.
 - Show all ports while placing/connecting and selected-machine ports in normal view; optionally offer an always-visible ports toggle.
 - Moving checks all destination cells while ignoring the moved instance's own existing occupancy. Reject invalid moves/rotations without altering the layout.
 - Selecting any covered cell selects the instance. Rectangle selection includes machines touched by the rectangle; deletion removes whole instances, deduplicated by instance ID.

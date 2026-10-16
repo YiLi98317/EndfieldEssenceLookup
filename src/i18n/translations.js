@@ -30,6 +30,7 @@ export const translations = {
     weaponDetails: 'Weapon details',
     navEssenceLookup: 'Essence Lookup',
     navVersionCalendar: 'Version Calendar',
+    navFactorySimulator: 'Factory Simulator',
     openNavigation: 'Open navigation',
     language: 'Language',
     versionCalendarTitleAlt: 'Endfield version calendar title',
@@ -41,6 +42,7 @@ export const translations = {
     versionCalendarNotArchived: 'Calendar not archived',
   },
   zh: {
+    navFactorySimulator: '工厂模拟器',
     weapon: '武器',
     essence: '基质',
     pool: '能量淤积点',

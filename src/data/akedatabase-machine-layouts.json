@@ -1,0 +1,5110 @@
+{
+  "source": {
+    "provider": "AKEDatabase",
+    "baseUrl": "https://data.akedata.wiki",
+    "manifestUrl": "https://data.akedata.wiki/manifest.json",
+    "gameVersion": "1.5.3",
+    "hotfixVersion": "10506507-7",
+    "publishedAt": "2026-09-24T02:04:11.595820+00:00",
+    "retrievedAt": "2026-10-06T22:22:55+00:00",
+    "tableUrl": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/FactoryBuildingTable.json",
+    "textTableUrl": "https://data.akedata.wiki/public/1.5.3/10506507-7/TableCfg/I18nTextTable_CN.json",
+    "manifestSha256": "613a5a795ba77caacca4112a5066900b1c74ee9cd3ef88e325a1a23b77d29039",
+    "buildingTableSha256": "0974bd95f3e9ebb028be19c896ef660eb1d5830c905b39744a7e9cd5b5563a53",
+    "textTableSha256": "eaca356e58c469c34bd2fab5a362195a58c1938eedb2d471b80ff0e0294d5921"
+  },
+  "machines": [
+    {
+      "buildingId": "air_dancer_1",
+      "name": "充气教授",
+      "nameId": 7162007888815155369,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 7
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "power_pole_3",
+      "name": "息壤中继器",
+      "nameId": 8843319720080895773,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 15
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "barbecue_1",
+      "name": "炽热宴会",
+      "nameId": -8732411385140384988,
+      "footprint": {
+        "width": 2,
+        "depth": 1,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_cannon_1",
+      "name": "榴弹塔",
+      "nameId": 899625875856932881,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_shockwave_1",
+      "name": "全向声波塔",
+      "nameId": -8120641266057736245,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "power_terminal_1",
+      "name": "power_terminal_1",
+      "nameId": 0,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 7
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_cannon_1_dg002",
+      "name": "battle_cannon_1_dg002",
+      "nameId": 0,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 10
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "carrier_1",
+      "name": "便捷存取站",
+      "nameId": 4402662202830116591,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "gas_reactor_1",
+      "name": "气体反应炉",
+      "nameId": 4281469525117512126,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "battle_cannon_2",
+      "name": "高爆榴弹塔",
+      "nameId": -5055228203656221535,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "dumper_1",
+      "name": "给水器",
+      "nameId": -1487493209529051135,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "mix_pool_1",
+      "name": "反应池",
+      "nameId": -6601956170207128481,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "battle_debuff_1",
+      "name": "“酸洗”MK-Ⅰ",
+      "nameId": 883979063319449468,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "liquid_purifier_1",
+      "name": "提纯机",
+      "nameId": 1245311982760861054,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 2
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 6,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 7,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "battle_fog_1",
+      "name": "“毒沼”MK-Ⅰ",
+      "nameId": -5171225426844846087,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_rocket_1",
+      "name": "重锤迫击炮",
+      "nameId": 1529963665601380128,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 6
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_frost_1",
+      "name": "液氮塔",
+      "nameId": -6841684686838952111,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_sp_3",
+      "name": "琼叶参田块",
+      "nameId": -4604368691569704493,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_jet_1",
+      "name": "激流塔",
+      "nameId": -6102348041564824698,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "marker_1",
+      "name": "留言信标",
+      "nameId": 4672678249070282487,
+      "footprint": {
+        "width": 1,
+        "depth": 1,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_laser_1",
+      "name": "射线塔",
+      "nameId": 2874748583317591588,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 6
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_grass_1",
+      "name": "锦草田块",
+      "nameId": -9046870407130493442,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_laser_2",
+      "name": "高能射线塔",
+      "nameId": -6687751987851290048,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 6
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_lightning_1",
+      "name": "电涌塔",
+      "nameId": 4639497296353884147,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 5
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_lightning_2",
+      "name": "甲二型“电荷”",
+      "nameId": 2999060094813376261,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 5
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_medic_1",
+      "name": "医疗塔",
+      "nameId": 3923246942668576743,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "udpipe_loader_1",
+      "name": "暗管入口",
+      "nameId": 5952059820530921240,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "battle_sniper_1",
+      "name": "哨戒塔",
+      "nameId": -2945073605374214046,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_grass_fast_2",
+      "name": "模拟芽针田块",
+      "nameId": -5696913622712421995,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_trap_1",
+      "name": "AF1“熔甲者”",
+      "nameId": -5516101861352149877,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "furnance_nop_1",
+      "name": "精炼炉",
+      "nameId": -3715478444293463,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "liquid_storager_1",
+      "name": "储液罐",
+      "nameId": 4985017352026843790,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "battle_turret_1",
+      "name": "铳械塔",
+      "nameId": 2747116929585261030,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_sp_fast_4",
+      "name": "模拟金石稻田块",
+      "nameId": -3862712063151263279,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_turret_2",
+      "name": "扩装铳械塔",
+      "nameId": -4594396201748436138,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "battle_turret_3",
+      "name": "“暴雨”铳械塔",
+      "nameId": -2984341937028554536,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "dismantler_1",
+      "name": "拆解机",
+      "nameId": -874044681144829301,
+      "footprint": {
+        "width": 6,
+        "depth": 4,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 6,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 5,
+            "y": 3,
+            "z": 2
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "soil_grass_2",
+      "name": "芽针田块",
+      "nameId": 6617693437946419540,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "cat_tree_1",
+      "name": "小咆兽活动架",
+      "nameId": -5681600519618525672,
+      "footprint": {
+        "width": 2,
+        "depth": 1,
+        "height": 3
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "chubby_lung_balloon_1",
+      "name": "龙泡泡气球",
+      "nameId": -3455101132397967349,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "chubby_lung_stone_1",
+      "name": "龙泡泡石墩",
+      "nameId": -667352216612211856,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 2
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "component_mc_1",
+      "name": "配件机",
+      "nameId": -8065374912336935076,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "crystal_ball_1",
+      "name": "安玛的关切",
+      "nameId": 447255844482647718,
+      "footprint": {
+        "width": 1,
+        "depth": 1,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "dream_bubble_1",
+      "name": "显梦",
+      "nameId": 2894799444326876847,
+      "footprint": {
+        "width": 1,
+        "depth": 1,
+        "height": 3
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "rainbow_1",
+      "name": "彩虹",
+      "nameId": -1485893175763642762,
+      "footprint": {
+        "width": 2,
+        "depth": 1,
+        "height": 3
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "display_stand_1",
+      "name": "“偶像的身姿”立牌",
+      "nameId": -8678549564303549719,
+      "footprint": {
+        "width": 2,
+        "depth": 1,
+        "height": 2
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "v_fluid_container_1",
+      "name": "v_fluid_container_1",
+      "nameId": 0,
+      "footprint": {
+        "width": 1,
+        "depth": 1,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "doll_1",
+      "name": "陪伴款“晨星”玩偶",
+      "nameId": 1667836651538599651,
+      "footprint": {
+        "width": 1,
+        "depth": 1,
+        "height": 2
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "dumper_nop_1",
+      "name": "给水器",
+      "nameId": -7346437998485234170,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "xiranite_oven_1",
+      "name": "天有洪炉",
+      "nameId": 22769543061142547,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 2
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "filling_powder_mc_1",
+      "name": "灌装机",
+      "nameId": 3037152073639457480,
+      "footprint": {
+        "width": 6,
+        "depth": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 6,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 2
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "furnance_1",
+      "name": "精炼炉",
+      "nameId": -503494240391317693,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "gas_pump_1",
+      "name": "气体收集泵",
+      "nameId": -9036112900524676824,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 6
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "gas_storager_1",
+      "name": "储气罐",
+      "nameId": 4849011724321094684,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "grinder_1",
+      "name": "粉碎机",
+      "nameId": -2759718786708393424,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "jail_1",
+      "name": "虎·牢·关",
+      "nameId": -7215159609796883993,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "liquid_clean_gate_1",
+      "name": "污水接入口",
+      "nameId": -8009528925355483274,
+      "footprint": {
+        "width": 10,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "liquid_cleaner_1",
+      "name": "废水处理机",
+      "nameId": -7349549195938711637,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "soil_grass_fast_1",
+      "name": "模拟锦草田块",
+      "nameId": 3702509361006199628,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "liquid_recycle_gate_1",
+      "name": "产物排出口",
+      "nameId": -356161488010007020,
+      "footprint": {
+        "width": 10,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 270
+        }
+      ]
+    },
+    {
+      "buildingId": "liquid_storager_nop_1",
+      "name": "储液罐",
+      "nameId": -7720015844172736332,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "power_station_1",
+      "name": "热能池",
+      "nameId": 6123612352655638714,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 1
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "loader_1",
+      "name": "仓库存货口",
+      "nameId": 1435928344676127467,
+      "footprint": {
+        "width": 3,
+        "depth": 1,
+        "height": 3
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0",
+            "zmax"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "log_hongs_bus",
+      "name": "仓库存取线基段",
+      "nameId": 4969022035964744339,
+      "footprint": {
+        "width": 4,
+        "depth": 8,
+        "height": 2
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_sp_1",
+      "name": "灰芦麦田块",
+      "nameId": -2222648571334079482,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "log_hongs_bus_source",
+      "name": "仓库存取线源桩",
+      "nameId": -7934000686830466989,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 2
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "pump_2",
+      "name": "二型耐酸水泵",
+      "nameId": 1048933963095617277,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "microphone_1",
+      "name": "“缎带之声”麦克风",
+      "nameId": -3352878093282828833,
+      "footprint": {
+        "width": 1,
+        "depth": 1,
+        "height": 2
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "miner_1",
+      "name": "便携源石矿机",
+      "nameId": 6480248539413103259,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 3
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "soil_1",
+      "name": "soil_1",
+      "nameId": 0,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "miner_2",
+      "name": "电驱矿机",
+      "nameId": 5924226502547698972,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "miner_3",
+      "name": "二型电驱矿机",
+      "nameId": 8086532161114917353,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "travel_pole_nop_1",
+      "name": "滑索架",
+      "nameId": -6623970530748790119,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 7
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "miner_4",
+      "name": "水驱矿机",
+      "nameId": 7005348151014873730,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "mix_pool_2",
+      "name": "扩容反应池",
+      "nameId": 3376769834046907218,
+      "footprint": {
+        "width": 6,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 5,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 5,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 5,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "soil_sp_4",
+      "name": "金石稻田块",
+      "nameId": 2500740281615465532,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "pear_blossom_bonsai_1",
+      "name": "山樆小景",
+      "nameId": -2882387588720587763,
+      "footprint": {
+        "width": 1,
+        "depth": 1,
+        "height": 2
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "photo_frame_1",
+      "name": "猩红记忆",
+      "nameId": -1169737817549354888,
+      "footprint": {
+        "width": 2,
+        "depth": 1,
+        "height": 3
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_2",
+      "name": "soil_2",
+      "nameId": 0,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "planter_1",
+      "name": "种植机",
+      "nameId": 172076019967147986,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 2
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "pump_1",
+      "name": "水泵",
+      "nameId": -3400985951025354443,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "udpipe_unloader_1",
+      "name": "暗管出口",
+      "nameId": -7654724255146295932,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "power_diffuser_1",
+      "name": "供电桩",
+      "nameId": 4549244853186961110,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 7
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "power_diffuser_2",
+      "name": "息壤供电桩",
+      "nameId": -770917564358191340,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 7
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "power_pole_2",
+      "name": "中继器",
+      "nameId": 7255157082925949345,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 15
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "power_port_1",
+      "name": "供电终端",
+      "nameId": 1807135255005188068,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 4
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "seedcollector_1",
+      "name": "采种机",
+      "nameId": 9074920705434778722,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "shaper_1",
+      "name": "塑形机",
+      "nameId": -7663809661744258752,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "signboard_1",
+      "name": "震撼美味！",
+      "nameId": 2008066233385026907,
+      "footprint": {
+        "width": 2,
+        "depth": 2,
+        "height": 2
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "travel_pole_1",
+      "name": "滑索架",
+      "nameId": -1441543688028441752,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 7
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_bbflower_1",
+      "name": "酮化灌木田块",
+      "nameId": 3975017990575392389,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "thickener_1",
+      "name": "研磨机",
+      "nameId": 5166929608136996750,
+      "footprint": {
+        "width": 6,
+        "depth": 4,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "soil_moss_1",
+      "name": "荞花田块",
+      "nameId": 6376518929239824346,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_moss_2",
+      "name": "柑实田块",
+      "nameId": -7423791299964302906,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_moss_3",
+      "name": "砂叶田块",
+      "nameId": -7922812087189185954,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_sp_2",
+      "name": "苦叶椒田块",
+      "nameId": -2564485119477257046,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "soil_sp_fast_3",
+      "name": "模拟琼叶参田块",
+      "nameId": -6531272779477690068,
+      "footprint": {
+        "width": 4,
+        "depth": 4,
+        "height": 1
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "udpipe_loader_2",
+      "name": "多口暗管入口",
+      "nameId": 4132416324238613393,
+      "footprint": {
+        "width": 3,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "sp_hub_1",
+      "name": "协议核心",
+      "nameId": 320824384413358692,
+      "footprint": {
+        "width": 9,
+        "depth": 9,
+        "height": 10
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 6,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 7,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 8,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 9,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 10,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 11,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 12,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 13,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 7
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 270
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 270
+        },
+        {
+          "index": 5,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 7
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 270
+        }
+      ]
+    },
+    {
+      "buildingId": "sp_sub_hub_1",
+      "name": "次级核心",
+      "nameId": -5679728398275505756,
+      "footprint": {
+        "width": 9,
+        "depth": 9,
+        "height": 10
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 6,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 8
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 7,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 8,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 9,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 10,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 11,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 12,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 13,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 7,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 0
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 7
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 270
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 270
+        },
+        {
+          "index": 5,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 7
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 270
+        }
+      ]
+    },
+    {
+      "buildingId": "transmuter_2",
+      "name": "固气转化机",
+      "nameId": -8983857368953963999,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "squirter_1",
+      "name": "洒水机",
+      "nameId": 4887084825050613813,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "squirter_nop_1",
+      "name": "洒水机",
+      "nameId": 5609783139010374400,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "storager_1",
+      "name": "协议储存箱",
+      "nameId": -8889490815914340577,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "transmuter_1",
+      "name": "液气转化机",
+      "nameId": 1709986425405937770,
+      "footprint": {
+        "width": 5,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 4
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 4,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "storager_nop_1",
+      "name": "协议储存箱",
+      "nameId": -2507806485807125056,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 2
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "tools_assebling_mc_1",
+      "name": "封装机",
+      "nameId": -3641370763677533611,
+      "footprint": {
+        "width": 6,
+        "depth": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "travel_pole_2",
+      "name": "长距滑索架",
+      "nameId": 5175629959207694599,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 7
+      },
+      "ports": []
+    },
+    {
+      "buildingId": "udpipe_unloader_2",
+      "name": "多口暗管出口",
+      "nameId": 7189473514481318528,
+      "footprint": {
+        "width": 3,
+        "depth": 5,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "pipe",
+          "position": {
+            "x": 2,
+            "y": 3,
+            "z": 3
+          },
+          "edges": [
+            "xmax"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "unloader_1",
+      "name": "仓库取货口",
+      "nameId": 5745066332652832990,
+      "footprint": {
+        "width": 3,
+        "depth": 1,
+        "height": 3
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0",
+            "zmax"
+          ],
+          "facing": 180
+        }
+      ]
+    },
+    {
+      "buildingId": "vaporizer_1",
+      "name": "气体散布机",
+      "nameId": 6807059220651859510,
+      "footprint": {
+        "width": 3,
+        "depth": 3,
+        "height": 5
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "pipe",
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 1
+          },
+          "edges": [
+            "x0"
+          ],
+          "facing": 90
+        }
+      ]
+    },
+    {
+      "buildingId": "winder_1",
+      "name": "装备原件机",
+      "nameId": 4162606876609136016,
+      "footprint": {
+        "width": 6,
+        "depth": 4,
+        "height": 4
+      },
+      "ports": [
+        {
+          "index": 0,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "x0",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "input",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 3
+          },
+          "edges": [
+            "xmax",
+            "zmax"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 0,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "x0",
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 1,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 2,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 3,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 4,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "z0"
+          ],
+          "facing": 180
+        },
+        {
+          "index": 5,
+          "role": "output",
+          "medium": "belt",
+          "position": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "edges": [
+            "xmax",
+            "z0"
+          ],
+          "facing": 180
+        }
+      ]
+    }
+  ]
+}

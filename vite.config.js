@@ -5,7 +5,7 @@ import path from 'node:path'
 
 // Client-side routes that need a real index.html so static hosts (GitHub Pages)
 // serve the app on refresh / deep link instead of a 404.
-const spaRoutes = ['version-calendar']
+const spaRoutes = ['version-calendar', 'factory-simulator']
 
 function spaFallback() {
   let outDir

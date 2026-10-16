@@ -1,6 +1,9 @@
 const DRAWER_WIDTH = 260
 
 const styles = {
+  factoryShell: { height: '100dvh', minHeight: 0 },
+  factoryMain: { py: 2 },
+  factoryContainer: { px: { xs: 1, sm: 2 } },
   shell: (fullHeight) => ({
     minHeight: '100vh',
     ...(fullHeight ? { height: '100vh', overflow: 'hidden' } : {}),

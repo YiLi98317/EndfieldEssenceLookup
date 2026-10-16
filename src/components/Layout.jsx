@@ -22,16 +22,18 @@ import styles from './styles'
 const navItems = [
   { to: '/', labelKey: 'navEssenceLookup' },
   { to: '/version-calendar', labelKey: 'navVersionCalendar' },
+  { to: '/factory-simulator', labelKey: 'navFactorySimulator' },
 ]
 
 export default function Layout({ children }) {
   const { language, setLanguage, t } = useLanguage()
   const { pathname } = useLocation()
   const [drawerOpen, setDrawerOpen] = useState(false)
-  const fullHeight = pathname === '/'
+  const factoryPage = pathname === '/factory-simulator'
+  const fullHeight = pathname === '/' || factoryPage
 
   return (
-    <Box sx={styles.shell(fullHeight)}>
+    <Box sx={[styles.shell(fullHeight), factoryPage && styles.factoryShell]}>
       <AppBar position="static">
         <Toolbar sx={styles.toolbar}>
           <IconButton
@@ -90,8 +92,8 @@ export default function Layout({ children }) {
           </Box>
         </Box>
       </Drawer>
-      <Box component="main" sx={styles.main(fullHeight)}>
-        <Container maxWidth={fullHeight ? 'xl' : 'lg'} sx={styles.container(fullHeight)}>
+      <Box component="main" sx={[styles.main(fullHeight), factoryPage && styles.factoryMain]}>
+        <Container maxWidth={factoryPage ? false : fullHeight ? 'xl' : 'lg'} sx={[styles.container(fullHeight), factoryPage && styles.factoryContainer]}>
           {children}
         </Container>
       </Box>

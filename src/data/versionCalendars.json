@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.6",
+    "title": null,
+    "titleZh": null,
+    "releaseDate": "2026-10-16",
+    "images": { "title": "title.png", "timeline": "timeline.png", "content": "content.jpg" },
+    "contentWidth": 1850,
+    "timelineWidth": 1920
+  },
+  {
     "version": "1.5",
     "title": "Dreamscape of Wind and Snow",
     "titleZh": "雪凇幽梦",
